@@ -2,4 +2,4 @@
 
 ## 什么是网络拥塞
  现在每逢节假日高速公路免费的时候， 人们往往都要经历交通拥堵， 看着一望无际的堵在路上的车流， 绝望之情油然而生.
- ![堵车](http://qqpublic.qpic.cn/qq_public/0/0-1614248353-D0DC7626B57396D75E474E9B22A5DBAA/0?fmt=jpg&size=95&h=566&w=900&ppv=1/0)
+ ![Image](http://qqpublic.qpic.cn/qq_public/0/0-1614248353-D0DC7626B57396D75E474E9B22A5DBAA/0?fmt=jpg&size=95&h=566&w=900&ppv=1/0)
