@@ -13,3 +13,4 @@
  
 ## Reference
 * https://en.wikipedia.org/wiki/Network_congestion
+* ITU-T Rec. G.114 One-way transmission time
