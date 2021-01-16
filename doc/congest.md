@@ -22,6 +22,8 @@
 实际应用场景比较复杂， 就算用了很多方法来规避网络拥塞，但是依然无法完全避免拥塞的发生,  这时候就需要有一些抵抗弱网的手段.  常见的做法有丢包重传和前向纠错编码来抵抗丢包.  自适应的JitterBuffer来抵抗网络时延的抖动和包乱序.  还有一些结合整条处理链路，从编码解码器的策略调整来应对的方案.  不过所有抵抗弱网的手段都是利弊共存， 如何应用是非常关键的.  而且在整条处理链路上， 各个模块相互依赖， 相互影响.  为了保证整条链路工作的鲁棒性， 避免出现正反馈震荡,  更是设计之重.   
  ![Image](razer.png)
  
+14世纪英格兰的罗辑学家, 圣方济各会修士奥卡姆的威廉（William of Occam)提出奥卡姆剃刀原理: Entities should not be multiplied unnecessary.  这个原理在机器学习避免模型过拟合中得到了广泛应用.  在RTC拥塞控制的设计中， 奥卡姆剃刀也是一个重要的指导原则.
+ 
 ## Reference
 * https://en.wikipedia.org/wiki/Network_congestion
 * ITU-T Rec. G.114 One-way transmission time
