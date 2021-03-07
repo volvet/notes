@@ -55,7 +55,7 @@ A = U \Sigma V^T
 $$
 
 其中， $U$是一个$m \times m$的矩阵， $\Sigma$是一个$m \times n$的矩阵， $V$是一个$n times n$的矩阵.
-$AA^T$是一个$m \times m$的矩阵， 则可以求$AA^T$的m个特征向量, $AA^T \mu_i = \lambda_i \mu_i$
+$AA^T$是一个$m \times m$的矩阵， 则可以求$AA^T$的m个特征向量, $AA^T \mu_i = \lambda_i \mu_i, 1 \leq i \leq m$
 
 ## Reference
 1. 模式识别  吴建鑫
