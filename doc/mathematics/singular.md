@@ -20,3 +20,9 @@ $$
 $$
 Ax = \lambda x
 $$
+则称$\lambda$是方阵$A$的特征值(eigenvalue), $x$是$A$的特征向量.
+
+
+## Reference
+1. 模式识别  吴建鑫
+2. 
