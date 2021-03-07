@@ -70,7 +70,14 @@ $$
 AV = U \Sigma V^T V = U \Sigma
 $$
 
-所以：
+所以:
+$$
+Av_i = \sigma_i \mu_i
+$$
+
+$$
+\sigma_i = \frac_{\mu_i}^{Av_i}
+$$
 
 ## Reference
 1. 模式识别  吴建鑫
