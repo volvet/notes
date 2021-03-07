@@ -22,6 +22,10 @@ Ax = \lambda x
 $$
 则称$\lambda$是方阵$A$的特征值(eigenvalue), $x$是$A$的特征向量.
 
+假设$n$阶方阵$A$有$n$个线性无关的特征向量$x_1, x_2, ..., x_n$, 对应的特征值$\lambda_1, \lambda_2, ..., \lambda_n$, 则我们可以将特征向量张成方阵， 记为$E$, 
+$$
+E = [x_1, x_2, ..., x_n]
+$$
 
 ## Reference
 1. 模式识别  吴建鑫
