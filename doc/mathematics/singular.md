@@ -59,6 +59,8 @@ $$
 $AA^T$是一个$m \times m$的矩阵， 则可以求$AA^T$的m个特征向量, $AA^T \mu_i = \lambda_i \mu_i, 1 \leq i \leq m$,
 
 同理， $A^TA$是一个$n \times n$的矩阵， 则可以求其特征向量为： $A^TA v_i = \lambda_i v_i, 1 \leq i \leq n$
+
+$AA^T$的特征向量可以张成矩阵$U$, $A^TA$的特征向量可以张成矩阵$V$, 下面来求奇异值矩阵$\Sigma$
 ## Reference
 1. 模式识别  吴建鑫
 2. 矩阵分析 姜志侠等
