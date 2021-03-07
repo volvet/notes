@@ -76,7 +76,7 @@ Av_i = \sigma_i \mu_i
 $$
 
 $$
-\sigma_i = \frac_{Av_i}{mu_i}
+\sigma_i = \frac_{Av_i}{\mu_i}
 $$
 
 ## Reference
