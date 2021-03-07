@@ -36,10 +36,17 @@ $$
 
 $$
 (AE)^T = \Lambda E^T
+$$
+
+$$
 E^TA^T = \Lambda E^T
+$$
+
+$$
 A = E \Lambda E^T
 $$
 
+此即方阵的特征值分解.
 
 ## Reference
 1. 模式识别  吴建鑫
