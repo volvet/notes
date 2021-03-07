@@ -9,4 +9,4 @@ $$
 $$
 \overline A = [\overline a_{ij}] _ {m \times n}
 $$
-记矩阵$A$的共轭转置矩阵为$A^H$, 即$A^H = \overline {A^{-1}}$.
+记矩阵$A$的共轭转置矩阵为$A^H$, 即$A^H = \overline {A^T}$.
