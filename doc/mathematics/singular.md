@@ -10,3 +10,5 @@ $$
 \overline A = [\overline a_{ij}] _ {m \times n}
 $$
 记矩阵$A$的共轭转置矩阵为$A^H$, 即$A^H = \overline {A^T}$.
+
+若方阵$A$满足$A^H = A$, 则称$A$为**Hermite矩阵**， 简称**H-矩阵**.
