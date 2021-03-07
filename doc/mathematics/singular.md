@@ -33,11 +33,10 @@ $$
 \Lambda = diag(\lambda_1, \lambda_2, ..., \lambda_n)
 $$
 若$A$为实对称阵， 即$A = A^T$, 则:
+
 $$
 (AE)^T = \Lambda E^T
-
 E^TA^T = \Lambda E^T
-
 A = E \Lambda E^T
 $$
 
