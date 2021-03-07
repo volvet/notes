@@ -16,7 +16,7 @@ $$
 若$n$阶复矩阵$A$满足$A^HA=AA^H$, 则称$A$是一个**酉矩阵**或者**U-矩阵**.
 
 ## 2. 特征值分解
-对于方阵$A$， 若存在一个非零向量$x$和标量$\lambda$, 使得：
+对于实方阵$A$， 若存在一个非零向量$x$和标量$\lambda$, 使得：
 $$
 Ax = \lambda x
 $$
@@ -27,9 +27,18 @@ $$
 E = [x_1, x_2, ..., x_n]
 $$
 
-显然, $E^TE = I$, 即$E$为酉矩阵
+显然, $E^TE = I, E^T = E^{-1}$, 即$E$为酉矩阵
+令：
 $$
 \Lambda = diag(\lambda_1, \lambda_2, ..., \lambda_n)
+$$
+若$A$为实对称阵， 即$A = A^T$, 则:
+$$
+(AE)^T = \Lambda E^T
+
+E^TA^T = \Lambda E^T
+
+A = E \Lambda E^T
 $$
 
 
