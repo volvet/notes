@@ -38,5 +38,7 @@ p(|x-\mu| \geq \epsilon) = \int_{|x-\mu| \geq \epsilon} f(x)dx  \geq \int_{|x-\m
 $$
 
 $$
-p(|x-\mu| \geq \epsilon) \leq \frac{1}{\epsilon ^2} \int_{-\infty}^{\infty} (x-\mu)^2f(x)dx = frac{\sigma ^2}{\epsilon ^2}
+p(|x-\mu| \geq \epsilon) \leq \frac{1}{\epsilon ^2} \int_{-\infty}^{\infty} (x-\mu)^2f(x)dx = \frac{\sigma ^2}{\epsilon ^2}
 $$
+
+证毕.
