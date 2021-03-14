@@ -1,16 +1,16 @@
 
 # 马尔可夫不等式
-如果$X$是一个非负的随机变量， 并且$a > 0$是一个标量， 则:
+如果$x$是一个非负的随机变量， 并且$a > 0$是一个标量， 则:
 $$
-p(X \geq a) \leq \frac{E[X]}{a}
+p(x \geq a) \leq \frac{E[x]}{a}
 $$
 证明：
-（1） 若$X$连续分布，且$X$非负 则
+（1） 若$x$连续分布，且$x$非负 则
 $$
-E(X) = \int_{0}^{\infty}xp(x)
+E(x) = \int_{0}^{\infty}xp(x)
 $$
 
-显然
+因为$a > 0$, 显然
 $$
-E(x) > \int_{a}^{\infty}xp(x)
+E(x) > \int_{a}^{\infty}xp(x) > a \int_{a}^{\infty}p(x)
 $$
