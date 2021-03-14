@@ -12,5 +12,6 @@ $$
 
 因为$a > 0$, 显然
 $$
-E(x) > \int_{a}^{\infty}xp(x) > a \int_{a}^{\infty}p(x)
+E(x) > \int_{a}^{\infty}xp(x) > a \int_{a}^{\infty}p(x) = ap(x \geq a)
 $$
+证毕
