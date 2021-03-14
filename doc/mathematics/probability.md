@@ -34,5 +34,5 @@ $$
 证明：
 （1）若$x$连续分布, 则有:
 $$
-p(|x-\mu| \geq \epsilon) = \int_{|x-\mu| \geq \epsilon} \frac{|x-\mu|^2}{\epsilon ^2}f(x)dx
+p(|x-\mu| \geq \epsilon) = \int_{|x-\mu| \geq \epsilon} f(x)dx  = \int_{|x-\mu| \geq \epsilon} \frac{|x-\mu|^2}{\epsilon ^2}f(x)dx
 $$
