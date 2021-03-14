@@ -5,7 +5,12 @@ $$
 p(X \geq a) \leq \frac{E[X]}{a}
 $$
 证明：
-（1） 若$X$连续分布， 则
+（1） 若$X$连续分布，且$X$非负 则
 $$
-E(X) = \int_{0}^{infty}xp(x)
+E(X) = \int_{0}^{\infty}xp(x)
+$$
+
+显然
+$$
+E(x) > \int_{a}^{\infty}xp(x)
 $$
