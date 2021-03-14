@@ -12,7 +12,7 @@ $$
 
 因为$a > 0$, 显然
 $$
-E(x) \geq \int_{a}^{\infty}xp(x) geq a \int_{a}^{\infty}p(x) = ap(x \geq a)
+E(x) \geq \int_{a}^{\infty}xp(x) \geq a \int_{a}^{\infty}p(x) = ap(x \geq a)
 $$
 
 上式可以写为:
