@@ -2,5 +2,5 @@
 # 马尔可夫不等式
 如果$X$是一个非负的随机变量， 并且$a > 0$是一个标量， 则:
 $$
-Pr(X \geq a) \leq \flac{E[X]}{a}
+Pr(X \geq a) \leq \frac{E[X]}{a}
 $$
