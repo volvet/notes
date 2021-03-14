@@ -5,6 +5,7 @@ $$
 p(x \geq a) \leq \frac{E[x]}{a}
 $$
 证明：
+
 （1） 若$x$连续分布，且$x$非负 则
 $$
 E(x) = \int_{0}^{\infty}xp(x)
@@ -29,3 +30,9 @@ $$
 p（|x-\mu| \geq \epsilon）\leq \frac{\sigma ^2}{\epsilon ^2}
 $$
 成立
+
+证明：
+（1）若$x$连续分布, 则有:
+$$
+p(|x-\mu| \geq \epsilon) = \int_{|x-\mu| \geq \epsilon} \frac{|x-\mu|^2}{\epsilon ^2}f(x)dx
+$$
