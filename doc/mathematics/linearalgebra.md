@@ -13,3 +13,9 @@ $$
 于是:
 $$x^Ty \leq \vert x^Ty \vert \leq \Vert x \Vert \Vert y \Vert
 $$
+
+## 向量投影
+记 $x_y$ 为向量$x$到$y$的投影. 则：
+$$
+\Vert x_y \Vert = \Vert x \Vert  cos \theat = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert}
+$$
