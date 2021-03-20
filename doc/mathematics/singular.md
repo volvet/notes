@@ -90,7 +90,7 @@ $$
 $$
 A^TAv_i = A^T \sigma_i \mu_i = \sigma_i^2 v_j
 $$
-
+所以， $A$的奇异值的平方为$A^TA$的特征值.
 
 
 ## Reference
