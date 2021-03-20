@@ -5,3 +5,11 @@
 $$
 x^Ty = \Vert x \Vert \Vert y \Vert cos \theta
 $$
+
+$$
+\theta = arccos(\frac{x^Ty}{\Vert x \Vert \Vert y \Vert})
+$$
+
+于是:
+$$x^Ty \leq \vert x^Ty \vert \leq \Vert x \Vert \Vert y \Vert
+$$
