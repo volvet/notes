@@ -19,3 +19,7 @@ $$
 $$
 \Vert x_y \Vert = \Vert x \Vert  cos \theta = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert}
 $$
+投影的方向即$y$的方向， 单位向量是$\frac{y}{\Vert y \Vert}$ 则有:
+$$
+x_y = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert} \frac{y}{\Vert y \Vert} = \frac{x^Ty}{yTy}y
+$$
