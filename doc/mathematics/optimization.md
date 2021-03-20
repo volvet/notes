@@ -18,3 +18,5 @@ $$
 f(\lambda x + (1 - \lambda) y) \leq \lambda f(x) + (1 - \lambda)f(y)
 $$
 则称$f(x)$是凸函数.
+
+## 约束优化
