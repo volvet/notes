@@ -36,4 +36,13 @@ $$
 L(x, \lambda) = f(x) - \lambda ^T g(x)
 $$
 
-$\lambda ^T = (\lambda_1, \lambda_2, \cdots, \lambda_m)$, $g(x) = (g_1(x), g_2(x), \cdots, g_m(x))$是$m$个约束.
+$\lambda ^T = (\lambda_1, \lambda_2, \cdots, \lambda_m)$ 是拉格朗日乘子, $g(x) = (g_1(x), g_2(x), \cdots, g_m(x))$是$m$个约束.
+则：
+$$
+\frac{\partial L}{\partial x} = 0
+$$
+
+$$
+\frac{\partial L}{\partial \lambda} = 0
+$$
+是$(x, \lambda)$成为$L(x, \lambda)$的一个驻点的必要条件.
