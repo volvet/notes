@@ -86,6 +86,10 @@ $$
 $$
 A^Tu_j = \sigma_j v_j
 $$
+则：
+$$
+A^TAv_i = A^T \sigma_i \mu_i
+$$
 
 
 
