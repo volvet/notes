@@ -76,8 +76,18 @@ Av_i = \sigma_i \mu_i
 $$
 
 $$
-\sigma_i = \frac{Av_i}{\mu_i}
+A^T = V \Sigma ^T U^T
 $$
+则:
+$$
+A^TU = V \Sigma
+$$
+所以：
+$$
+A^Tu_j = \sigma_j v_j
+$$
+
+
 
 ## Reference
 1. 模式识别  吴建鑫
