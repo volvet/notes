@@ -11,4 +11,4 @@ $$
 
 ## 凸优化
 在优化领域， 有些函数具有比其他函数更好的特性， 例如凸函数， 凸函数的任意局部极小也是全局极小. 
-若$S \subseteq R^d$, 并且对于任意$x in R^d, y in R^d$, 以及$0 \leq \lambda \leq 1$, $\lambda x + (1 - \lambda) y \in S$总是成立， 则$S$是一个凸集(convex set).
+若$S \subseteq R^d$, 并且对于任意$x \in R^d, y \in R^d$, 以及$0 \leq \lambda \leq 1$, $\lambda x + (1 - \lambda) y \in S$总是成立， 则$S$是一个凸集(convex set).
