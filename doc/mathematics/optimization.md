@@ -29,3 +29,11 @@ $$
 s.t.\ g(x)=0
 $$
 这里的$s.t.$ 就是 subject to, 表示约束为.
+
+### 拉格朗日乘子法
+拉格朗日乘子法就是解决约束优化的很有用的工具. 该方法定义了一个拉格朗日函数为:
+$$
+L(x, \lambda) = f(x) - \lambda ^T g(x)
+$$
+
+$\lambda ^T = (\lambda_1, \lambda_2, \cdots, \lambda_m)$, $g(x) = (g_1(x), g_2(x), \cdots, \g_m(x))$是$m$个约束.
