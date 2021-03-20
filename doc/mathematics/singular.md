@@ -84,11 +84,11 @@ A^TU = V \Sigma
 $$
 所以：
 $$
-A^Tu_j = \sigma_j v_j
+A^T\mu_j = \sigma_j v_j
 $$
 则：
 $$
-A^TAv_i = A^T \sigma_i \mu_i
+A^TAv_i = A^T \sigma_i \mu_i = \sigma_i^2 v_j
 $$
 
 
