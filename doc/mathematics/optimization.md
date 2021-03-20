@@ -15,6 +15,6 @@ $$
 
 若函数$f(x)$其域为凸集$S$, 对于$S$中任意$x, y$,以及$0 \leq \lambda \leq 1$, 都有:
 $$
-f(\lambda x + (1 - \lambda) y \leq \lambda f(x) + (1 - \lambda)f(y)
+f(\lambda x + (1 - \lambda) y) \leq \lambda f(x) + (1 - \lambda)f(y)
 $$
 则称$f(x)$是凸函数.
