@@ -83,7 +83,7 @@ $$
 $$
 最大化: \sum_{i=1}^P(y_{i1})^2 = \sum_{i=1}^{P}[a_1(x_i - \overline x)]^2  = \sum_{i=1}^{P}[a_1(x_i - \overline x)] [a_1(x_i - \overline x)]^T \\\\
 = \sum_{i=1}^{P}a_1[(x_i - \overline x)(x_i - \overline x)^T]a_1^T \\\\
-= a_1[\sum_{i=1}{P}(x_i - \overline x)(x_i - \overline x)^T]a_1^T
+= a_1[\sum_{i=1}^{P}(x_i - \overline x)(x_i - \overline x)^T]a_1^T
 $$
 
 
