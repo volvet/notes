@@ -85,7 +85,10 @@ $$
 = \sum_{i=1}^{P}a_1[(x_i - \overline x)(x_i - \overline x)^T]a_1^T \\\\
 = a_1[\sum_{i=1}^{P}(x_i - \overline x)(x_i - \overline x)^T]a_1^T
 $$
-显然, $\sum_{i=1}^{P}(x_i - \overline x)(x_i - \overline x)^T$是一个$N \times N$矩阵. 记为$\Sigma$
+显然, $\sum_{i=1}^{P}(x_i - \overline x)(x_i - \overline x)^T$是一个$N \times N$矩阵. 记为$\Sigma$, 于是， 上式就简写为:
+$$
+最大化: a_1 \Sigma a_1^T
+$$
 
 
 ## Reference
