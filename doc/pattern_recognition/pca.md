@@ -107,7 +107,7 @@ $$
 $$
 argmax(a_1 \Sigma a_1^T) = argmax(a_1 \lambda a_1^T) = \lambda
 $$
-所以$\lambda$是$\Sigma$的最大特征向量.
+所以$\lambda$是$\Sigma$的最大特征值.
 
 
 ## Reference
