@@ -114,6 +114,11 @@ $$
 argmax(a_2 \Sigma a_2^T) \\\\
 s.t. \ a_2 a_2^T = \Vert a_2 \Vert^2 = 1,  a_2a_1^T = a_1a_2^T = 0
 $$
+依然是拉格朗日乘子法:
+$$
+E(a_2) = a_1 \Sigma a_1^T - \lambda (a_1 a_1^T - 1) - \beta a_1a_2^T \\\\
+\frac{\partial E}{\partial a_2} = (\Sigma a_2^T - \lambda a_2^T - \beta a_1^T)^T = 0
+$$
 
 ## Reference
 浙江大学机器学习课程38 - 特征提取
