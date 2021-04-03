@@ -122,8 +122,8 @@ $$
 下面来证明$\beta = 0$, 显然$\Sigma$是一个对称阵， 即$\Sigma^T = \Sigma$
 $$
  (\Sigma a_2^T - \lambda a_2^T - \beta a_1^T)^T = a_2\Sigma^T - \lambda a_2 - \beta a_1 = 0 \\\\
- (a_2\Sigma^T - \lambda a_2 - \beta a_1) a_1^T = 0 \\\\
- a_2\Sigma^Ta_1^T - \lambda a_2a_1^T - \beta a_1a_1^T = 0
+ (a_2\Sigma - \lambda a_2 - \beta a_1) a_1^T = 0 \\\\
+ a_2\Sigmaa_1^T - \lambda a_2a_1^T - \beta a_1a_1^T = 0
 $$
 
 
