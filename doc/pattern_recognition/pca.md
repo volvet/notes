@@ -58,7 +58,20 @@ a_2(x_i-\overline x)\\\\
 .\\\\
 .\\\\
 a_M(x_i-\overline x)\\\\
+\end{pmatrix} = 
+\begin{pmatrix}
+y_{i1}\\\\
+y_{i2}\\\\
+.\\\\
+.\\\\
+.\\\\
+y_{iM}\\\\
 \end{pmatrix}
+$$
+
+所以， 主成分分析的目标就是使$Y=[y_1, y_2, \cdots, \y_P]$的方差最大。写为:
+$$
+最大化: \sum_{i=1}^P(y_{i1} - \overline y_{i1})
 $$
 
 
