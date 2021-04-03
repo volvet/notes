@@ -71,7 +71,7 @@ $$
 
 所以， 主成分分析的目标就是使$Y=[y_1, y_2, \cdots, y_P]$的方差最大。写为:
 $$
-最大化: \sum_{i=1}^P(y_{i1} - \overline y_{i1})
+最大化: \sum_{i=1}^P(y_{i1} - \overline y_{i1})^2
 $$
 
 $$
@@ -79,6 +79,10 @@ $$
 = \frac{1}{P}\sum_{i=1}^P a_1(x_i - \overline x) = \frac{a_1}{P}(\sum_{i=1}^{P}x_i - P \overline x) = 0
 $$
 
+于是, 最大化$\sum_{i=1}^P(y_{i1} - \overline y_{i1})^2$ 就可以写为:
+$$
+最大化 $\sum_{i=1}^P(y_{i1}^2 = \sum_{i=1}^{P}[a_1(x_i - \overline x)]^2
+$$
 
 
 
