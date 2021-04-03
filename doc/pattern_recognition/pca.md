@@ -130,7 +130,7 @@ $$
 a_2 \lambda_1 a_1^T - \lambda a_2a_1^T - \beta a_1a_1^T = 0, 注意，为了区分， 这里使用了\lambda_1
 $$
 因为 $a_2a_1^T = a_1a_2^T = 0, a_1a_1^T = 1$, 所以 $\beta = 0$.  这样， $a_2$的最优解就跟$a_1$相似.
-$a_2$是$\Sigma$的特征向量， $\lambda$是$\Sigma$的第二大特征值.  由此可以类推$a_3, \cdots, \a_M$的最优解.
+$a_2$是$\Sigma$的特征向量， $\lambda$是$\Sigma$的第二大特征值.  由此可以类推$a_3, \cdots, a_M$的最优解.
 
 
 
