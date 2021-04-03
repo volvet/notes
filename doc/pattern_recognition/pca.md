@@ -11,15 +11,15 @@ $x_i = [ x_{i1}, x_{i2}, \cdots, x_{iN} ]$,
 ## 主成分分析
 构造一个$A, b$, 使得:
 $$
-Y = AX + b
+y = Ax + b
 $$
-$X是一个N阶列向量, A是M \times N的矩阵, b 是M阶列向量, 显然Y是M阶列向量, 其中 M < N$
+$x是一个N阶列向量, A是M \times N的矩阵, b是M阶列向量, 显然y是M阶列向量, 其中 M < N$
 
 主成分分析可以看成是一个1层的， 有$M$个神经元的神经网络. 其本质是寻找使方差最大的方向， 并在该方向上投影.
 
 改写上式
 $$
-Y = A(X - \overline X）
+y = A(x - \overline X）
 $$
 
 $$
@@ -37,7 +37,7 @@ a_2\\\\
 a_M\\\\
 \end{pmatrix}
 $$
-则$Y$可以写为:
+则$y$可以写为:
 $$
 \begin{pmatrix}
 a_1(x-\overline x)\\\\
@@ -48,6 +48,20 @@ a_2(x-\overline x)\\\\
 a_M(x-\overline x)\\\\
 \end{pmatrix}
 $$
+若训练样本的个数为$P$.  $X = [x_1, x_2, \cdots, \x_P]$, 则$Y = [y_1, y_2, \cdots, \y_P$.
+$$
+y_i = 
+\begin{pmatrix}
+a_1(x_i-\overline x)\\\\
+a_2(x_i-\overline x)\\\\
+.\\\\
+.\\\\
+.\\\\
+a_M(x__i-\overline x)\\\\
+\end{pmatrix}
+$$
+
+
 
 
 
