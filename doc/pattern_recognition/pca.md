@@ -97,9 +97,12 @@ $$
 使用拉格朗日乘子法来求这个优化问题:
 $$
 E(a_1) = a_1 \Sigma a_1^T - \lambda (a_1 a_1^T - 1) \\\\
-\frac{\partial E}{\partial a_1} = (\Sigma a_1^T - \lambda a_1^T)^T
+\frac{\partial E}{\partial a_1} = (\Sigma a_1^T - \lambda a_1^T)^T = 0
 $$
-
+所以:
+$$
+\Sigma a_1^T = \lambda a_1^T
+$$
 
 
 ## Reference
