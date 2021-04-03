@@ -74,6 +74,10 @@ $$
 最大化: \sum_{i=1}^P(y_{i1} - \overline y_{i1})
 $$
 
+$$
+\overline y_{i1} = \frac{1}{P} \sum_{i=1}^P y_{i1} \\\\
+= \frac{1}{P}\sum_{i=1}^P a_1(x_i - \overline x) = \frac{a_1}{P}(\sum_{i=1}^{P}x_i - P \overline x) = 0
+$$
 
 
 
