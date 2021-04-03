@@ -25,6 +25,18 @@ $$
 $$
 \overline X = E(X), 为X的均值.
 $$
+令$A$的行向量为$a_i, i = 1, 2, \cdots, M$, 则$A$可以写为:
+$$
+A = 
+\begin{pmatrix}
+a_1\\
+a_2\\
+.\\
+.\\
+.\\
+a_M
+\end{pmatrix}
+$$
 
 
 
