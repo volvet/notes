@@ -13,4 +13,6 @@ $x_i = [ x_{i1}, x_{i2}, \cdots, x_{iN} ]$,
 $$
 Y = AX + b
 $$
+$X是一个N阶列向量, A是M \times N的矩阵$
+
 
