@@ -109,6 +109,11 @@ argmax(a_1 \Sigma a_1^T) = argmax(a_1 \lambda a_1^T) = \lambda
 $$
 所以$\lambda$是$\Sigma$的最大特征值, 且满足$a_1 a_1^T = 1$
 
+下面来求$a_2$的最优解:
+$$
+argmax(a_2 \Sigma a_2^) \\\\
+s.t. \ a_2 a_2^T = \Vert a_2 \Vert^2 = 1,  a_2a_1^T = a_1a_2^T = 0
+$$
 
 ## Reference
 浙江大学机器学习课程38 - 特征提取
