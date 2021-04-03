@@ -111,7 +111,7 @@ $$
 
 下面来求$a_2$的最优解:
 $$
-argmax(a_2 \Sigma a_2^) \\\\
+argmax(a_2 \Sigma a_2^T) \\\\
 s.t. \ a_2 a_2^T = \Vert a_2 \Vert^2 = 1,  a_2a_1^T = a_1a_2^T = 0
 $$
 
