@@ -94,6 +94,11 @@ $$
 argmax(a_1 \Sigma a_1^T) \\\\
 s.t.  \  \Vert a_1 \Vert ^2 = 1
 $$
+使用拉格朗日乘子法来求这个优化问题:
+$$
+E(a_1) = a_1 \Sigma a_1^T - \lambda (a_1 a_1^T - 1) \\\\
+\frac{\partial E}{\partial a_1} = (\Sigma a_1^T - \lambda a_1^T)^T
+$$
 
 
 
