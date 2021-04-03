@@ -37,7 +37,17 @@ a_2\\\\
 a_M\\\\
 \end{pmatrix}
 $$
-
+则$Y$可以写为:
+$$
+\begin{pmatrix}
+a_1(x-\overline x)\\\\
+a_2(x-\overline x)\\\\
+.\\\\
+.\\\\
+.\\\\
+a_M(x-\overline x)\\\\
+\end{pmatrix}
+$$
 
 
 
