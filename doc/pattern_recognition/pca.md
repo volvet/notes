@@ -125,6 +125,12 @@ $$
  (a_2\Sigma - \lambda a_2 - \beta a_1) a_1^T = 0 \\\\
  a_2\Sigma a_1^T - \lambda a_2a_1^T - \beta a_1a_1^T = 0
 $$
+之前计算$a_1$最优解的时候， 有$\Sigma a_1^T = \lambda a_1^T$, 于是:
+$$
+a_2 \lambda^' a_1^T - \lambda a_2a_1^T - \beta a_1a_1^T = 0, 注意，为了区分， 这里使用了$\lambda^'$
+$$
+因为 $a_2a_1^T = a_1a_2^T = 0, a_1a_1^T = 1$, 所以 $\beta = 0$. 
+
 
 
 ## Reference
