@@ -81,7 +81,7 @@ $$
 
 于是, 最大化$\sum_{i=1}^P(y_{i1} - \overline y_{i1})^2$ 就可以写为:
 $$
-最大化 $\sum_{i=1}^P(y_{i1}^2 = \sum_{i=1}^{P}[a_1(x_i - \overline x)]^2
+最大化 \sum_{i=1}^P(y_{i1})^2 = \sum_{i=1}^{P}[a_1(x_i - \overline x)]^2
 $$
 
 
