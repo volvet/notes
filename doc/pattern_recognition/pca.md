@@ -89,6 +89,11 @@ $$
 $$
 最大化: a_1 \Sigma a_1^T
 $$
+因为$a_1$的幅值不影响对这个优化问题的求解，  于是可以限定$a_1^a_1^T = \Vert a_1 \Vert ^2 = 1$,  于是这个优化问题可以写为:
+$$
+argmax a_1 \Sigma a_1^T, s.t. \Vert a_1 \Vert ^2 = 1
+$$
+
 
 
 ## Reference
