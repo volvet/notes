@@ -48,7 +48,7 @@ a_2(x-\overline x)\\\\
 a_M(x-\overline x)\\\\
 \end{pmatrix}
 $$
-若训练样本的个数为$P$.  $X = [x_1, x_2, \cdots, \x_P]$, 则$Y = [y_1, y_2, \cdots, \y_P$.
+若训练样本的个数为$P$.  $X = [x_1, x_2, \cdots, x_P]$, 则$Y = [y_1, y_2, \cdots, y_P$.
 $$
 y_i = 
 \begin{pmatrix}
