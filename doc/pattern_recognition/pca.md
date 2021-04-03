@@ -119,6 +119,9 @@ $$
 E(a_2) = a_1 \Sigma a_1^T - \lambda (a_1 a_1^T - 1) - \beta a_1a_2^T \\\\
 \frac{\partial E}{\partial a_2} = (\Sigma a_2^T - \lambda a_2^T - \beta a_1^T)^T = 0
 $$
+下面来证明$\beta = 0$, 显然$\Sigma$是一个对称阵， 即$\Sigma^T = \Sigma$
+
+
 
 ## Reference
 浙江大学机器学习课程38 - 特征提取
