@@ -104,6 +104,10 @@ $$
 \Sigma a_1^T = \lambda a_1^T
 $$
 这个式子很熟悉， $a_1^T$是$\Sigma$的特征向量， $\lambda$是$\Sigma$的特征值.
+$$
+argmax(a_1 \Sigma a_1^T) = argmax(a_1 \lambda a_1^T) = \lambda
+$$
+所以$\lambda$是$\Sigma$的最大特征向量.
 
 
 ## Reference
