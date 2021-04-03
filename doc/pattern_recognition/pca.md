@@ -57,7 +57,7 @@ a_2(x_i-\overline x)\\\\
 .\\\\
 .\\\\
 .\\\\
-a_M(x__i-\overline x)\\\\
+a_M(x_i-\overline x)\\\\
 \end{pmatrix}
 $$
 
