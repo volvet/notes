@@ -9,12 +9,17 @@ X_2 = \\{x_i | 1 \leq i \leq P, y_i = 2 \\} \\\\
 $$
 若$N_1, N_2$为子集$X_1, X_2$的大小， 则:
 $$
-m_1 = \frac{1}{N_1}\sum_{x \in X_1}x \\\\
-m_2 = \frac{1}{N_2}\sum_{x \in X_2}x \\\\
+\overline x_1 = \frac{1}{N_1}\sum_{x \in X_1}x \\\\
+\overline x_2 = \frac{1}{N_2}\sum_{x \in X_2}x \\\\
 $$
 同主成分分析类似， 协方差矩阵定义为:
 $$
 C_1 = \frac{1}{N_1}\sum_{x \in X_1}(x - m_1)(x - m_1)^T \\\\
 C_2 = \frac{1}{N_2}\sum_{x \in X_2}(x - m_2)(x - m_2)^T \\\\
+$$
+给定任意投影方向$\omega$, 可以限定$\Vert \omega \\Vert = 1$. 则$X_i$的投影为$X_i^T\omega$,   则这两个类别， 投影的均值为:
+$$
+m_1 = \overline x_1^T\omega
+m_2 = \overline x_2^T\omega
 $$
 
