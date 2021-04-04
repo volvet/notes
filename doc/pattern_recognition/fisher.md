@@ -48,5 +48,9 @@ $$
 最大化: \frac{\vert \overline x_1^T\omega - \overline x_2^T\omega \vert}{\sqrt{\sigma_1^2 + \sigma_2^2}} \\\\
 $$
 
+### 二分类问题最优化
+
+## 多分类问题
+
 ## Reference
 * 模式识别 by 吴建鑫
