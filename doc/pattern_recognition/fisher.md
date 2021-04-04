@@ -44,6 +44,6 @@ $$
 $$
 我们希望这两类的均值之差尽量大， 而且相同类尽量聚集到一起， 所以， 优化方程可以写为:
 $$
-最大化: \frac{\vert \overline x_1^T\omega \vert - \overline x_2^T\omega}{\sigma_1 + \sigma_2} \ 或者 \\\\
-最大化: \frac{\vert \overline x_1^T\omega \vert - \overline x_2^T\omega}{\sqrt{\sigma_1^2 + \sigma_2^2}}
+最大化: \frac{\vert \overline x_1^T\omega - \overline x_2^T\omega \vert}{\sigma_1 + \sigma_2} \ 或者 \\\\
+最大化: \frac{\vert \overline x_1^T\omega - \overline x_2^T\omega \vert}{\sqrt{\sigma_1^2 + \sigma_2^2}} \\\\
 $$
