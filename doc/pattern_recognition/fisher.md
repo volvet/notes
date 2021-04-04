@@ -47,3 +47,6 @@ $$
 最大化: \frac{\vert \overline x_1^T\omega - \overline x_2^T\omega \vert}{\sigma_1 + \sigma_2} \ 或者 \\\\
 最大化: \frac{\vert \overline x_1^T\omega - \overline x_2^T\omega \vert}{\sqrt{\sigma_1^2 + \sigma_2^2}} \\\\
 $$
+
+** Reference
+* 模式识别 by 吴建鑫
