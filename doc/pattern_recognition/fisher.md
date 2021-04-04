@@ -19,7 +19,12 @@ C_2 = \frac{1}{N_2}\sum_{x \in X_2}(x - \overline x_2)(x - \overline x_2)^T \\\\
 $$
 给定任意投影方向$\omega$, 可以限定$\Vert \omega \\Vert = 1$. 则$X_i$的投影为$X_i^T\omega$,   则这两个类别， 投影的均值为:
 $$
-m_1 = \overline x_1^T\omega \\\\
-m_2 = \overline x_2^T\omega \\\\
+\overline x_1^T\omega \\\\
+\overline x_2^T\omega \\\\
+$$
+投影的方差是:
+$$
+\sigma_1 = \frac{1}{N_1}\sum_{x \in X_1}(x^T\omega - \overline x_1^T\omega)^2 \\\\
+\sigma_2 = \frac{1}{N_2}\sum_{x \in X_2}(x^T\omega - \overline x_2^T\omega)^2 \\\\
 $$
 
