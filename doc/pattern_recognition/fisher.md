@@ -3,3 +3,8 @@
 
 ## 二分类问题
 训练样本$(x_i, y_i)$, $y_i \in \\{1, 2\\}$, $x_i \in \mathbb{R}^N$, 训练集$X = [(x_1, y_1), (x_2, y_2), \cdots, (x_P, y_P)]$
+令:
+$$
+X_1 = \\{x_i | 1 \leq i \leq P, y_i = 1 \\} \\\\
+X_2 = \\{x_i | 1 \leq i \leq P, y_i = 2 \\}
+$$
