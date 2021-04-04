@@ -25,7 +25,7 @@ $$
 投影的方差是:
 $$
 \begin{align}
-\sigma_1 & = \frac{1}{N_1}\sum_{x \in X_1}(x^T\omega - \overline x_1^T\omega)^2 \\\\
+\sigma_1^2 & = \frac{1}{N_1}\sum_{x \in X_1}(x^T\omega - \overline x_1^T\omega)^2 \\\\
 & = \frac{1}{N_1}\sum_{x \in X_1}(\omega^T(x - \overline x_1)(x - \overline x_1)^T\omega \\\\
 & = \omega^T(\frac{1}{N_1}\sum{x \in X_1}(x - \overline x_1)(x - \overline x_1)^T)\omega \\\\
 & = \omega^T C_1 \omega \\\\
@@ -33,6 +33,13 @@ $$
 $$
 同理:
 $$
-\sigma_2 = \omega^T C_2 \omega
+\sigma_2^2 = \omega^T C_2 \omega
+$$
+于是， 标准差为：
+$$
+\begin{align}
+\sigma_1 & = \sqrt{\omega^T C_1 \omega} \\\\
+\sigma_2 & = \sqrt{\omega^T C_2 \omega} \\\\
+\end{align}
 $$
 
