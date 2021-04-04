@@ -24,10 +24,12 @@ $$
 $$
 投影的方差是:
 $$
+\begin{align}
 \sigma_1 & = \frac{1}{N_1}\sum_{x \in X_1}(x^T\omega - \overline x_1^T\omega)^2 \\\\
 & = \frac{1}{N_1}\sum_{x \in X_1}(\omega^T(x - \overline x_1)(x - \overline x_1)^T\omega \\\\
 & = \omega^T(\frac{1}{N_1}\sum{x \in X_1}(x - \overline x_1)(x - \overline x_1)^T)\omega \\\\
 & = \omega^T C_1 \omega
 \sigma_2 & = \frac{1}{N_2}\sum_{x \in X_2}(x^T\omega - \overline x_2^T\omega)^2 \\\\
+\end{align}
 $$
 
