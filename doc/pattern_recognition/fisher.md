@@ -27,7 +27,7 @@ $$
 \begin{align}
 \sigma_1^2 & = \frac{1}{N_1}\sum_{x \in X_1}(x^T\omega - \overline x_1^T\omega)^2 \\\\
 & = \frac{1}{N_1}\sum_{x \in X_1}(\omega^T(x - \overline x_1)(x - \overline x_1)^T\omega \\\\
-& = \omega^T(\frac{1}{N_1}\sum{x \in X_1}(x - \overline x_1)(x - \overline x_1)^T)\omega \\\\
+& = \omega^T(\frac{1}{N_1}\sum_{x \in X_1}(x - \overline x_1)(x - \overline x_1)^T)\omega \\\\
 & = \omega^T C_1 \omega \\\\
 \end{align}
 $$
@@ -42,4 +42,7 @@ $$
 \sigma_2 & = \sqrt{\omega^T C_2 \omega} \\\\
 \end{align}
 $$
-
+我们希望这两类的均值之差尽量大， 而且相同类尽量聚集到一起， 所以， 优化方程可以写为:
+$$
+最大化: \frac{\vert \overline x_1^T\omega \vert}{\sigma_1 + \sigma_2}
+$$
