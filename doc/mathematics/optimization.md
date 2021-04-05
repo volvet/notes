@@ -46,3 +46,6 @@ $$
 \frac{\partial L}{\partial \lambda} = 0
 $$
 是$(x, \lambda)$成为$L(x, \lambda)$的一个驻点的必要条件.
+
+## Reference
+* 模式识别 by 吴建鑫
