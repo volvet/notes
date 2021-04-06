@@ -9,8 +9,8 @@
 $$
 D = {(x_i, y_i)}, i =  1 \to N, 存在 （\omega, b)，  使得， 对于任意(x_i, y_i), 下式都成立 \\\\
 \begin{cases}
-\omega^Tx_i \geq 0,  \ if \  y_i = 1 \\\\
-\omega^Tx_i < 0,  \ if \ y_i = -1
+\omega^Tx_i + b \geq 0,  \ if \  y_i = 1 \\\\
+\omega^Tx_i + b< 0,  \ if \ y_i = -1
 \end{cases}
 $$
 
