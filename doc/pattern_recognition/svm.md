@@ -7,10 +7,10 @@
 $$
 D = {(x_i, y_i)}, i = 1~N \\\\
 存在 （\omega, b)，  使得， 对于任意(x_i, y_i) \\\\
-\left(
-\omega^Tx_i \geq 0 \ if \  y_i = 1 \\\\
-\omega^Tx_i < 0 \ if \ y_i = -1
-\right)
+f\begin{cases}
+\omega^Tx_i \geq 0,  \ if \  y_i = 1 \\\\
+\omega^Tx_i < 0,  \ if \ y_i = -1
+\end{cases}
 $$
 
 
