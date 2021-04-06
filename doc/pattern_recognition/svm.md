@@ -2,6 +2,7 @@
 
 ## 定义
 训练数据集和标签 $x_1, y_1), (x_2, y_2), \cdots, (x_N, y_N)$, 其中$y \in {-1, 1}$
+
 线性模型$(\omega, b)$: $\omega^Tx + b = 0$
 
 ## Reference
