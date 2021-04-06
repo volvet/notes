@@ -5,9 +5,8 @@
 （2）线性模型（超平面)$(\omega, b)$: $\omega^Tx + b = 0$
 （3）训练集线性可分是指:
 $$
-D = {(x_i, y_i)}, i =  1 \to N \\\\
-存在 （\omega, b)，  使得， 对于任意(x_i, y_i) \\\\
-f\begin{cases}
+D = {(x_i, y_i)}, i =  1 \to N, 存在 （\omega, b)，  使得， 对于任意(x_i, y_i) \\\\
+\begin{cases}
 \omega^Tx_i \geq 0,  \ if \  y_i = 1 \\\\
 \omega^Tx_i < 0,  \ if \ y_i = -1
 \end{cases}
