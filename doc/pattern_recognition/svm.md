@@ -13,7 +13,9 @@ D = {(x_i, y_i)}, i =  1 \to N, 存在 （\omega, b)，  使得， 对于任意(
 \omega^Tx_i + b< 0,  \ if \ y_i = -1
 \end{cases}
 $$
+上式也可以写为$y_i(\omega^Tx_i + b) \geq 0$
 
+## 优化
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程6 - 支持向量机
