@@ -27,7 +27,7 @@ $$
 所以， 支持向量机的优化问题可以写为:
 $$
 \underset{\omega, b}{max}\frac{2}{\vert \omega \vert} \\\\
-s.t. y_i(\omega^Tx_i + b) \geq 0, i = 1, 2, \cdots, N
+s.t. \  y_i(\omega^Tx_i + b) \geq 0, i = 1, 2, \cdots, N
 $$
 
 
