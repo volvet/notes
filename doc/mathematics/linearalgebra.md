@@ -25,7 +25,7 @@ x_y = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert} \frac{y}{\Vert y \V
 $$
 
 ### 超平面的法向量
-记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$. \\
+记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$. \\\\
 证明:
 
 
