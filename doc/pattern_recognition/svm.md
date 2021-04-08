@@ -19,10 +19,11 @@ $$
 离划分超平面最近的训练样本， 并且$y_i(\omega^Tx_i + b) \geq 0$成立， 则称这几个训练样本为支持向量.
 
 ## 优化问题
-样本空间中的任意样本$x$到超平面的距离为$\frac{\omega^Tx + b}{\vert \omega \vert}$. 则取距离超平面最近的两个异类样本， 使得这两个异类样本到超平面的距离之和为：
+样本空间中的任意样本$x$到超平面的距离为$\frac{\vert \omega^Tx + b \vert}{\vert \omega \vert}$. 则取距离超平面最近的两个异类样本， 使得这两个异类样本到超平面的距离之和为：
 $$
 \gamma = \frac{2}{\vert \omega \vert}
 $$
+这是由于超平面跟$\omega，b$相对关系决定， 所以可以取值令$\vert \omega^Tx + b \vert = 1$
 
 
 ## Reference
