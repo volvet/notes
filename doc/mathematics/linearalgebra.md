@@ -25,7 +25,13 @@ x_y = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert} \frac{y}{\Vert y \V
 $$
 
 ### 超平面的法向量
-记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$. \\\\
+记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$.  $\omega = [\omega_1, \omega_2, \cdots, \omega_N]$, $x = [x_1, x_2, \cdots, \x_N]$
+
 证明:
+$$
+在超平面上取任意两点$x_1， x_2$, 则连接两点的向量为 $x_1 - x_2$.  \\\\
+
+
+$$
 
 
