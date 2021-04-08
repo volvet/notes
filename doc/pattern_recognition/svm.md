@@ -21,7 +21,7 @@ $$
 ## 优化问题
 样本空间中的任意样本$x$到超平面的距离为$\frac{\omega^Tx + b}{\vert \omega \vert}$. 则取距离超平面最近的两个异类样本， 使得这两个异类样本到超平面的距离之和为：
 $$
-\gamma = frac{2}{\vert \omega \vert}
+\gamma = \frac{2}{\vert \omega \vert}
 $$
 
 
