@@ -24,6 +24,11 @@ $$
 \gamma = \frac{2}{\vert \omega \vert}
 $$
 这是由于超平面跟$\omega，b$相对关系决定， 所以可以取值令$\vert \omega^Tx + b \vert = 1$
+所以， 支持向量机的优化问题可以写为:
+$$
+\underset{\omega, b}{max}\frac{2}{\vert \omega \vert} \\\\
+s.t. y_i(\omega^Tx_i + b) \geq 0, i = 1, 2, \cdots, N
+$$
 
 
 ## Reference
