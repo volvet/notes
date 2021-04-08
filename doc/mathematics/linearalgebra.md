@@ -48,16 +48,16 @@ $$
 $$
 \omega^T(x_0 - x_0') = \vert \omega \vert \vert x_0 - x_0' \vert cos\theta = \vert \omega \vert \vert x_0 - x_0' \vert
 $$
-$\theta$为两个向量的夹角, 显然投影与向量平行,  所以$\theta = 0 或者 \pi$, 简单起见, 我们假定$\theta = 0$($\pi$的结果相同), 所以:
+$\theta$为两个向量的夹角, 显然投影与向量平行,  所以$\theta = 0 或者 \pi$, $d \geq 0$, 所以:
 $$
-\omega^T(x_0 - x_0') = \vert \omega \vert d
+\vert \omega^T(x_0 - x_0') \vert = \vert \omega \vert d
 $$
 则:
 $$
 \begin{cases}
-d & = \frac{\omega^T(x_0 - x_0')}{\vert \omega \vert} \\\\
-  & = \frac{\omega^Tx_0 - \omega^Tx_0'}{\vert \omega \vert} \\\\
-  & = \frac{\omega^Tx_0 + b}{\vert \omega \vert} \\\\
+d & = \frac{\vert \omega^T(x_0 - x_0') \vert}{\vert \omega \vert} \\\\
+  & = \frac{\vert \omega^Tx_0 - \omega^Tx_0' \vert}{\vert \omega \vert} \\\\
+  & = \frac{\vert \omega^Tx_0 + b \vert}{\vert \omega \vert} \\\\
 \end{cases}
 $$
 
