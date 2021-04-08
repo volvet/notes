@@ -60,6 +60,7 @@ d & = \frac{\vert \omega^T(x_0 - x_0') \vert}{\vert \omega \vert} \\\\
 & = \frac{\vert \omega^Tx_0 + b \vert}{\vert \omega \vert} \\\\
 \end{align}
 $$
+此即点到超平面的距离.
 
 
 
