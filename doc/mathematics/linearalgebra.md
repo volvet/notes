@@ -54,9 +54,11 @@ $$
 $$
 则:
 $$
+\begin{align}
 d & = \frac{\vert \omega^T(x_0 - x_0') \vert}{\vert \omega \vert} \\\\
-  & = \frac{\vert \omega^Tx_0 - \omega^Tx_0' \vert}{\vert \omega \vert} \\\\
-  & = \frac{\vert \omega^Tx_0 + b \vert}{\vert \omega \vert} \\\\
+& = \frac{\vert \omega^Tx_0 - \omega^Tx_0' \vert}{\vert \omega \vert} \\\\
+& = \frac{\vert \omega^Tx_0 + b \vert}{\vert \omega \vert} \\\\
+\end{align}
 $$
 
 
