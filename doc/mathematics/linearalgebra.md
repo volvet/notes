@@ -55,10 +55,9 @@ $$
 则:
 $$
 \begin{cases}
-d & = \frac{\omega^T(x_0 - x_0')}{\vert \omega \vert}
-  & = \frac{\omega^Tx_0 - \omega^Tx_0'}{\vert \omega \vert}
-  & = \frac{\omega^Tx_0 + b}{\vert \omega \vert}
-
+d & = \frac{\omega^T(x_0 - x_0')}{\vert \omega \vert} \\\\
+  & = \frac{\omega^Tx_0 - \omega^Tx_0'}{\vert \omega \vert} \\\\
+  & = \frac{\omega^Tx_0 + b}{\vert \omega \vert} \\\\
 \end{cases}
 $$
 
