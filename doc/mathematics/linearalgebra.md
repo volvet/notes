@@ -25,13 +25,24 @@ x_y = \Vert x \Vert \frac{x^Ty}{\Vert x \Vert \Vert y \Vert} \frac{y}{\Vert y \V
 $$
 
 ### 超平面的法向量
-记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$.  $\omega = [\omega_1, \omega_2, \cdots, \omega_N]$, $x = [x_1, x_2, \cdots, \x_N]$
+记超平面为: $\omega^Tx + b = 0$, 则超平面的法向量为$\omega$.  $\omega = [\omega_1, \omega_2, \cdots, \omega_N]$, $x = [x_1, x_2, \cdots, x_N]$
 
 证明:
+
+在超平面上取任意两点$x_1， x_2$, 则连接两点的向量为 $x_1 - x_2$.
+
+这两点都满足:
 $$
-在超平面上取任意两点$x_1， x_2$, 则连接两点的向量为 $x_1 - x_2$.  \\\\
+\omega_Tx_1 + b = 0  \\\\
+\omega_Tx_2 + b = 0  \\\\
+$$
+则:
+$$
+\omega_T(x_1 - x_2) = 0
+$$
+显然, $\omega$与向量$x_1 - x_2$正交， 所以$\omega$ 是超平面的法向量
 
 
-$$
+
 
 
