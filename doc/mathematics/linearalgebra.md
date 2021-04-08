@@ -46,8 +46,10 @@ $$
 超平面为$\omega^Tx + b = 0$,    超平面之外点为$x_0$, 点$x_0$到超平面的投影为$x_0'$, 则$d = \vert x_0 - x_0'$为点到超平面的距离.
 因为$x_0'$在超平面上, 所以它满足:$\omega^Tx_0' + b = 0$, 
 $$
-\omega^T(x_0 - x_0') = \vert \omega \vert \vert x_0 - x_0' \vert cos\theta
+\omega^T(x_0 - x_0') = \vert \omega \vert \vert x_0 - x_0' \vert cos\theta = \vert \omega \vert \vert x_0 - x_0' \vert
 $$
+显然投影与向量平行,  所以$\theta = 0 或者 \pi$, 简单起见, 我们假定$\theta = 0$($\pi$的结果相同)
+
 
 
 
