@@ -29,6 +29,11 @@ $$
 \underset{\omega, b}{max}\frac{2}{\vert \omega \vert} \\\\
 s.t. \  y_i(\omega^Tx_i + b) \geq 0, i = 1, 2, \cdots, N
 $$
+这个跟下式等价:
+$$
+\underset{\omega, b}{argmin}\frac{1}{2} \Vert \omega \Vert^2 \\\\
+s.t. \  y_i(\omega^Tx_i + b) \geq 0, i = 1, 2, \cdots, N
+$$
 
 
 ## Reference
