@@ -54,7 +54,7 @@ $$
 
 ### 常用的核函数
 $$
-(1) K(x_1, x_2) = e^{-\frac{\Vert x_1 - x_2 \Vert^2}{2\sigma^2}} \ 高斯核
+(1) 高斯核:  K(x_1, x_2) = e^{-\frac{\Vert x_1 - x_2 \Vert^2}{2\sigma^2}}
 $$
 
 
