@@ -56,7 +56,7 @@ $K(x_1, x_2) = \phi(x_1)^T\phi(x_2)$的充要条件是:
 $$
 \begin{align}
 & K(x_1, x_2) = K(x_2, x_1) \\\\
-& 存在C_i, x_i, i = 1, 2, \cdots, N, 有:  \sum_{i=1}^{N}\sum_{i=1}^{N}C_iC_jK(x_i, x_j) \q 0
+& 存在C_i, x_i, i = 1, 2, \cdots, N, 有:  \sum_{i=1}^{N}\sum_{i=1}^{N}C_iC_jK(x_i, x_j) \geq 0
 \end{align}
 $$
 
