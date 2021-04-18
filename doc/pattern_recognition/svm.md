@@ -45,6 +45,13 @@ argmin \frac{1}{2} \Vert \omega \Vert^2 + C\sum_{i=1}^{N}\xi_i\\\\
 s.t. \ y_i(\omega^T \phi(x_i) + b) \geq 1 - \xi_i,  \  i = 1, 2, \cdots, N
 $$
 
+## 核函数
+只要知道一个核函数:
+$$
+K(x_1, x_2) = \phi(x_1)^T\phi(x_2)
+$$
+则上面的优化式可解.
+
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程6 - 支持向量机
