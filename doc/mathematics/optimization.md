@@ -53,7 +53,7 @@ $$
  最小化: & f(\omega) \\\\
  s. t. \ & g_i(\omega) \leq 0 \  i=1, 2, \cdots, K \\\\
 & h_i(\omega) = 0 \ i=1, 2, \cdots, K \\\\
-\end{aligh}
+\end{align}
 $$
 
 ## Reference
