@@ -47,7 +47,7 @@ $$
 $$
 是$(x, \lambda)$成为$L(x, \lambda)$的一个驻点的必要条件.
 
-### 原问题
+### 原问题(Prime Problem)
 $$
 \begin{align}
  最小化: & f(\omega) \\\\
