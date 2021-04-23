@@ -41,7 +41,7 @@ $$
  
 求解线性不可分问题， 优化问题写为:
 $$
-argmin \frac{1}{2} \Vert \omega \Vert^2 + C\sum_{i=1}^{N}\xi_i\\\\
+argmin(\frac{1}{2} \Vert \omega \Vert^2 + C\sum_{i=1}^{N}\xi_i) \\\\
 s.t. \ y_i(\omega^T \phi(x_i) + b) \geq 1 - \xi_i,  \  i = 1, 2, \cdots, N
 $$
 
