@@ -80,6 +80,13 @@ $$
 $$
 f(\omega^\*) \geq \theta(\alpha^\*, \beta^\*)
 $$
+证明：
+$$
+\begin{aligh}
+\theta(\alpha^\*, \beta^\*) & =  \mathop{inf} \limits_{所有 \omega}\\{L(\omega, \alpha, \beta)\\} \\\\
+& \leq L(\omega^\*, \alpha^\*, \beta^\*)
+\end{align}
+$$
 
 ## Reference
 * 模式识别 by 吴建鑫
