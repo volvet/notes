@@ -73,6 +73,7 @@ $$
 \end{align}
 $$
 
+注: $\inf$ infimum  最大下界
 
 
 ## Reference
