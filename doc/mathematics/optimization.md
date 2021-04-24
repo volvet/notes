@@ -69,7 +69,7 @@ $$
 $$
 \begin{align}
 & \mathop{argmax}\theta(\alpha, \beta) = \mathop{inf} \limits_{所有 \omega}\\{L(\omega, \alpha, \beta)\\} \\\\
-& s.t. \ \alpha_i \geq 0， 
+& s.t. \ \alpha \geq 0， (\appha_i \geq 0, i = 1, \cdots, K)
 \end{align}
 $$
 
