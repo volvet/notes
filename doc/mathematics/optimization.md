@@ -56,5 +56,17 @@ $$
 \end{align}
 $$
 
+### 对偶问题
+定义： 
+$$
+\begin{align}
+L(\omega, \alpha, \beta) \\\\
+& = f(\omega) + \sum_{i=1}^{K}\alpha_ig_i(\omega) + \sum_{i=1}^{M}\beta_ih_i(\omega) \\\\
+& = f(\omega) + \alpha^Tg(\omega) + \beta^Th(\omega) \\\\
+\end{align}
+$$
+
+
+
 ## Reference
 * 模式识别 by 吴建鑫
