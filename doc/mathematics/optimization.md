@@ -89,6 +89,7 @@ $$
 & \leq f(\omega^\*)
 \end{align}
 $$
+证毕.
 
 ## Reference
 * 模式识别 by 吴建鑫
