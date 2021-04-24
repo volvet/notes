@@ -47,6 +47,7 @@ $$
 $$
 是$(x, \lambda)$成为$L(x, \lambda)$的一个驻点的必要条件.
 
+## 源问题与对偶问题
 ### 原问题(Prime Problem)
 $$
 \begin{align}
@@ -56,12 +57,19 @@ $$
 \end{align}
 $$
 
-### 对偶问题
+### 对偶问题(Dual Problem)
 定义： 
 $$
 \begin{align}
 L(\omega, \alpha, \beta) & = f(\omega) + \sum_{i=1}^{K}\alpha_ig_i(\omega) + \sum_{i=1}^{M}\beta_ih_i(\omega) \\\\
 & = f(\omega) + \alpha^Tg(\omega) + \beta^Th(\omega) \\\\
+\end{align}
+$$
+对偶问题定义
+$$
+\begin{align}
+& argmin(\theta(\alpha, \beta) = inf\{L(\omega, \alpha, \beta)\} \\\\
+& s.t. \ \alpha_i \geq 0， 
 \end{align}
 $$
 
