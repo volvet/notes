@@ -76,7 +76,10 @@ $$
 注: $\inf$ infimum  最大下界
 
 ### 原问题与对偶问题的关系
-
+定理： 如果$\omega^\*$是原问题的解， $\alpha^\*， \beta^\*$是对偶问题的解， 则下式成立:
+$$
+f(\omega^\*) \geq \theta(\alpha^\*, \beta^\*)
+$$
 
 ## Reference
 * 模式识别 by 吴建鑫
