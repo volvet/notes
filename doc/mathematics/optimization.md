@@ -84,7 +84,8 @@ $$
 $$
 \begin{align}
 \theta(\alpha^\*, \beta^\*) & =  \mathop{inf} \limits_{所有 \omega}\\{L(\omega, \alpha^\*, \beta^\*)\\} \\\\
-& \leq L(\omega^\*, \alpha^\*, \beta^\*)
+& \leq L(\omega^\*, \alpha^\*, \beta^\*) \\\\
+而: L(\omega^\*, \alpha^\*, \beta^\*) = f(\omega^\*) + \sum_{i=1}^{K}\alpha^{\*}\_{i}g_i(\omega^\*) + \sum_{i=1}^{M}\beta^{\*}\_{i}(\omega^\*)
 \end{align}
 $$
 
