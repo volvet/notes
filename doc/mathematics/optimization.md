@@ -68,7 +68,7 @@ $$
 对偶问题定义
 $$
 \begin{align}
-& \mathop{argmin}(\theta(\alpha, \beta) = inf\\{L(\omega, \alpha, \beta)\\} \\\\
+& \mathop{argmin}\theta(\alpha, \beta) = inf\\{L(\omega, \alpha, \beta)\\} \\\\
 & s.t. \ \alpha_i \geq 0， 
 \end{align}
 $$
