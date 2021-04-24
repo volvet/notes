@@ -96,7 +96,13 @@ $$
 $$
 G = f(\omega^\*) - \theta(\alpha^\*, \beta^\*) \geq 0
 $$
-$G$称为原问题与对偶问题的间距(Duality Gap)
+$G$称为原问题与对偶问题的间距(Duality Gap), 在某些特定情形下， $G = 0$.
+
+### 强对偶定理:
+若$f(\omega)$为凸函数， 且$g(\omega) = A\omega + b$, $h(\omega) = C\omega + d$, 则此优化问题的原问题与对偶问题的间距$G$为0. 即:
+$$
+f(\omega^\*) = \theta(\alpha^\*, \beta^\*)
+$$
 
 ## Reference
 * 模式识别 by 吴建鑫
