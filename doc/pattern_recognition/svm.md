@@ -77,6 +77,13 @@ s.t. & \ 1 + \xi_i - y_i\omega^T \phi(x_i) - y_i b, \  i = 1, 2, \cdots, N \\\\
 s.t. & \ \xi_i \leq 0, \ i = 1, 2, \cdots, K
 \end{align}
 $$
+则对偶问题为:
+$$
+\begin{align}
+最大化: \theta(\alpha, \beta) & = \mathop{inf} \limits{所有的(\omega, \xi_i, b)}(L(\omega, \xi, b, \alpha, \beta)) \\\\
+& = \\\\
+\end{align}
+$$
 
 
 ## Reference
