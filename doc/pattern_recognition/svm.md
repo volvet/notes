@@ -79,10 +79,8 @@ s.t. & \ \xi_i \leq 0, \ i = 1, 2, \cdots, N
 $$
 则对偶问题为:
 $$
-\begin{align}
-最大化: \theta(\alpha, \beta) & = \mathop{inf} \limits_{所有的(\omega, \xi_i, b)}\\{L(\omega, \xi, b, \alpha, \beta)\\} \\\\
- L(\omega, \xi, b, \alpha, \beta) = \frac{1}{2} \Vert \omega \Vert^2 - C\sum_{i=1}^N\xi_i + \sum_{i=1}^N\beta_i\xi_i + \sum_{i=1}^N\alpha_i   \\\\
-\end{align}
+最大化: \theta(\alpha, \beta) = \mathop{inf} \limits_{所有的(\omega, \xi_i, b)}\\{L(\omega, \xi, b, \alpha, \beta)\\} \\\\
+ L(\omega, \xi, b, \alpha, \beta) = \frac{1}{2} \Vert \omega \Vert^2 - C\sum_{i=1}^N\xi_i + \sum_{i=1}^N\beta_i\xi_i + \sum_{i=1}^N\alpha_i[1 + \xi_i - y_i\omega^T \phi(x_i) - y_i b]   \\\\
 $$
 
 
