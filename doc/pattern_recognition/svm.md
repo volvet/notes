@@ -80,7 +80,7 @@ $$
 则对偶问题为:
 $$
 \begin{align}
-最大化: \theta(\alpha, \beta) & = \mathop{inf} \limits_{所有的(\omega, \xi_i, b)}(L(\omega, \xi, b, \alpha, \beta)) \\\\
+最大化: \theta(\alpha, \beta) & = \mathop{inf} \limits_{所有的(\omega, \xi_i, b)}\\{L(\omega, \xi, b, \alpha, \beta)\\} \\\\
 & = \\\\
 \end{align}
 $$
