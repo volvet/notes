@@ -102,6 +102,12 @@ $$
 $$
 L = \frac{1}{2}\Vert \omega \Vert^2 + \sum_{i=1}^{N}\alpha_i[1 - y_i\omega^T\phi(x_i)]
 $$
+继续简化:
+$$
+\frac{1}{2}\Vert \omega \Vert^2 = \frac{1}{2} \omega^T\omega \\\\
+ = \frac{1}{2} (\sum_{i=1}^{N}\alpha_iy_i\phi(x_i))^T(\sum_{i=1}^{N}\alpha_iy_i\phi(x_i)) \\\\
+ = \frac{1}{2} \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j\phi(x_i)\phi(x_j) \\\\
+$$
 
 
 ## Reference
