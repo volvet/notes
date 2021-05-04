@@ -62,7 +62,11 @@ d & = \frac{\vert \omega^T(x_0 - x_0') \vert}{\vert \omega \vert} \\\\
 $$
 此即点到超平面的距离.
 
-
+### 向量的导数
+定义： 若$\oemga = (\oemga_1, \oemga_2, \cdots, \omega_N)^T, 则:
+$$
+\frac{\partial f(\oemga}{\partial \omega} = (\frac{\partial f(\oemga}{\partial \omega_1}, {\partial f(\oemga}{\partial \omega_2}, \cdots, {\partial f(\oemga}{\partial \omega_N})^T
+$$
 
 
 
