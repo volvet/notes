@@ -69,8 +69,8 @@ $$
 $$
 由此可以得到:
 $$
-若f(\omega) = \frac{1}{2} \Vert \omega \Vert^2, 则:
-\frac{\partial f}{\partial \omega} = \frac{1}{2}\frac{\partial \omega^T\omega}{\partial \omega}
+若f(\omega) = \frac{1}{2} \Vert \omega \Vert^2, 则: \\\\
+\frac{\partial f}{\partial \omega} = \frac{1}{2}\frac{\partial (\omega^T\omega)}{\partial \omega}
 $$
 
 
