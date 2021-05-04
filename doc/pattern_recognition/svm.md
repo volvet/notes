@@ -112,7 +112,7 @@ $$
 $$
 还是继续简化:
 $$
-\sum_{i=1}^{N}y_i\omega^T\phi(x_i) = sum_{i=1}^{N}y_i(\sum_{j=1}^{N}\alpha_jy_j\phi(x_j))^T\phi(x_i) \\\\
+\sum_{i=1}^{N}y_i\omega^T\phi(x_i) = \sum_{i=1}^{N}y_i(\sum_{j=1}^{N}\alpha_jy_j\phi(x_j))^T\phi(x_i) \\\\
 = \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j\phi(x_i)\phi(x_j) \\\\
 = \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j K(x_i, x_j)
 $$
