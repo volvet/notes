@@ -92,6 +92,12 @@ $$
 & \frac{\partial L}{\partial b} = \sum_{i=1}^{N}\alpha_iy_i = 0 \\\\
 \end{align}
 $$
+所以:
+$$
+\omega = \sum_{i=1}^{N}\alpha_iy_i\phi(x_i) \\\\
+\alpha_i + \beta_i = C \\\\
+\sum_{i=1}^{N}\alpha_iy_i = 0 \\\\
+$$
 
 
 ## Reference
