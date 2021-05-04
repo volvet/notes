@@ -63,7 +63,7 @@ $$
 此即点到超平面的距离.
 
 ### 向量的导数
-定义： 若$\oemga = (\omega_1, \omega_2, \cdots, \omega_N)^T$, 则:
+定义： 若$\omega = (\omega_1, \omega_2, \cdots, \omega_N)^T$, 则:
 $$
 \frac{\partial f(\omega}{\partial \omega} = (\frac{\partial f(\omega}{\partial \omega_1}, {\partial f(\omega}{\partial \omega_2}, \cdots, {\partial f(\omega}{\partial \omega_N})^T
 $$
