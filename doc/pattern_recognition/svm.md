@@ -138,11 +138,15 @@ $$
 若 \omega^T\phi(x) + b < 0, 则y = -1 \\\\
 \end{cases}
 $$
-
+如何求$\omega^T\phi(x)$:
 $$
 \omega^T\phi(x) = \sum_{i=1}^{N}[\alpha_iy_i\phi(x_i)]^T\phi(x) \\\\
 = \sum_{i=1}^{N}\alpha_iy_i(\phi(x_i)^T\phi(x) \\\\
 = \sum_{i=1}^{N}\alpha_iy_iK(x_i, x)
+$$
+如何求$b$:
+$$
+\forall i=1~N
 $$
 
 
