@@ -87,7 +87,7 @@ $$
 对$L$求导， 可得:
 $$
 \begin{align}
-& \frac{\partial L}{\partial \omega} = \\\\
+& \frac{\partial L}{\partial \omega} = \omega - \sum_{i=1}^{N}\alpha_iy_i\phi(x_i) \\\\
 & \frac{\partial L}{\partial \xi_i} = \\\\
 & \frac{\partial L}{\partial b} = \\\\
 \end{align}
