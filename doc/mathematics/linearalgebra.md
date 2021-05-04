@@ -65,7 +65,7 @@ $$
 ### 向量的导数
 定义： 若$\oemga = (\oemga_1, \oemga_2, \cdots, \omega_N)^T, 则:
 $$
-\frac{\partial f(\oemga}{\partial \omega} = (\frac{\partial f(\oemga}{\partial \omega_1}, {\partial f(\oemga}{\partial \omega_2}, \cdots, {\partial f(\oemga}{\partial \omega_N})^T
+\frac{\partial f(\oemga}{\partial \omega} = (\frac{\partial f(\omega}{\partial \omega_1}, {\partial f(\omega}{\partial \omega_2}, \cdots, {\partial f(\omega}{\partial \omega_N})^T
 $$
 
 
