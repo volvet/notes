@@ -87,9 +87,9 @@ $$
 对$L$求导， 可得:
 $$
 \begin{align}
-& \frac{\partial L}{\partial \omega} = 
-& \frac{\partial L}{\partial \xi_i} = 
-& \frac{\partial L}{\partial b}
+& \frac{\partial L}{\partial \omega} = \\\\
+& \frac{\partial L}{\partial \xi_i} = \\\\
+& \frac{\partial L}{\partial b} = \\\\
 \end{align}
 $$
 
