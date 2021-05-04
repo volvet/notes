@@ -126,6 +126,7 @@ $$
 s.t. \ 0 \leq \alpha_i \leq C \\\\
 s.t. \sum_{i=1}^{N}\alpha_iy_i = 0
 $$
+这是个凸优化问题， 可以使用SMO（Sequential minimal optimization）算法求解.
 
 
 
