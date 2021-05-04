@@ -146,7 +146,7 @@ $$
 $$
 如何求$b$:
 $$
-\forall i=1, 2, \cdots, N \\\\
+\forall \ i=1, 2, \cdots, N \\\\
 要么 \beta_i = 0, 要么 \xi_i = 0 \\\\
 要么 \alpha_i = 0, 要么 1 + \xi_i - y_i\omega^T\phi(x_i) - y_ib = 0
 $$
