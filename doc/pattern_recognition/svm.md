@@ -116,6 +116,10 @@ $$
 = \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j\phi(x_i)\phi(x_j) \\\\
 = \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j K(x_i, x_j)
 $$
+最后， $L$被简化为:
+$$
+L = \sum_{i=1}^{N}\alpha_i - \frac{1}{2} \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j K(x_i, x_j)
+$$
 
 
 
