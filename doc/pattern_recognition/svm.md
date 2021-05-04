@@ -151,7 +151,7 @@ $$
 要么 \alpha_i = 0, 要么 1 + \xi_i - y_i\omega^T\phi(x_i) - y_ib = 0
 $$
 取一个$\alpha_i$, 使得$0 < \alpha_i < C$, 则: $\beta_i = C - \alpha_i > 0$, 所以$\xi_i = 0$.  
-dddd
+又因为$\alpha_i > 0$, 于是$1 + y_i\omega^T\phi(x_i) - y_ib = 0$
 
 
 
