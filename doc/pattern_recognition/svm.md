@@ -128,6 +128,16 @@ s.t. \sum_{i=1}^{N}\alpha_iy_i = 0
 $$
 这是个凸优化问题， 可以使用SMO（Sequential minimal optimization）算法求解.
 
+### SMO算法(TODO)
+
+## 测试流程
+测试样本为$X$
+$$
+\begin{cases}
+若 \omega^T\phi(x) + b \geq 0, 则y = 1 \\\\
+若 \omega^T\phi(x) + b < 0, 则y = -1 \\\\
+\end{cases}
+$$
 
 
 ## Reference
