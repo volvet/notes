@@ -98,6 +98,10 @@ $$
 \alpha_i + \beta_i = C \\\\
 \sum_{i=1}^{N}\alpha_iy_i = 0 \\\\
 $$
+用上式来化简$L$：
+$$
+L = \frac{1}{2}\Vert \omega \Vert^2 + \sum_{i=1}^{N}\alpha_i[1 - y_i\omega^T\phi(x_i)]
+$$
 
 
 ## Reference
