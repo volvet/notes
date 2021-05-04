@@ -66,6 +66,8 @@ $$
 $$
 (1)\ 高斯核: \ K(x_1, x_2) = e^{-\frac{\Vert x_1 - x_2 \Vert^2}{2\sigma^2}} \\\\
 (2)\ 多项式核: \ K(x_1, x_2) = (x_1^Tx_2 + 1)^d  \\\\
+(3)\ Sigmod核: \ K(x_1, x_2) = \methop{tanh}(\betax_1^Tx_2 + \theta) \\\\
+(4)\ 拉普拉斯核: \ K(x_1, x_2) = e^{-\frac{\Vert x_1 - x_2 \Vert}{\sigma}},  \sigma > 0 \\\\
 $$
 
 ### 支持向量机原问题的对偶问题
