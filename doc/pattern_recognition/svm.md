@@ -146,7 +146,7 @@ $$
 $$
 如何求$b$:
 $$
-\forall i=1~N
+\forall i=1 \to N
 $$
 
 
