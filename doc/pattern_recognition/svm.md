@@ -45,7 +45,7 @@ argmin(\frac{1}{2} \Vert \omega \Vert^2 + C\sum_{i=1}^{N}\xi_i) \\\\
 s.t. \ y_i(\omega^T \phi(x_i) + b) \geq 1 - \xi_i,  \  i = 1, 2, \cdots, N \\\\
 s.t. \ \xi_i \geq 0, \ i = 1, 2, \cdots, N
 $$
-上式的$\xi_i$称为松弛变量.
+上式的$\xi_i$称为松弛变量, 是一个正则项.
 
 ### 核函数
 只要知道一个核函数:
