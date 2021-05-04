@@ -131,12 +131,18 @@ $$
 ### SMO算法(TODO)
 
 ## 测试流程
-测试样本为$X$
+测试样本为$x$
 $$
 \begin{cases}
 若 \omega^T\phi(x) + b \geq 0, 则y = 1 \\\\
 若 \omega^T\phi(x) + b < 0, 则y = -1 \\\\
 \end{cases}
+$$
+
+$$
+\omega^T\phi(x) = \sum_{i=1}^{N}[\alpha_iy_i\phi(x_i)]^T\phi(x) \\\\
+= \sum_{i=1}^{N}\alpha_iy_i(\phi(x_i)^T\phi(x) \\\\
+= \sum_{i=1}^{N}\alpha_iy_iK(x_i, x)
 $$
 
 
