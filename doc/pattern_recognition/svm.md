@@ -73,7 +73,7 @@ $$
 $$
 \begin{align}
 最小化: & \frac{1}{2} \Vert \omega \Vert^2 - C\sum_{i=1}^{N}\xi_i \\\\
-s.t. & \ 1 + \xi_i - y_i\omega^T \phi(x_i) - y_i b, \  i = 1, 2, \cdots, N \\\\
+s.t. & \ 1 + \xi_i - y_i\omega^T \phi(x_i) - y_i b \leq 0, \  i = 1, 2, \cdots, N \\\\
 s.t. & \ \xi_i \leq 0, \ i = 1, 2, \cdots, N
 \end{align}
 $$
@@ -146,7 +146,7 @@ $$
 $$
 如何求$b$:
 $$
-\forall i=1 \to N
+\forall i=1, 2, \cdots, N \\\\
 $$
 
 
