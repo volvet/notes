@@ -75,7 +75,7 @@ $$
 
 $$
 若f(\omega) = \omega^Tx， 则 \\\\
-\frac{\partial f}{\partial \omega} = frac{\partial (\omega^Tx)}{\partial \omega} = x
+\frac{\partial f}{\partial \omega} = \frac{\partial (\omega^Tx)}{\partial \omega} = x
 $$
 
 
