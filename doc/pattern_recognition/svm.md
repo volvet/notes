@@ -122,7 +122,7 @@ L = \sum_{i=1}^{N}\alpha_i - \frac{1}{2} \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\al
 $$
 对偶问题可以写为：
 $$
-最大化: \theta(\alpha, \beta) = \mathop{inf} \limits_{所有的(\omega, \xi_i, b)}\\{ \sum_{i=1}^{N}\alpha_i - \frac{1}{2} \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j K(x_i, x_j) \\}
+最大化: \theta(\alpha, \beta) = \sum_{i=1}^{N}\alpha_i - \frac{1}{2} \sum_{i=1}^{N}\sum_{j=1}^{N}\alpha_i\alpha_jy_iy_j K(x_i, x_j)
 $$
 
 
