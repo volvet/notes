@@ -84,6 +84,14 @@ L(\omega, \xi, b, \alpha, \beta) = \frac{1}{2} \Vert \omega \Vert^2 - C\sum_{i=1
 s.t. \ \alpha_i \geq 0 \\\\
 s.t. \ \beta_i \geq 0 \\\\
 $$
+对$L$求导， 可得:
+$$
+\begin{align}
+& \frac{\partial L}{\partial \omega} = 
+& \frac{\partial L}{\partial \xi_i} = 
+& \frac{\partial L}{\partial b}
+\end{align}
+$$
 
 
 ## Reference
