@@ -68,6 +68,12 @@ $$
 & = \Vert W_k - aW_{opt} \Vert^2 + \Vert \overrightarrow X_i \Vert^2 + 2W_k^T\\overrightarrow X_i - 2aW_{opt}^T\overrightarrow X_i
 \end{align}
 $$
+由之前的假定:
+$$
+W_opt^TX_i > 0 \\\\
+W_{k}X_i < 0
+$$
+定义: $\beta = \mathop{max}$
 
 
 
