@@ -75,6 +75,7 @@ W_{k}X_i < 0
 $$
 令 $\beta = \mathop{max} \limits_{i=1, 2, \cdots, N}\Vert X_i \Vert$  
 令 $\gamma = \mathop{min} \limits_{i=1, 2, \cdots, N}(W_{opt}^TX_i)$  
+令 $a = \frac{\beta^2 + 1}{2\gamma}$  
 
 
 
