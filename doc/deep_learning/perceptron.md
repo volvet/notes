@@ -64,8 +64,8 @@ $$
 
 $$
 \begin{align}
-\Vert W_{k+1} - aW_{opt} \Vert & = \Vert W_k + \overrightarrow X_i - aW_{opt} \Vert \\\\
-& = \Vert W_k - aW_{opt} \Vert + \Vert \overrightarrow X_i \Vert + 2W_k^T\\overrightarrow X_i - 2aW_{opt}^T\overrightarrow X_i
+\Vert W_{k+1} - aW_{opt} \Vert^2 & = \Vert W_k + \overrightarrow X_i - aW_{opt} \Vert^2 \\\\
+& = \Vert W_k - aW_{opt} \Vert^2 + \Vert \overrightarrow X_i \Vert^2 + 2W_k^T\\overrightarrow X_i - 2aW_{opt}^T\overrightarrow X_i
 \end{align}
 $$
 
