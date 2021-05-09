@@ -20,7 +20,7 @@ $$
 ### 感知机的收敛性
 定义:  
 $$
-若 y = 1, 则令\overrightallow X = 
+若 y = 1, 则令\overrightarrow X = 
 \begin{bmatrix}
 X \\\\
 1
