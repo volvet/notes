@@ -76,6 +76,11 @@ $$
 令 $\beta = \mathop{max} \limits_{i=1, 2, \cdots, N}\Vert X_i \Vert$  
 令 $\gamma = \mathop{min} \limits_{i=1, 2, \cdots, N}(W_{opt}^TX_i)$  
 令 $a = \frac{\beta^2 + 1}{2\gamma}$  
+显然:
+$$
+\Vert W_{k+1} - aW_{opt} \Vert^2 < \Vert W_k - aW_{opt} \Vert^2 - 1
+$$
+
 
 
 
