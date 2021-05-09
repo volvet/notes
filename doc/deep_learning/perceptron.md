@@ -24,8 +24,19 @@ $$
 \begin{bmatrix}
 X \\\\
 1
-\end{bmatrix}^T
+\end{bmatrix} \\\\
+若 y = -1, 则令\overrightarrow X = 
+\begin{bmatrix}
+X \\\\
+-1
+\end{bmatrix} \\\\ 
+\overrightarrow W =
+\begin{bmatrix}
+W \\\\
+b
+\end{bmatrix}
 $$
+为书写方便， 下文的$W$即为$\overrightarrow W$
 
 ### Reference
 * 胡浩基 浙江大学机器学习20 人工神经网络
