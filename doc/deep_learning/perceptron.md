@@ -73,7 +73,9 @@ $$
 W_opt^TX_i > 0 \\\\
 W_{k}X_i < 0
 $$
-定义: $\beta = \mathop{max}$
+令 $\beta = \mathop{max} \limits{i=1, 2, \cdots, N}\Vert X_i \Vert$  
+令 $\gamma = \mathop{min} \limits{i=1, 2, \cdots, N}(W_{opt}^TX_i)$  
+
 
 
 
