@@ -62,6 +62,14 @@ $$
 W_{k+1} = W_k + \overrightarrow X_i
 $$
 
+$$
+\begin{align}
+\Vert W_{k+1} - aW_{opt} \Vert & = \Vert W_k + \overrightarrow X_i - aW_{opt} \Vert \\\\
+& = \Vert W_k - aW_{opt} \Vert + \Vert \overrightarrow X_i \Vert + 2W_k^T\\overrightarrow X_i - 2aW_{opt}^T\overrightarrow X_i
+\end{align}
+$$
+
+
 
 ### Reference
 * 胡浩基 浙江大学机器学习20 人工神经网络
