@@ -38,7 +38,7 @@ b
 $$
 为书写方便， 下文的$W$即为$\overrightarrow W$, 则感知机的的训练目标可以写为:
 $$
-找到$W$, 使得: W^T\overrightarrow X \geq 0
+找到W, 使得: W^T\overrightarrow X \geq 0
 $$
 
 ### Reference
