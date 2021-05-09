@@ -42,7 +42,11 @@ $$
 $$
 
 感知机收敛定理:  
-输入$[X_i]_ \\\\{ \\\\}$
+训练集$[\overrightarrow X_i], i=1, 2, \cdots N$, 若它是线性可分的， 即$\exists W_{opt}$, 使得:  
+$$
+W_{opt}^T\overrightarrow X_i > 0,  i = 1, 2, \cdots, N
+$$
+则: 使用上文的感知机算法， 经过若干步后可以求的$W$， 使得$W^T\overrightarrow X_i > 0,  i = 1, 2, \cdots, N$成立
 
 ### Reference
 * 胡浩基 浙江大学机器学习20 人工神经网络
