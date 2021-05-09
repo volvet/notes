@@ -52,9 +52,10 @@ W^T\overrightarrow X_i > 0,  i = 1, 2, \cdots, N
 $$
 成立  
 证明:  
+可以假定$\Vert W_{opt} \Vert = 1$, 不失一般性.  
 假设第$k$步的时候， 权重向量为$W_k$, 且训练集中存在一个$\overrightarrow X_i$， 使得:
 $$
-W_k^TX_i < 0
+W_k^T\overrightX_i < 0
 $$
 则:
 $$
