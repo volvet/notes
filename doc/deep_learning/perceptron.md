@@ -1,4 +1,6 @@
 ## 感知器算法(Perceptron Algorithm)
+
+### 算法描述
 感知器算法由Frank Roseblatt于1957年提出。 其算法可以描述为:  
 (1) 随机选择$W$和$b$  
 (2）取一个训练样本$(X, y)$  
