@@ -82,7 +82,7 @@ $$
 $$
 取
 $$
-D = \Vert W_0 - a\W_{opt} \Vert
+D = \Vert W_0 - aW_{opt} \Vert
 $$
 则最多经过$D^2$步，   $W$将会收敛到$W_{opt}$  
 证毕.
