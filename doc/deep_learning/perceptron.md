@@ -36,7 +36,10 @@ W \\\\
 b
 \end{bmatrix}
 $$
-为书写方便， 下文的$W$即为$\overrightarrow W$
+为书写方便， 下文的$W$即为$\overrightarrow W$, 则感知机的的训练目标可以写为:
+$$
+找到$W$, 使得: W^T\overrightarrow X \geq 0
+$$
 
 ### Reference
 * 胡浩基 浙江大学机器学习20 人工神经网络
