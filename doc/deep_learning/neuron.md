@@ -47,7 +47,15 @@ x, & x > 0 \\\\
 \gamma x, & x \leq 0 \\\\
 \end{cases}
 $$
-其中， $\gamma$是一个很小的常数.
+其中， $\gamma$是一个很小的常数. 对$\mathop{LeakyReLU(x)}$求导， 可得:
+$$
+\mathop{LeakyReLU(x)}^{\prime} = 
+\begin{cases}
+1, & x > 0 \\\\
+\gamma , & x \leq 0 \\\\
+\end{cases}
+$$
+
 
 ## 后向传播算法(Back Propogation)
 
