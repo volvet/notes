@@ -14,4 +14,9 @@ $$
 \sigma^{\prime}(x) = \frac{e^{-x})}{(1+e^{-x})^2} = \sigma(x)(1 - \sigma(x))
 $$
 
+* Tanh 函数
+$$
+\mathop{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$
+
 ## 后向传播算法(Back Propogation)
