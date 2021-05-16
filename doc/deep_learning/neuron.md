@@ -31,7 +31,14 @@ x, & x \geq 0 \\\\
 0, & x < 0 \\\\
 \end{cases}
 $$
-
+对$\mathop{ReLU}(x)$函数求导, 可得:
+$$
+\mathop{ReLU}(x)^{\prime} =
+\begin{cases}
+1, & x \geq 0 \\\\
+0, & x < 0 \\\\
+\end{cases}
+$$
 
 ## 后向传播算法(Back Propogation)
 
