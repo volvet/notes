@@ -41,7 +41,7 @@ $$
 $$
 * Leaky ReLU函数
 $$
-\mathop{LeakyReLU(x)} = 
+\mathop{LeakyReLU}(x) = 
 \begin{cases}
 x, & x > 0 \\\\
 \gamma x, & x \leq 0 \\\\
@@ -49,7 +49,7 @@ x, & x > 0 \\\\
 $$
 其中， $\gamma$是一个很小的常数. 对$\mathop{LeakyReLU(x)}$求导， 可得:
 $$
-\mathop{LeakyReLU(x)}^{\prime} = 
+\mathop{Leaky}ReLU(x)^{\prime} = 
 \begin{cases}
 1, & x > 0 \\\\
 \gamma , & x \leq 0 \\\\
