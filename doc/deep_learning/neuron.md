@@ -4,7 +4,7 @@ y_k = \phi(\sum_{i=1}^{M}\omega_{ki}x_i + b_k) = \phi(W_k^TX_k + b)
 $$
 $\phi$为激活函数， $b$为偏置(偏移)， $W$为权重向量， $(X_k，y_k)$为输入输出对.
 
-### 激活函数
+### 常用激活函数
 * Sigmoid 函数
 $$
 \sigma(x) = \frac{1}{1 + e^{-x}} \\\\
@@ -17,6 +17,10 @@ $$
 * Tanh 函数
 $$
 \mathop{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$
+对$mathop{tanh}(x)$求导， 可得:
+$$
+\mathop{tanh}^{\prime}(x) = \frac{(e^x + e^{-x})^2 - (e^x - e^{-x})^2}{(e^x - e^{-x})^2} = 1 - \mathop{tanh}^2(x)
 $$
 
 ## 后向传播算法(Back Propogation)
