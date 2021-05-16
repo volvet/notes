@@ -18,7 +18,7 @@ $$
 $$
 \mathop{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$
-对$mathop{tanh}(x)$求导， 可得:
+对$\mathop{tanh}(x)$求导， 可得:
 $$
 \mathop{tanh}(x)^{\prime} = \frac{(e^x + e^{-x})^2 - (e^x - e^{-x})^2}{(e^x - e^{-x})^2} = 1 - \mathop{tanh}(x)^2
 $$
