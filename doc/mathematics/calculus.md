@@ -7,5 +7,5 @@ $$
 ### 求导公式
 $$
 (uv)^\prime = u^\prime v + uv^\prime \\\\
-frac{u}{v} = frac{u^\prime v - uv^\prime}{v^2}
+\frac{u}{v} = \frac{u^\prime v - uv^\prime}{v^2}
 $$
