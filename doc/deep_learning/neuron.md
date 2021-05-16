@@ -7,7 +7,7 @@ $\phi$为激活函数， $b$为偏置(偏移)， $W$为权重向量， $(X_k，y
 ### 激活函数
 * Sigmoid 函数
 $$
-\sigma(x) = \frac{1}{1 - e^(-x)}
+\sigma(x) = \frac{1}{1 - e^{(-x)}}
 $$
 
 ## 后向传播算法(Back Propogation)
