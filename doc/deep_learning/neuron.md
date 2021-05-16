@@ -39,6 +39,14 @@ $$
 0, & x < 0 \\\\
 \end{cases}
 $$
+* Leaky ReLU函数
+$$
+\methop{LeakyReLU(x)} = 
+\begin{cases}
+x, & x > 0 \\\\
+\gamma x, & x leq 0 \\\\
+\end{cases}
+$$
 
 ## 后向传播算法(Back Propogation)
 
