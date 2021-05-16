@@ -23,6 +23,14 @@ $$
 \mathop{tanh}(x)^{\prime} = \frac{(e^x + e^{-x})^2 - (e^x - e^{-x})^2}{(e^x + e^{-x})^2} = 1 - \mathop{tanh}(x)^2
 $$
 
-* Relu 函数
+* ReLU 函数
+$$
+\mathop{ReLU}(x) = 
+\begin{cases}
+x, & x \geq 0 \\\\
+0, & x < 0 \\\\
+\end{cases}
+$$
+
 
 ## 后向传播算法(Back Propogation)
