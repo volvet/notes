@@ -7,33 +7,33 @@ $\phi$为激活函数， $b$为偏置(偏移)， $W$为权重向量， $(X_k，y
 ### 常用激活函数
 * Sigmoid 函数
 $$
-\sigma(x) = \frac{1}{1 + e^{-x}} \\\\
+\phi(x) = \frac{1}{1 + e^{-x}} \\\\
 $$
-对 $\sigma(x)$求导， 可得:
+对Sigmoid求导， 可得:
 $$
-\sigma^{\prime}(x) = \frac{e^{-x})}{(1+e^{-x})^2} = \sigma(x)(1 - \sigma(x))
+\phi^{\prime}(x) = \frac{e^{-x})}{(1+e^{-x})^2} = \phi(x)(1 - \phi(x))
 $$
 
 * Tanh 函数
 $$
-\mathop{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+\phi(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$
-对$\mathop{tanh}(x)$求导， 可得:
+对Tanh求导， 可得:
 $$
-\mathop{tanh}(x)^{\prime} = \frac{(e^x + e^{-x})^2 - (e^x - e^{-x})^2}{(e^x + e^{-x})^2} = 1 - \mathop{tanh}(x)^2
+\phi^{\prime}(x) = \frac{(e^x + e^{-x})^2 - (e^x - e^{-x})^2}{(e^x + e^{-x})^2} = 1 - \phi(x)^2
 $$
 
 * ReLU 函数
 $$
-\mathop{ReLU}(x) = 
+\phi(x) = 
 \begin{cases}
 x, & x \geq 0 \\\\
 0, & x < 0 \\\\
 \end{cases}
 $$
-对$\mathop{ReLU}(x)$函数求导, 可得:
+对ReLU函数求导, 可得:
 $$
-\mathop{ReLU}(x)^{\prime} =
+\phi^{\prime}(x) =
 \begin{cases}
 1, & x \geq 0 \\\\
 0, & x < 0 \\\\
@@ -41,15 +41,15 @@ $$
 $$
 * Leaky ReLU函数
 $$
-\mathop{LeakyReLU}(x) = 
+\phi(x) = 
 \begin{cases}
 x, & x > 0 \\\\
 \gamma x, & x \leq 0 \\\\
 \end{cases}
 $$
-其中， $\gamma$是一个很小的常数. 对$\mathop{LeakyReLU(x)}$求导， 可得:
+其中， $\gamma$是一个很小的常数. 对Leaky ReLU求导， 可得:
 $$
-\mathop{Leaky}ReLU(x)^{\prime} = 
+\phi^{\prime}(x) = 
 \begin{cases}
 1, & x > 0 \\\\
 \gamma , & x \leq 0 \\\\
