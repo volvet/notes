@@ -55,7 +55,14 @@ $$
 \gamma , & x \leq 0 \\\\
 \end{cases}
 $$
-
+* Parametric ReLU函数
+$$
+\phi_i(x) = 
+\begin{cases}
+x, & x > 0 \\\\
+\gamma_ix, & x leq 0 \\\\
+\end{cases}
+$$
 
 ## 后向传播算法(Back Propogation)
 
