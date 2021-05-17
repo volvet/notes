@@ -60,7 +60,7 @@ $$
 \phi_i(x) = 
 \begin{cases}
 x, & x > 0 \\\\
-\gamma_ix, & x leq 0 \\\\
+\gamma_ix, & x \leq 0 \\\\
 \end{cases}
 $$
 不同的神经元可以有不同的$\gamma_i$值,  对Parametric ReLU函数求导， 可得：
@@ -68,7 +68,7 @@ $$
 \phi_i^{\prime}(x) = 
 \begin{cases}
 1, & x > 0 \\\\
-\gamma_i, & x leq 0 \\\\
+\gamma_i, & x \leq 0 \\\\
 \end{cases}
 $$
 
