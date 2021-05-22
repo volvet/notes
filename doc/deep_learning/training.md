@@ -23,6 +23,7 @@ TODO
 * 交叉熵(Cross Entropy)
 
 ### 参数更新策略
+* AdaGrad
 
 ## Reference
 * 浙江大学机器学习课程 25 - 胡浩基
