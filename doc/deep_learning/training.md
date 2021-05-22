@@ -5,7 +5,7 @@
 
 ### 训练数据初始化
 $$
-newX = frac{X - mean(X)}{std(X)}
+newX = \frac{X - mean(X)}{std(X)}
 $$
 
 ## Reference
