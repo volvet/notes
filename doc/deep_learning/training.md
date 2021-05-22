@@ -23,7 +23,7 @@ TODO
 * 交叉熵(Cross Entropy)
 
 ### 参数更新策略
-* AdaGrad
+* AdaGrad:  解决各个方向梯度不一致的问题
 
 ## Reference
 * 浙江大学机器学习课程 25 - 胡浩基
