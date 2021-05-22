@@ -22,5 +22,7 @@ TODO
 * SoftMax
 * 交叉熵(Cross Entropy)
 
+### 参数更新策略
+
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
