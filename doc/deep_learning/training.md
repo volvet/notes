@@ -26,6 +26,7 @@ TODO
 * AdaGrad:  解决各个方向梯度不一致的问题
 * RMSProp:  解决各个方向梯度不一致的问题
 * Momentum: 解决梯度随机性问题
+* Adam
 
 ## Reference
 * 浙江大学机器学习课程 25 - 胡浩基
