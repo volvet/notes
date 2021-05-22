@@ -17,7 +17,7 @@ $W^TX +b$是均值为0， 方差为$\frac{1}{3}$的正态分布.
 ### Batch Normalization
 TODO
 
-### 目标函数
+### 目标函数选择
 * SoftMax
 * 交叉熵(Cross Entropy)
 
