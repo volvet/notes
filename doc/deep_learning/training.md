@@ -18,6 +18,7 @@ $W^TX +b$是均值为0， 方差为$\frac{1}{3}$的正态分布.
 TODO
 
 ### 目标函数选择
+* 正则项
 * SoftMax
 * 交叉熵(Cross Entropy)
 
