@@ -9,5 +9,7 @@ $$
 newX = \frac{X - mean(X)}{std(X)}
 $$
 
+### 参数初始化
+
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
