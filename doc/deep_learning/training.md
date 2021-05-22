@@ -17,7 +17,9 @@ $W^TX +b$是均值为0， 方差为$\frac{1}{3}$的正态分布.
 ### Batch Normalization
 TODO
 
-### 目标函数（损失函数）
+### 目标函数
+* SoftMax
+* 交叉熵
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
