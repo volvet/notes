@@ -19,7 +19,7 @@ TODO
 
 ### 目标函数
 * SoftMax
-* 交叉熵
+* 交叉熵(Cross Entropy)
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
