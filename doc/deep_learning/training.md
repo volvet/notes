@@ -19,7 +19,7 @@ TODO
 
 ### 目标函数选择
 * 正则项
-* SoftMax
+* SoftMax 应用于分类问题
 $$
 q_i = \frac{e^{z_i}}{\sum_{j=1}^{N}e^{z_j}}
 $$
@@ -27,6 +27,14 @@ $$
 $$
 E = - \sum_{i=1}^Np_i \mathop{log}(q_i)
 $$
+SoftMax/交叉熵的求导:  假设真实输出$j$项为1， 其他为0， 则
+$$
+E = - \methop{log}(q_j)
+$$
+
+
+
+
 
 ### 参数更新策略
 * AdaGrad:  解决各个方向梯度不一致的问题
