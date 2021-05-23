@@ -48,8 +48,8 @@ $$
 于是:
 $$
 \begin{align}
-\frac{\partial E}{\partial z_i} & = \sum_j frac{\partial E}{\partial q_i} frac{\partial q_i}{\partial z_j} \\\\
-& = \frac{partial E}{\partial q_i} \frac{\partial q_i}{\partial z_i} + \sum_{j \neq i}frac{\partial q_i}{\partial z_j} \\\\
+\frac{\partial E}{\partial z_i} & = \sum_j \frac{\partial E}{\partial q_i} \frac{\partial q_i}{\partial z_j} \\\\
+& = \frac{\partial E}{\partial q_i} \frac{\partial q_i}{\partial z_i} + \sum_{j \neq i}\frac{\partial q_i}{\partial z_j} \\\\
 & = 
 \end{align}
 $$
