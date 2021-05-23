@@ -25,7 +25,7 @@ q_i = \frac{e^{z_i}}{\sum_{j=1}^{N}e^{z_j}}
 $$
 * 交叉熵(Cross Entropy)
 $$
-E = - \sum_{i=1}^Np_i log(q_i)
+E = - \sum_{i=1}^Np_i \mathop{log}(q_i)
 $$
 
 ### 参数更新策略
