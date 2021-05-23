@@ -20,6 +20,9 @@ TODO
 ### 目标函数选择
 * 正则项
 * SoftMax
+$$
+q_i = \frac{e^{z_i}}{\sum_{j=1}^{N}e^{z_j}}
+$$
 * 交叉熵(Cross Entropy)
 
 ### 参数更新策略
