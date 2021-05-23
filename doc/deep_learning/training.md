@@ -43,7 +43,7 @@ $$
 
 对交叉熵求导:
 $$
-frac{\partial E}{\partial q_i} = - p_i \frac{1}{q_i}
+\frac{\partial E}{\partial q_i} = -\frac{p_i}{q_i}
 $$
 于是:
 $$
