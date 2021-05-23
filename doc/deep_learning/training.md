@@ -24,6 +24,9 @@ $$
 q_i = \frac{e^{z_i}}{\sum_{j=1}^{N}e^{z_j}}
 $$
 * 交叉熵(Cross Entropy)
+$$
+E = - \sum_{i=1}^N
+$$
 
 ### 参数更新策略
 * AdaGrad:  解决各个方向梯度不一致的问题
