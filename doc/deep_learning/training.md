@@ -27,7 +27,15 @@ $$
 $$
 E = - \sum_{i=1}^Np_i \mathop{log}(q_i)
 $$
-SoftMax/交叉熵的求导:  假设真实输出$j$项为1， 其他为0， 则
+SoftMax/交叉熵的求导:  
+$$
+\begin{align}
+\frac{\partial q_i}{\partial z_j} & = \frac{\frac{\partial e^{z_i}}{\partial z_j} \sum - e^{z_i} \frac{\partial \sum}{\partial z_j}}{\sum ^2}
+\end{align}
+$$
+
+
+假设真实输出$j$项为1， 其他为0， 则
 $$
 E = - \mathop{log}(q_j)
 $$
