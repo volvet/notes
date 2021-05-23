@@ -37,7 +37,7 @@ $$
 $$
 如果 $j \neq i$:
 $$
-\frac{\partial q_i}{\partial z_j} = - frac{e^{z_i}e^{z_j}}{\sum ^2} = - q_i q_j
+\frac{\partial q_i}{\partial z_j} = - \frac{e^{z_i}e^{z_j}}{\sum ^2} = - q_i q_j
 $$
 
 
