@@ -29,7 +29,7 @@ E = - \sum_{i=1}^Np_i \mathop{log}(q_i)
 $$
 SoftMax/交叉熵的求导:  假设真实输出$j$项为1， 其他为0， 则
 $$
-E = - \methop{log}(q_j)
+E = - \mathop{log}(q_j)
 $$
 
 
