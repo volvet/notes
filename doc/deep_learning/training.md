@@ -41,10 +41,19 @@ $$
 $$
 
 
-假设真实输出$j$项为1， 其他为0， 则
+对交叉熵求导:
 $$
-E = - \mathop{log}(q_j)
+frac{\partial E}{\partial q_i} = - p_i \frac{1}{q_i}
 $$
+于是:
+$$
+\begin{align}
+\frac{\partial E}{\partial z_i} & = \sum_j frac{\partial E}{\partial q_i} frac{\partial q_i}{\partial z_j} \\\\
+& = \frac{partial E}{\partial q_i} \frac{\partial q_i}{\partial z_i} + \sum_{j \neq i}frac{\partial q_i}{\partial z_j} \\\\
+& = 
+\end{align}
+$$
+
 
 
 
