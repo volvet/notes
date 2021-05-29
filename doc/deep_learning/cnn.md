@@ -3,6 +3,7 @@
 
 ### AlexNet (Alex Krizhevsky 等人于2013年提出)
 * 以ReLU函数来代替Sigmoid或Tanh函数: 这样可以使网络以更快速度收敛.
+* 池化(Pooling)
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
