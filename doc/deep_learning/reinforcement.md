@@ -46,7 +46,7 @@ $$
 \begin{align}
 V^{\pi}(s) & = E[\sum_{t \geq 0}\gamma^t r_t|s_0=s, \pi] \\\\
 & = E[r_0 + \gamma \sum_{t \geq 0}\gamma^t r_{t+1} | s_0 = s, \pi] \\\\
-$ = \sum_{a \in A}p(a | s) \sum_{s^{'} \in S}p_{ss^{'}}^a(R_s^a + \gamma V^{\pi}(s^{'}))    
+& = \sum_{a \in A}p(a | s) \sum_{s^{'} \in S}p_{ss^{'}}^a(R_s^a + \gamma V^{\pi}(s^{'})) \\\\
 \end{align}
 $$
 
