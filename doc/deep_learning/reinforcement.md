@@ -27,5 +27,12 @@ $$
 G_t = R_{t+1} + \gamma R_{t+2} + \cdots = \sum_{k=0}^{\infty}\gamma^kR_{t+k+1}
 $$
 
+## Q-learning
+根据决策策略(Policy)， 可以获得一条路径: $s_0, a_0, r_0, s_1, a_1, r_1, \cdots$.
+定义1： 估值函数是衡量某个状态最终能获得多少累积奖励的函数:
+$$
+V^{\pi}(s) = E[\sum_{t \geq 0}\gamma^t r_t|s_0=s, \pi]
+$$
+
 ## Reference
 * 浙江大学机器学习课程 35 - 胡浩基
