@@ -16,8 +16,10 @@ $A_t$: $t$时刻的行为
 * $t=0$, 初始状态: $s_0, p(s_0)$
 * for $t=0:end$
     Agent 选择行为$a_t$  
-    Env 采样奖励函数$r_t - R(. | s_t, a_t)$  
-    Env 产生下一个状态: $s_{t+1} - P(. | s_t, a_t)$ 
+    Env 采样奖励函数$r_t： R(. | s_t, a_t)$  
+    Env 产生下一个状态: $s_{t+1}： P(. | s_t, a_t)$  
+    Agent 获得奖励函数$r_t$和下一个状态$s_{t+1}$
+* 学习一个策略(Policy)$\pi ^{\*}$, 这是从状态到行为的映射函数.
 
 
 ## Reference
