@@ -33,6 +33,10 @@ $$
 $$
 V^{\pi}(s) = E[\sum_{t \geq 0}\gamma^t r_t|s_0=s, \pi]
 $$
+定义2: Q函数是衡量某个状态下采取某个行为后， 最终能获得多少累积奖励的函数:
+$$
+Q^{\pi}(s, a) = E[\sum_{t \geq 0}\gamma^tr_t|s_0=s, a_0=a, \pi]
+$$
 
 ## Reference
 * 浙江大学机器学习课程 35 - 胡浩基
