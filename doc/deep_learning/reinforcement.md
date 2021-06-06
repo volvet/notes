@@ -54,7 +54,7 @@ $$
 \begin{align}
 & Q^{\pi}(s, a) =  \sum_{s^{'} \in S}p_{ss^{'}}^a(r_s^a + \gamma V^{\pi}(s^{'})) \\\\
 & \pi(s, a) = \begin{cases}
-1:  if \  a = \mathop(argmax) Q(s, a) \\\\
+1:  if \  a = \mathop{argmax} Q(s, a) \\\\
 0,  others \\\\
 \end{cases} \\\\
 & 则有: V^{\pi}(s) = \sum_{a \in A}\pi(s, a)Q^{\pi}(s, a) \\\\
