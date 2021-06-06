@@ -52,7 +52,7 @@ $$
 其中： $\pi(s, a) = p(a | s)$.
 $$
 \begin{align}
-& Q^{\pi}(s, a) =  \sum_{s^{'} \in S}p_{ss^{'}}^a(R_s^a + \gamma V^{\pi}(s^{'})) \\\\
+& Q^{\pi}(s, a) =  \sum_{s^{'} \in S}p_{ss^{'}}^a(r_s^a + \gamma V^{\pi}(s^{'})) \\\\
 & \pi(s, a) = \begin{cases}
 1:  if \  a = \mathop(argmax) Q(s, a) \\\\
 0,  others \\\\
