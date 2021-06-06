@@ -39,7 +39,7 @@ Q^{\pi}(s, a) = E[\sum_{t \geq 0}\gamma^tr_t|s_0=s, a_0=a, \pi]
 $$
 显然:
 $$
-V^{\pi} = \sum_{a \in A}p(a|s)Q^{\pi}(s, a)
+V^{\pi}(s) = \sum_{a \in A}p(a|s)Q^{\pi}(s, a)
 $$
 
 ## Reference
