@@ -57,7 +57,7 @@ $$
 1:  if a = \mathop(argmax) Q(s, a) \\\\
 0,  others \\\\
 \end{cases} \\\\
-则有: V^{\pi}(s) = \sum_{a \in A}\pi(s, a)Q^{\pi}(s, a) \\\\
+& 则有: V^{\pi}(s) = \sum_{a \in A}\pi(s, a)Q^{\pi}(s, a) \\\\
 \end{align}
 $$
 
