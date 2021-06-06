@@ -13,7 +13,12 @@ $A_t$: $t$时刻的行为
 注: $s^{'}$表示下一时刻的状态.
 
 ## 马尔可夫决策过程(Markov Decision Process)
-* $t=0$, 初始状态: $s_0 ~~ p(s_0)$
+* $t=0$, 初始状态: $s_0, p(s_0)$
+* for $t=0:end$
+    Agent 选择行为$a_t$  
+    Env 采样奖励函数$r_t - R(. | s_t, a_t)$  
+    Env 产生下一个状态: $s_{t+1} - P(. | s_t, a_t)$ 
+
 
 ## Reference
 * 浙江大学机器学习课程 35 - 胡浩基
