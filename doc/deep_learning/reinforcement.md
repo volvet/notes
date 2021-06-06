@@ -12,5 +12,7 @@ $A_t$: $t$时刻的行为
 
 注: $s^{'}$表示下一时刻的状态.
 
+## 马尔可夫决策过程(Markov Decision Process)
+
 ## Reference
 * 浙江大学机器学习课程 35 - 胡浩基
