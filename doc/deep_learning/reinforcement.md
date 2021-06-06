@@ -37,6 +37,10 @@ $$
 $$
 Q^{\pi}(s, a) = E[\sum_{t \geq 0}\gamma^tr_t|s_0=s, a_0=a, \pi]
 $$
+显然:
+$$
+V^{\pi} = \sum_{a \in A}p(a|s)Q^{\pi}(s, a)
+$$
 
 ## Reference
 * 浙江大学机器学习课程 35 - 胡浩基
