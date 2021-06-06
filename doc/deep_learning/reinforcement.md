@@ -42,11 +42,11 @@ $$
 V^{\pi}(s) = \sum_{a \in A}p(a|s)Q^{\pi}(s, a)
 $$
 $$
-\begin{align}
+\begin{aligns}
 V^{\pi}(s) & = E[\sum_{t \geq 0}\gamma^t r_t|s_0=s, \pi] \\\\
 & = E[r_0 + \gamma \sum_{t \geq 0}\gamma^t r_{t+1} \ s_0 = s, \pi] \\\\
 $$
-\end{align}
+\end{aligns}
 $$
 
 
