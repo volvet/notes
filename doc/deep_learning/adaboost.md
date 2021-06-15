@@ -1,5 +1,5 @@
 # 特征选择 - AdaBoost
-$X$有$N$个特征值
+特征选择问题: $X$有$N$个特征值
 $$
 X = 
 \begin{bmatrix}
