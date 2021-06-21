@@ -16,7 +16,8 @@ $$
 ## AdaBoost 算法流程
 数据集$T = \\{ (x_1, y_1), (x_2, y_2), \cdots, （x_N, y_N） \\}$  
 二分类问题： $y_i = \\{ -1, 1\\}$  
-* 初始化采样权重 $D_1 = (\omega_{11}, \omega_{12}, \cdots, \omega_{1N}), \omega_{1i} = \frac{1}{N}, i = 1 \to N$
+* 初始化采样权重 $D_1 = (\omega_{11}, \omega_{12}, \cdots, \omega_{1N}), \omega_{1i} = \frac{1}{N}, i = 1, 2, \cdots, N$
+* 对$m = 1, 2, \cdots, M$, $M$为弱分类器的个数
 
 ## Reference
 * 浙江大学机器学习课程 39 - 胡浩基
