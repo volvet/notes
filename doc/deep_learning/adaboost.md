@@ -21,6 +21,7 @@ $$
 $$
 G_m(x) = \begin{cases} 1 \\\\ 
 -1
+\end{cases}
 $$
 
 ## Reference
