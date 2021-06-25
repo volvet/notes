@@ -23,7 +23,7 @@ G_m(x) = \begin{cases} 1 \\\\
 -1
 \end{cases}
 $$
-* 计算加权错误率
+* 计算加权错误率, $\alpha_m$为分类器$G_m$的权重
 $$
 e_m = P(G_m(x_i) \neq y_i) = \sum_{i=1}^{N}\omega_iI(G_m(x_i) \neq y_i) \\\\
 \alpha_m = \frac{1}{2} \log \frac{1 - e_m}{e_m}
