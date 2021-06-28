@@ -28,7 +28,11 @@ $$
 e_m = P(G_m(x_i) \neq y_i) = \sum_{i=1}^{N}\omega_iI(G_m(x_i) \neq y_i) \\\\
 \alpha_m = \frac{1}{2} \log \frac{1 - e_m}{e_m}
 $$
-
+* 更新权值分布
+$$
+D_{m+1} = (\omega_{m+1, 1}, \omega_{m+1, 2}, \cdots, \omega_{m+1, N}) \\\\
+\omega_{m+1, i} = frac{\omega_{m, i}}{z_m}
+$$
 
 ## Reference
 * 浙江大学机器学习课程 39 - 胡浩基
