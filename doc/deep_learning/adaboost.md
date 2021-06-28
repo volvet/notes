@@ -34,7 +34,12 @@ D_{m+1} = (\omega_{m+1, 1}, \omega_{m+1, 2}, \cdots, \omega_{m+1, N}) \\\\
 \omega_{m+1, i} = \frac{\omega_{m, i}}{z_m} e^{-\alpha_my_iG_m(x_i)} \\\\ 
 z_m = \sum_{i=1}^{N}\omega_{m, i} e^{-\alpha_my_iG_m(x_i)}
 $$
-* 回到step 2
+* 回到step 2, 循环 $m$次
+* 最终识别器为$G(x)$
+$$
+f(x) = \sum_{m=1}{M}\alpha_mG_m(x) \\\\
+g(x) = \mathop{sign}(f(x))
+$$
 
 ## Reference
 * 浙江大学机器学习课程 39 - 胡浩基
