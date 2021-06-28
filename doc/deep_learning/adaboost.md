@@ -41,5 +41,8 @@ f(x) = \sum_{m=1}^{M}\alpha_mG_m(x) \\\\
 g(x) = \mathop{sign}(f(x))
 $$
 
+## AdaBoost 定理
+随着$M$增加， AdaBoost最终的分类器$G(x)$在训练集上的错误率将会越来越小.
+
 ## Reference
 * 浙江大学机器学习课程 39 - 胡浩基
