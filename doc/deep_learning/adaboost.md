@@ -31,7 +31,8 @@ $$
 * 更新权值分布
 $$
 D_{m+1} = (\omega_{m+1, 1}, \omega_{m+1, 2}, \cdots, \omega_{m+1, N}) \\\\
-\omega_{m+1, i} = \frac{\omega_{m, i}}{z_m} e^{-\alpha_my_iG_m(x_i)}
+\omega_{m+1, i} = \frac{\omega_{m, i}}{z_m} e^{-\alpha_my_iG_m(x_i)} \\\\ 
+z_m = \sum_{i=1}^{N}\omega_{m, i} e^{-\alpha_my_iG_m(x_i)}
 $$
 
 ## Reference
