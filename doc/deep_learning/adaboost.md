@@ -37,7 +37,7 @@ $$
 * 回到step 2, 循环 $m$次
 * 最终识别器为$G(x)$
 $$
-f(x) = \sum_{m=1}{M}\alpha_mG_m(x) \\\\
+f(x) = \sum_{m=1}^{M}\alpha_mG_m(x) \\\\
 g(x) = \mathop{sign}(f(x))
 $$
 
