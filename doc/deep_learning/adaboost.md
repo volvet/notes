@@ -42,7 +42,7 @@ g(x) = \mathop{sign}(f(x))
 $$
 
 ## AdaBoost 定理
-随着$M$增加， AdaBoost最终的分类器$G(x)$在训练集上的错误率将会越来越小.
+随着$M$增加， AdaBoost最终的分类器$G(x)$在训练集上的错误率将会越来越小.  
 错误率:
 $$
 E = \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}e^{-y_if(x_i)} \\\\
