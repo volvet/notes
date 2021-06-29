@@ -52,7 +52,10 @@ E &= \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}\sum_{i=1}^{N}e
 $$
 证明:
 $$
-E \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)}
+\begin{align}
+E & \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)} \\\\
+& = \sum_{i=1}^{N}\omega_{1,i} \prod_{m=1}^{M} e^{- \alpha_m y_i G_m(x_i)} \\\\
+\end{align}
 $$
 
 ## Reference
