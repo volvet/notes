@@ -46,13 +46,13 @@ $$
 错误率:
 $$
 \begin{align}
-E &= \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}e^{-y_if(x_i)} \\\\
+E &= \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}\sum_{i=1}^{M}e^{-y_if(x_i)} \\\\
 &= \prod_{i=1}^{M} Z_m
 \end{align}
 $$
 证明:
 $$
-E \leq \frac{1}{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)}
+E \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)}
 $$
 
 ## Reference
