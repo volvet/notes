@@ -55,7 +55,8 @@ $$
 \begin{align}
 E & \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)} \\\\
 & = \sum_{i=1}^{N}\omega_{1,i} \prod_{m=1}^{M} e^{- \alpha_m y_i G_m(x_i)} \\\\
-& = \sum_{i=1}^{N}(\omega_{1,i}e^{-\alpha_1 y_1 G_1(x_i)})(\prod_{m=2}^{M}e^{-\alpha_m y_m G_m(x_i})
+& = \sum_{i=1}^{N}(\omega_{1,i}e^{-\alpha_1 y_1 G_1(x_i)})(\prod_{m=2}^{M}e^{-\alpha_m y_m G_m(x_i}) \\\\
+& = \sum{i=1}^{N}(\omega_{2, i) Z_1) (\prod_{m=2}^{M}e^{-\alpha_m y_m G_m(x_i})
 \end{align}
 $$
 
