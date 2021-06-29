@@ -59,7 +59,7 @@ E & \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)} \\
 \end{align}
 $$
 
-& = \sum{i=1}^{N}(\omega_{2, i) Z_1) (\prod_{m=2}^{M}e^{-\alpha_m y_m G_m(x_i)} \\\\
+& = \sum{i=1}^{N}(\omega_{2, i) Z_1) (\prod_{m=2}^{M}e^{-\alpha_m y_m G_m(x_i)}) \\\\
 
 ## Reference
 * 浙江大学机器学习课程 39 - 胡浩基
