@@ -31,8 +31,8 @@ $$
 * 更新权值分布
 $$
 D_{m+1} = (\omega_{m+1, 1}, \omega_{m+1, 2}, \cdots, \omega_{m+1, N}) \\\\
-\omega_{m+1, i} = \frac{\omega_{m, i}}{z_m} e^{-\alpha_my_iG_m(x_i)} \\\\ 
-z_m = \sum_{i=1}^{N}\omega_{m, i} e^{-\alpha_my_iG_m(x_i)}
+\omega_{m+1, i} = \frac{\omega_{m, i}}{Z_m} e^{-\alpha_my_iG_m(x_i)} \\\\ 
+Z_m = \sum_{i=1}^{N}\omega_{m, i} e^{-\alpha_my_iG_m(x_i)}
 $$
 * 回到step 2, 循环 $m$次
 * 最终识别器为$G(x)$
@@ -45,7 +45,10 @@ $$
 随着$M$增加， AdaBoost最终的分类器$G(x)$在训练集上的错误率将会越来越小.  
 错误率:
 $$
-E = \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}e^{-y_if(x_i)} \\\\
+\begin{align}
+E &= \frac{1}{N}\sum_{i=1}^{N}I(G(x_i) \neq y_i) \leq \frac{1}{N}e^{-y_if(x_i)} \\\\
+&= \prod_{i=1}^{M} Z_m
+\end{align}
 $$
 
 ## Reference
