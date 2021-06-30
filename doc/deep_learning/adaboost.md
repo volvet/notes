@@ -64,7 +64,10 @@ $$
 
 继续:
 $$
-Z_m = \sum_{i=1}^{N}\omega_{m, i}e^{-\alpha_m y_i G_m(x_i)}
+\begin{align}
+Z_m & = \sum_{i=1}^{N}\omega_{m, i}e^{-\alpha_m y_i G_m(x_i)} \\\\
+& = \sum_{i=1, y_i = G_m(x_i)}^{N}\omega_{m, i}e^{-\alpha_m} + \sum_{i=1, y_i \neq G_m(x_i)}^{N}\omega_{m, i}e^{\alpha_m} \\\\
+\end{align}
 $$
 
 
