@@ -67,6 +67,7 @@ $$
 \begin{align}
 Z_m & = \sum_{i=1}^{N}\omega_{m, i}e^{-\alpha_m y_i G_m(x_i)} \\\\
 & = \sum_{i=1, y_i = G_m(x_i)}^{N}\omega_{m, i}e^{-\alpha_m} + \sum_{i=1, y_i \neq G_m(x_i)}^{N}\omega_{m, i}e^{\alpha_m} \\\\
+& = (1 - e_m)e^{-\alpha_m} + e_me^{\alpha_m} \\\\
 \end{align}
 $$
 
