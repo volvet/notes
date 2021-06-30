@@ -62,13 +62,17 @@ E & \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)} \\
 \end{align}
 $$
 
-继续:
+来看$Z_m$:
 $$
 \begin{align}
 Z_m & = \sum_{i=1}^{N}\omega_{m, i}e^{-\alpha_m y_i G_m(x_i)} \\\\
 & = \sum_{i=1, y_i = G_m(x_i)}^{N}\omega_{m, i}e^{-\alpha_m} + \sum_{i=1, y_i \neq G_m(x_i)}^{N}\omega_{m, i}e^{\alpha_m} \\\\
 & = (1 - e_m)e^{-\alpha_m} + e_me^{\alpha_m} \\\\
 \end{align}
+$$
+将$\alpha_m = \frac{1}{2} \log \frac{1 - e_m}{e_m}$代入上式:
+$$
+Z_m = 2\sqrt{e_m(1-e_m)}
 $$
 
 
