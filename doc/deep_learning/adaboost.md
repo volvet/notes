@@ -62,6 +62,11 @@ E & \leq \frac{1}{N} \sum_{i=1}^{N} e^{- \sum_{m=1}^{M}\alpha_m y_i G_m(x_i)} \\
 \end{align}
 $$
 
+继续:
+$$
+Z_m = \sum_{i=1}^{N}\omega_{m, i}e^{-\alpha_m y_i G_m(x_i)}
+$$
+
 
 
 ## Reference
