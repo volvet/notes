@@ -2,7 +2,7 @@
 
 ## RCNN （Regional CNN)
 
-### Basic Idears:
+### Basic Ideas:
 * Use selective search to generate proposals
 * Scale and resize proposals to fit the CNN
 * SVM for final decisions
