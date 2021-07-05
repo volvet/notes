@@ -7,5 +7,7 @@
 * Scale and resize proposals to fit the CNN
 * SVM for final decisions
 
+## Fast RCNN
+
 ## Reference
 * 浙江大学机器学习课程 40 - 胡浩基
