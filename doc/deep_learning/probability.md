@@ -8,3 +8,8 @@ $$
 若 P(\omega_1 | x） < P(\omega_2 | x), 则 x \in \omega_2
 $$
 
+由贝叶斯定理， 可得
+
+
+** Reference
+* 浙江大学机器学习课程 41 - 胡浩基
