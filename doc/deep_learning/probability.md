@@ -19,6 +19,9 @@ $$
 若 P(x | \omega_1)P(\omega_1) < P(x | \omega_2)P(\omega_2), 则 x \in \omega_2 \\\\
 $$
 
+$P(\omega_1) 和 P(\omega_2)$ 是   $\omega$的先验概率
+
+
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
