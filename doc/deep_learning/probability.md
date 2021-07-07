@@ -13,6 +13,11 @@ $$
 P(\omega_1 | x) = \frac{P(x, \omega_1)}{P(x)} = \frac{P(x | \omega_1)P(\omega_1)}{p(x)} \\\\
 P(\omega_2 | x) = \frac{p(x, \omega_2)}{P(x)} = \frac{P(x | \omega_2)P(\omega_2)}{P(x)}
 $$
+于是， 分类问题可以写为:
+$$
+若 P(x | \omega_1)P(\omega_1) > P(x | \omega_2)P(\omega_2), 则 x \in \omega_1 \\\\
+若 P(x | \omega_1)P(\omega_1) < P(x | \omega_2)P(\omega_2), 则 x \in \omega_2 \\\\
+$$
 
 
 ## Reference
