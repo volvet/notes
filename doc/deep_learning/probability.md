@@ -10,7 +10,7 @@ $$
 
 由贝叶斯定理， 可得
 $$
-P(\omega_1 | x) = \frac{P(x, \omega_1)}{P(x)} = \frac{P(x | \omega_1)P(\omega_1)}{p(x)} \\\\
+P(\omega_1 | x) = \frac{P(x, \omega_1)}{P(x)} = \frac{P(x | \omega_1)P(\omega_1)}{P(x)} \\\\
 P(\omega_2 | x) = \frac{p(x, \omega_2)}{P(x)} = \frac{P(x | \omega_2)P(\omega_2)}{P(x)}
 $$
 于是， 分类问题可以写为:
@@ -20,7 +20,7 @@ $$
 $$
 
 $P(\omega_1) 和 P(\omega_2)$ 是$\omega$的先验概率, $P(\omega_1 | x) 和 P(\omega_2 | x)$是$x$在$\omega$上的后验概率.  
-若不知道先验概率， 则可以假设所有先验概率是一样的， 于斯分类问题写为：
+若不知道先验概率， 则可以假设所有先验概率是一样的， 于是分类问题写为：
 $$
 若 P(x | \omega_1) > P(x | \omega_2), 则 x \in \omega_1 \\\\
 若 P(x | \omega_1) < P(x | \omega_2), 则 x \in \omega_2 \\\\
