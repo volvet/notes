@@ -25,7 +25,7 @@ $$
 若 P(x | \omega_1) > P(x | \omega_2), 则 x \in \omega_1 \\\\
 若 P(x | \omega_1) < P(x | \omega_2), 则 x \in \omega_2 \\\\
 $$
-那么如何估计$P(x | \omega)$, 或者说， 给定一组$\\{x_i\\} \in \omega, x = 1 ~ N$, 如何求$P(x | \omega)$
+那么如何估计$P(x | \omega)$, 或者说， 给定一组$\\{x_i\\} \in \omega, x = 1 \~ N$, 如何求$P(x | \omega)$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
