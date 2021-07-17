@@ -28,6 +28,15 @@ $$
 那么如何估计$P(x | \omega)$, 或者说， 给定一组$\\{x_i\\} \in \omega, x = 1, 2, \cdots, N$, 如何求$P(x | \omega)$, 这是概率密度估计问题
 
 ## 朴素贝叶斯分类(Naive Bayesian Classifier)
+TODO
+
+## 高斯概率密度估计
+假设$x_i, i = 1, 2, \cdots, N \in C$, $x_i$ 是一维的情况:
+$$
+P(x | C) = \frac{1}{\sqrt{2\pi\sigma}}
+$$
+
+
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
