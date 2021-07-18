@@ -26,7 +26,6 @@ $$
 若 P(x | \omega_1) < P(x | \omega_2), 则 x \in \omega_2 \\\\
 $$
 那么如何估计$P(x | \omega)$, 或者说， 给定一组$\\{x_i\\} \in \omega, x = 1, 2, \cdots, N$, 如何求$P(x | \omega)$, 这是概率密度估计问题
-
 ## 朴素贝叶斯分类(Naive Bayesian Classifier)
 TODO
 
@@ -42,6 +41,11 @@ $$
 
 ###  多维高斯概率密度
 若$x$是$d$维向量, 即$x = [x_1, x_2, \cdots, x_d]^T$, 各维度的均值和反差分别为$\mu_1, \sigma_1, \cdots, \mu_d, \sigma_d$, 且各个维度是独立同分布（IID）的高斯分布.
+则它们的联合概率分布为各自概率密度函数的乘积. 计为:
+$$
+f(x) = 
+$$
+
 
 
 
