@@ -74,7 +74,7 @@ $$
 构建目标函数$E(\mu, \Sigma) = \sum_{i=1}^{N}ln(P(X_i|C)）$
 假设所有$X_i, i = 1, 2, \cdots, N$是独立同分布的.  问题就是要求$\mu, \Sigma$使得$X_i$的概率最大.
 $$
-E(\mu, \Sigma) = -\frac{Nd}{2}ln(2\pi) - \frac{N}{2}ln(|\Sigma|) - \frac{1}{2}(X - \mu)^T\Sigma(X - \mu)
+E(\mu, \Sigma) = -\frac{Nd}{2}ln(2\pi) - \frac{N}{2}ln(|\Sigma|) - \frac{1}{2}\sum_{i=1}^N(X_i - \mu)^T\Sigma(X_i - \mu)
 $$
 
 
