@@ -41,7 +41,7 @@ P(x | C) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\\\
 $$
 
 ###  多维高斯概率密度
-
+若$x$是$d$维向量, 即$x = [x_1, x_2, \cdots, x_d]^T$
 
 
 
