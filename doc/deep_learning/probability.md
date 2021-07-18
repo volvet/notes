@@ -77,6 +77,11 @@ $$
 E(\mu, \Sigma) = -\frac{Nd}{2}ln(2\pi) - \frac{N}{2}ln(|\Sigma|) - \frac{1}{2}\sum_{i=1}^N(X_i - \mu)^T\Sigma^{-1}(X_i - \mu)
 $$
 
+$$
+\frac{\partial E}{\partial \mu} = 0 \\\\
+\sum_{i=1}^{N}(X_i - \mu) = 0 \\\\
+\mu = \frac{1}{N}\sim_{i=1}^{N}X_i
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
