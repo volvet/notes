@@ -31,12 +31,17 @@ $$
 TODO
 
 ## 高斯概率密度估计
+
+###  一维高斯概率密度
 假设$x_i, i = 1, 2, \cdots, N \in C$, $x_i$ 是一维的情况:
 $$
 P(x | C) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\\\
 \mu = \frac{1}{N}\sum_{i=1}^N x_i \\\\
 \sigma^2 = \frac{1}{N}\sum_{i=1}^N (x_i - \mu)^2
 $$
+
+###  多维高斯概率密度
+
 
 
 
