@@ -87,6 +87,7 @@ $$
 \frac{\partial E}{\partial \Sigma^{-1}} = 0 \\\\
 \frac{N}{2}\Sigma^T - \frac{1}{2}\sum_{i=1}^{N}(X_i - \mu)(X_i - \mu)^T = 0 \\\\
 \Sigma^T = \frac{1}{N}\sum_{i=1}^{N}(X_i - \mu)(X_i - \mu)^T \\\\
+\Sigma = \Sigma^T
 $$
 
 ## Reference
