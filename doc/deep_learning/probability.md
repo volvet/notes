@@ -52,7 +52,7 @@ $$
 $$
 \begin{align}
 d^2(x) &= (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma_d})^2 \\\\
-&= [x_1 - \mu_1, \cdots, \x_d - \mu_d]
+&= [x_1 - \mu_1, \cdots, x_d - \mu_d]
 \begin{matrix}
 \frac{1}{\sigma_1^2} & 0 & 0 & \cdots \\\\
 0 & \frac{1}{\sigma_2^2} & 0 & \cdots \\\\
