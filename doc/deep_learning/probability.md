@@ -63,7 +63,7 @@ d^2(x) &= (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma
 &= (X - \mu)^T \Sigma (X - \mu) \\\\
 \end{align}
 $$
-
+因为$X$各个维度独立， 所以$\Sigma$是$X$的协方差矩阵.
 
 
 
