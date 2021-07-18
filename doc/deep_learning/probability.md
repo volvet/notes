@@ -60,21 +60,21 @@ d^2(x) &= (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma
 0 & 0 & \cdots & \frac{1}{\sigma_d^2} \\\\
 \end{bmatrix}
 [x_1 - \mu_1, \cdots, x_d - \mu_d]^T \\\\
-&= (X - \mu)^T \Sigma (X - \mu) \\\\
+&= (X - \mu)^T \Sigma^{-1} (X - \mu) \\\\
 \end{align}
 $$
 因为$X$各个维度独立， 所以$\Sigma$是$X$的协方差矩阵. 于是:
 $$
-f(x) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma(X - \mu)}
+f(x) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma^{-1}(X - \mu)}
 $$
 
 ### 多维高斯概率密度估计(极大似然法)
 已知$X_i, i = 1, 2, \cdots, N$
-令 $P(X|C) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma(X - \mu)}$, 估计$\Sigma, \mu$  
+令 $P(X|C) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma^{-1}(X - \mu)}$, 估计$\Sigma, \mu$  
 构建目标函数$E(\mu, \Sigma) = \sum_{i=1}^{N}ln(P(X_i|C)）$
 假设所有$X_i, i = 1, 2, \cdots, N$是独立同分布的.  问题就是要求$\mu, \Sigma$使得$X_i$的概率最大.
 $$
-E(\mu, \Sigma) = -\frac{Nd}{2}ln(2\pi) - \frac{N}{2}ln(|\Sigma|) - \frac{1}{2}\sum_{i=1}^N(X_i - \mu)^T\Sigma(X_i - \mu)
+E(\mu, \Sigma) = -\frac{Nd}{2}ln(2\pi) - \frac{N}{2}ln(|\Sigma|) - \frac{1}{2}\sum_{i=1}^N(X_i - \mu)^T\Sigma^{-1}(X_i - \mu)
 $$
 
 
