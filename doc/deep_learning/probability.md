@@ -56,7 +56,7 @@ d^2(x) &= (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma
 \begin{bmatrix}
 \frac{1}{\sigma_1^2} & 0 & \cdots & 0 \\\\
 0 & \frac{1}{\sigma_2^2} & \cdots & 0 \\\\
-. & . & . & . \\\\
+. & . & \cdots & . \\\\
 0 & 0 & \cdots & \frac{1}{\sigma_d^2} \\\\
 \end{bmatrix}
 \end{align}
