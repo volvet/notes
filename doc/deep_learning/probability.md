@@ -90,5 +90,7 @@ $$
 \Sigma = \Sigma^T
 $$
 
+## 混合高斯模型(Gaussian Mixture Model)
+
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
