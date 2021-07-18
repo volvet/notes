@@ -60,7 +60,7 @@ d^2(x) &= (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma
 0 & 0 & \cdots & \frac{1}{\sigma_d^2} \\\\
 \end{bmatrix}
 [x_1 - \mu_1, \cdots, x_d - \mu_d]^T \\\\
-(X - \mu)^T \Sigma (X - \mu) \\\\
+&= (X - \mu)^T \Sigma (X - \mu) \\\\
 \end{align}
 $$
 
