@@ -43,7 +43,7 @@ $$
 若$x$是$d$维向量, 即$x = [x_1, x_2, \cdots, x_d]^T$, 各维度的均值和反差分别为$\mu_1, \sigma_1, \cdots, \mu_d, \sigma_d$, 且各个维度是独立同分布（IID）的高斯分布.
 则它们的联合概率分布为各自概率密度函数的乘积. 计为:
 $$
-f(x) = 
+f(x) = \frac{1}{\sqrt{2\pi}\sigma_1}e^{-\frac{(x-\mu_1)^2}{2\sigma_1^2}} \cdots \frac{1}{\sqrt{2\pi}\sigma_d}e^{-\frac{(x-\mu_d)^2}{2\sigma_d^2}}
 $$
 
 
