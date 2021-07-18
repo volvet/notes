@@ -45,8 +45,8 @@ $$
 $$
 \begin{align}
 f(x) &= \frac{1}{\sqrt{2\pi}\sigma_1}e^{-\frac{(x-\mu_1)^2}{2\sigma_1^2}} \cdots \frac{1}{\sqrt{2\pi}\sigma_d}e^{-\frac{(x-\mu_d)^2}{2\sigma_d^2}} \\\\
-& = \frac{1}{(\sqrt{2\pi})^d\\sigma_1\sigma_2\cdots\sigma_d}e^{-\frac{1}{2}}
-]end{align}
+& = \frac{1}{(\sqrt{2\pi})^d\\sigma_1\sigma_2\cdots\sigma_d}e^{-\frac{1}{2}} \\\\
+\end{align}
 $$
 
 
