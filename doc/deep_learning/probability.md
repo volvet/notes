@@ -80,7 +80,7 @@ $$
 $$
 \frac{\partial E}{\partial \mu} = 0 \\\\
 \sum_{i=1}^{N}(X_i - \mu) = 0 \\\\
-\mu = \frac{1}{N}\sim_{i=1}^{N}X_i
+\mu = \frac{1}{N}\sum_{i=1}^{N}X_i
 $$
 对$\Sigma$求导
 $$
