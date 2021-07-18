@@ -68,7 +68,10 @@ $$
 f(x) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma(X - \mu)}
 $$
 
-### 多维高斯概率密度估计
+### 多维高斯概率密度估计(极大似然法)
+已知$X_i, i = 1, 2, \cdots, N$
+令 $P(X|C) = \frac{1}{\sqrt{(2\pi)^d |\Sigma|}}e^{-\frac{1}{2}(X - \mu)^T\Sigma(X - \mu)}$, 欲求的$\Sigma, \mu$
+构建目标函数$E(\mu, \Sigma) = \sum_{i=1}^{N}ln(P(X_i|C)$
 
 
 ## Reference
