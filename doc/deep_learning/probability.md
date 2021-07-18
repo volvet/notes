@@ -41,7 +41,7 @@ P(x | C) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \\\\
 $$
 
 ###  多维高斯概率密度
-若$x$是$d$维向量, 即$x = [x_1, x_2, \cdots, x_d]^T$
+若$x$是$d$维向量, 即$x = [x_1, x_2, \cdots, x_d]^T$, 各维度的均值和反差分别为$\mu_1, \sigma_1, \cdots, \mu_d, \sigma_d$, 且各个维度是独立同分布（IID）的高斯分布.
 
 
 
