@@ -82,9 +82,11 @@ $$
 \sum_{i=1}^{N}(X_i - \mu) = 0 \\\\
 \mu = \frac{1}{N}\sum_{i=1}^{N}X_i
 $$
-对$\Sigma$求导
+对$\Sigma^{-1}$求导
 $$
-\frac{\partial E}{\partial \Sigma} = 0 \\\\
+\frac{\partial E}{\partial \Sigma^{-1}} = 0 \\\\
+\frac{N}{2}\Sigma^T - \frac{1}{2}\sum_{i=1}^{N}(X_i - \mu)(X_i - \mu)^T = 0 \\\\
+\Sigma^T = \frac{1}{N}\sum_{i=1}^{N}(X_i - \mu)(X_i - \mu)^T \\\\
 $$
 
 ## Reference
