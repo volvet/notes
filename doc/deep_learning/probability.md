@@ -48,6 +48,10 @@ f(x) &= \frac{1}{\sqrt{2\pi}\sigma_1}e^{-\frac{(x-\mu_1)^2}{2\sigma_1^2}} \cdots
 & = \frac{1}{(\sqrt{2\pi})^d\\sigma_1\sigma_2\cdots\sigma_d}e^{-\frac{1}{2}\sum_{i=1}^d(\frac{x_i-\mu_i}{\sigma_i})^2} \\\\
 \end{align}
 $$
+写成矩阵的形式:
+$$
+d^2(x) = 
+$$
 
 
 
