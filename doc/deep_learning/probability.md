@@ -50,7 +50,7 @@ f(x) &= \frac{1}{\sqrt{2\pi}\sigma_1}e^{-\frac{(x-\mu_1)^2}{2\sigma_1^2}} \cdots
 $$
 写成矩阵的形式:
 $$
-d^2(x) = 
+d^2(x) = (\frac{x_1 - \mu_1}{\sigma_1})^2 + \cdots + (\frac{x_d - \mu_d}{\sigma_d})^2
 $$
 
 
