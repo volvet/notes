@@ -118,6 +118,13 @@ $$
 N_k = \sum_{n=1}^{N}\gamma_{nk}
 $$
 $N_k$是所有$N$个样本中有多少个属于第$k$个高斯, 可知: $\sum_{k=1}^{K}N_k = N$.  
+$$
+\begin{cases}
+\pi_k^{new} = \frac{N_k}{N} \\\\
+\mu_k^{new} = \frac{1}{N_k}\sum_{n=1}^{N}\gamma_{nk}x_n \\\\
+\Sigma_k^{new} = \frac{1}{N_k}\sum_{n=1}^{N}\gamma_{nk}(x_n - \mu_k^{new})(x_n - \mu_k^{new})^T \\\\
+\end{cases}
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
