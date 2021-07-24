@@ -91,6 +91,9 @@ $$
 $$
 
 ## 混合高斯模型(Gaussian Mixture Model)
+$$
+p(x) = \sum_{k=1}^{K}\pi_{k}N(x|\mu_k, \Sigma_k)
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
