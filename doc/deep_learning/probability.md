@@ -107,7 +107,8 @@ $$
 $$
 这是一个非凸优化问题， 无法求的全局最优解, 只能求求解局部最优.  可以使用梯度下降， 启发式方法（基因算法/退火算法）, EM算法来求解.
 
-### 混合高斯模型EM算法(Expectation-Maximization)
+## 混合高斯模型EM算法(Expectation-Maximization)
+* 随机化$(\pi_k, \mu_k, \Sigma_k), k=1, 2, \cdots, K$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
