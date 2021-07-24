@@ -99,6 +99,11 @@ $$
 N(x|\mu_k, \Sigma_k) = \frac{1}{\sqrt{(2\pi)^d|\Sigma_k|}}e^{-\frac{1}{2}(x - \mu_k)^T\Sigma_{k}^{-1}(x - \mu_k)} \\\\
 \sum_{k=1}^{K}\pi_k = 1
 $$
+使用极大似然法估计混合高斯模型的概率密度：
+$$
+输入: x_i, i = 1, 2, \cdots, N \\\\
+最小化E(\pi_k, \mu_k, \Sigma_k, k = 1, 2, \cdots, N)
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
