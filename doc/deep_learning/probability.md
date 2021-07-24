@@ -96,7 +96,7 @@ p(x) = \sum_{k=1}^{K}\pi_{k}N(x|\mu_k, \Sigma_k)
 $$
 其中：
 $$
-N(x|\mu_k, \Sigma_k) = \frac{1}{\sqrt{(2\pi)^d|\Sigma_k|}}e^{-\frac{1}{2}(x - \mu_k)^T\Sigma^{-1}(x - \mu_k)} \\\\
+N(x|\mu_k, \Sigma_k) = \frac{1}{\sqrt{(2\pi)^d|\Sigma_k|}}e^{-\frac{1}{2}(x - \mu_k)^T\Sigma_{k}^{-1}(x - \mu_k)} \\\\
 \sum_{k=1}^{K}\pi_k = 1
 $$
 
