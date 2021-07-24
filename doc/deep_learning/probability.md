@@ -125,6 +125,7 @@ $$
 \Sigma_k^{new} = \frac{1}{N_k}\sum_{n=1}^{N}\gamma_{nk}(x_n - \mu_k^{new})(x_n - \mu_k^{new})^T \\\\
 \end{cases}
 $$
+* 回到 E-step
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
