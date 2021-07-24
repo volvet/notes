@@ -102,7 +102,8 @@ $$
 使用极大似然法估计混合高斯模型的概率密度：
 $$
 输入: x_i, i = 1, 2, \cdots, N \\\\
-最小化: E(\pi_k, \mu_k, \Sigma_k), k = 1, 2, \cdots, N
+最小化: E(\pi_k, \mu_k, \Sigma_k | k = 1, 2, \cdots, N) \\\\
+= - \sum_{k=1}^Klog(p(x_i)
 $$
 
 ## Reference
