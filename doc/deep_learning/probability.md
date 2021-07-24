@@ -109,6 +109,10 @@ $$
 
 ## 混合高斯模型EM算法(Expectation-Maximization)
 * 随机化$(\pi_k, \mu_k, \Sigma_k), k=1, 2, \cdots, K$
+* E-step:
+$$
+\gamma_{nk} = \frac{\pi_kN(x_n|\mu_k, \Sigma_k}{\sum_{k=1}^{K}\pi_kN(x_n |\mu_k, \Sigma_k)}, n=1,2,\cdots,N, k=1,2,\cdots,K
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
