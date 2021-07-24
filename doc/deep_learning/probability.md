@@ -109,7 +109,7 @@ $$
 
 ## 混合高斯模型EM算法(Expectation-Maximization)
 * 随机化$(\pi_k, \mu_k, \Sigma_k), k=1, 2, \cdots, K$
-* E-step:
+* E-step: ($\gamma_{nk}$是第$n$歌样本落在第$k$个高斯的概率)
 $$
 \gamma_{nk} = \frac{\pi_kN(x_n|\mu_k, \Sigma_k)}{\sum_{k=1}^{K}\pi_kN(x_n |\mu_k, \Sigma_k)}, n=1,2,\cdots,N, k=1,2,\cdots,K
 $$
