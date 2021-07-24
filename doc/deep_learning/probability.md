@@ -94,6 +94,11 @@ $$
 $$
 p(x) = \sum_{k=1}^{K}\pi_{k}N(x|\mu_k, \Sigma_k)
 $$
+其中：
+$$
+\N(x|\mu_k, \Sigma_k) = \frac{1}{\sqrt{(2\pi)^d}} \\\\
+\sum_{k=1}^{K}\pi_k = 1
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
