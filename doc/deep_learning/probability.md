@@ -127,5 +127,7 @@ $$
 $$
 * 回到 E-step, 到收敛为止
 
+## K-均值聚类(K-means Clustering)
+
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
