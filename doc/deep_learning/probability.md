@@ -113,6 +113,11 @@ $$
 $$
 \gamma_{nk} = \frac{\pi_kN(x_n|\mu_k, \Sigma_k)}{\sum_{k=1}^{K}\pi_kN(x_n |\mu_k, \Sigma_k)}, n=1,2,\cdots,N, k=1,2,\cdots,K
 $$
+* M-step:
+$$
+N_k = \sum_{n=1}^{N}\gamma_{nk}
+$$
+$N_k$是所有$N$个样本中有多少个属于第$k$个高斯
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
