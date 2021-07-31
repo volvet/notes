@@ -129,5 +129,10 @@ $$
 
 ## K-均值聚类(K-means Clustering)
 
+## EM算法的一般形式
+输入样本$x_i, i=1, 2, \cdots, N$  
+定义 $z_i, i=1, 2, \cdots, N$ 为隐含变量  
+目的： 最大化$E(\theta) = \sum_{i=1}^N log(p(x_i | \theta))$ (最大似然估计)
+
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
