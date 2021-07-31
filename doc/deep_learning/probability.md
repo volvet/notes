@@ -133,6 +133,7 @@ $$
 输入样本$x_i, i=1, 2, \cdots, N$  
 定义 $z_i, i=1, 2, \cdots, N$ 为隐含变量  
 目的： 最大化$E(\theta) = \sum_{i=1}^N log(p(x_i | \theta)) = \sum_{i-1}^N log(\sum_{z_i}p(x_i, z_i | \theta))$ (最大似然估计)
+设: $Q_i(z_i)$为$z_i$的概率分布， 则： $\sum_{z_i}Q_i(z_i) = 1$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
