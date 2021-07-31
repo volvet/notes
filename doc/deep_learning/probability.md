@@ -135,5 +135,10 @@ $$
 目的： 最大化$E(\theta) = \sum_{i=1}^N log(p(x_i | \theta)) = \sum_{i-1}^N log(\sum_{z_i}p(x_i, z_i | \theta))$ (最大似然估计)  
 设: $Q_i(z_i)$为$z_i$的概率分布， 则： $\sum_{z_i}Q_i(z_i) = 1$
 
+### Jensen's Inequality
+$$
+若f(x)为凸函数， 则 f(E(x)) \leq E(f(x))
+$$
+
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
