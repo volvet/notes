@@ -137,7 +137,8 @@ $$
 
 ### Jensen's Inequality
 $$
-若f(x)为凸函数， 则 f(E(x)) \geq E(f(x))
+若f(x)为凹函数， 则 f(E(x)) \geq E(f(x)) \\\\
+若f(x)为凸函数， 则 f(E(x)) \leq E(f(x))
 $$
 
 ## Reference
