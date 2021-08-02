@@ -154,6 +154,11 @@ $$
 当$Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}$时， $E(\theta)$取最大值, 为$\sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i) | \theta}{Q_i(z_i)}$.  
 
 于是, EM算法的一般形式为:  
+* 随机选取$\theta$
+* E-step:
+$$
+Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
