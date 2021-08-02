@@ -141,5 +141,9 @@ $$
 若f(x)为凸函数， 则 f(E(x)) \leq E(f(x))
 $$
 
+$$
+E(\theta) = \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta}{Q_i(z_i)}
+$$
+
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
