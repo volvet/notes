@@ -142,7 +142,7 @@ $$
 $$
 
 $$
-E(\theta) = \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta}{Q_i(z_i)}
+E(\theta) = \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta)}{Q_i(z_i)})
 $$
 
 ## Reference
