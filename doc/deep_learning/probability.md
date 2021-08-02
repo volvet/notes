@@ -142,8 +142,12 @@ $$
 $$
 
 
+因为$log$是凹函数， 于是根据Jensen's Inequality， 我们可以推导:
 $$
-E(\theta) = \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta)}{Q_i(z_i)})
+\begin{align}
+E(\theta) &= \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta)}{Q_i(z_i)}) \\\\
+& \geq \sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i | \theta}{Q_i(z_i)}
+\endi{align}
 $$
 
 ## Reference
