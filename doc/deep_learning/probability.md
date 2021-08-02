@@ -146,7 +146,7 @@ $$
 $$
 \begin{align}
 E(\theta) &= \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta)}{Q_i(z_i)}) \\\\
-& \geq \sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i | \theta}{Q_i(z_i)}
+& \geq \sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i) | \theta}{Q_i(z_i)}
 \end{align}
 $$
 
