@@ -163,6 +163,7 @@ $$
 $$
 \theta^{new} = \mathop{argmax} \limits_{\theta} \sum_{i=1}^{N} \sum_{z_i} Q_i(z_i)log\frac{p(x_i, z_i) | \theta}{Q_i(z_i)}
 $$
+* 回到E-step, 直至收敛. 
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
