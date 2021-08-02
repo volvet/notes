@@ -159,6 +159,10 @@ $$
 $$
 Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}
 $$
+* 给定$Q_i(z_i)$, 求$\theta^{new}$
+$$
+\theta^{new} = 
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
