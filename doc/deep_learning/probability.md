@@ -173,6 +173,10 @@ $$
 $$
 E(\theta_k) = M(\theta_k)
 $$
+完成第三步后,
+$$
+M(\theta_{k+1} \geq M(\theat_k)
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
