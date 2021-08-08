@@ -169,6 +169,10 @@ $$
 $$
 设： M(\theta) = \sum_{i=1}^{N} \sum_{z_i} Q_i(z_i)log\frac{p(x_i, z_i | \theta)}{Q_i(z_i)}
 $$
+完成第二步后, 
+$$
+E(\theat_k) = M(\theta_k)
+$$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
