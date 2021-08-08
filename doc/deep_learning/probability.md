@@ -175,7 +175,7 @@ E(\theta_k) = M(\theta_k)
 $$
 完成第三步后,
 $$
-M(\theta_{k+1} \geq M(\theat_k)
+M(\theta_{k+1} \geq M(\theta_k)
 $$
 
 ## Reference
