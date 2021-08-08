@@ -171,7 +171,7 @@ $$
 $$
 完成第二步后, 
 $$
-E(\theat_k) = M(\theta_k)
+E(\theta_k) = M(\theta_k)
 $$
 
 ## Reference
