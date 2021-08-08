@@ -157,7 +157,7 @@ $$
 * 随机选取$\theta$
 * E-step:
 $$
-Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta）}
+Q_i(z_i) = \frac{p(x_i, z_i | \theta）}{\sum_{z_i}p(x_i, z_i | \theta）}
 $$
 * 给定$Q_i(z_i)$, 求$\theta^{new}$
 $$
