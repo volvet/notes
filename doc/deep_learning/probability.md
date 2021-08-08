@@ -151,7 +151,7 @@ E(\theta) &= \sum_{i=1}^{N}log(\sum_{z_i}Q_i(z_i) \frac{p(x_i, z_i | \theta)}{Q_
 $$
 
 当且仅当 $Q_i(z_i)$与$p(x_i, z_i | \theta)$成比例时， 等号成立.  
-当$Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}$时， $E(\theta)$取最大值, 为$\sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i) | \theta}{Q_i(z_i)}$.  
+当$Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}$时， $E(\theta)$取最大值, 为$\sum_{i=1}^{N}\sum_{z_i}Q_i(z_i)log\frac{p(x_i, z_i | \theta)}{Q_i(z_i)}$.  
 
 于是, EM算法的一般形式为:  
 * 随机选取$\theta$
