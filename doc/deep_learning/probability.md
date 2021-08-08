@@ -177,6 +177,7 @@ $$
 $$
 M(\theta_{k+1}) \geq M(\theta_k)
 $$
+所以$E(\theta)是递增的， 而且E(\theta)有上界， E(\theta) \leq 0, 所以E(\theta)是收敛的$
 
 ## Reference
 * 浙江大学机器学习课程 41 - 胡浩基
