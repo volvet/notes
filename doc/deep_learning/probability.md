@@ -167,7 +167,7 @@ $$
 
 ## EM算法收敛性证明
 $$
-M(\theta) = 
+M(\theta) = \sum_{i=1}^{N} \sum_{z_i} Q_i(z_i)log\frac{p(x_i, z_i | \theta)}{Q_i(z_i)}
 $$
 
 ## Reference
