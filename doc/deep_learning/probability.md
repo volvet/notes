@@ -161,7 +161,7 @@ Q_i(z_i) = \frac{p(x_i, z_i | \theta}{\sum_{z_i}p(x_i, z_i | \theta}
 $$
 * 给定$Q_i(z_i)$, 求$\theta^{new}$
 $$
-\theta^{new} = \mathop{argmax} \limits_{\theta} \sum_{i=1}^{N} \sum_{z_i} Q_i(z_i)log\frac{p(x_i, z_i) | \theta}{Q_i(z_i)}
+\theta^{new} = \mathop{argmax} \limits_{\theta} \sum_{i=1}^{N} \sum_{z_i} Q_i(z_i)log\frac{p(x_i, z_i | \theta)}{Q_i(z_i)}
 $$
 * 回到E-step, 直至收敛. 
 
