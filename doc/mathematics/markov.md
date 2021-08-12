@@ -13,6 +13,8 @@ A = \\{ a_{ij} \\}: 表示状态转移概率(P \times P 矩阵) \\\\
 a_{ij} = P(q_{t+1} = S_j | q_t = s_i)
 $$
 
+
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
+* MFCC (Mel-Frequency Cepstral Coefficients)
 
