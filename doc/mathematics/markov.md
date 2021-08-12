@@ -16,6 +16,9 @@ $$
 
 ## 识别问题
 给出$O = O_1, O_2, \cdots, O_T$, 给出一个HMM模型 $\lambda = \\{ A, B, \Pi \\}$, 求$P(O | \lambda)$
+$$
+P(O | \lambda) = \sum_{q_1=S_0}^{S_{P-1}}\Pi(q_1)
+$$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
