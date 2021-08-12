@@ -20,6 +20,7 @@ $$
 P(O | \lambda) = \sum_{q_1=S_0}^{S_{P-1}}\Pi(q_1)b_{q_1}(O_1)\sum_{q_2=S_0}^{S_P-1}a_{q_1q_2}b_{q_2}(O_2)\sum_{q_3=S_0}^{S_P-1}a_{q_2q_3}b_{q_3}(O_3) \cdots \sum_{q_T=S_0}^{S_P-1}a_{q_{T-1}q_T}b_{q_T}(O_T)
 $$
 ### 识别问题的简便算法
+定义： $\alpha_t(i) = P(O_1, O_2, O_3, \cdots, O_t | \lambda$$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
