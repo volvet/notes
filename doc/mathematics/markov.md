@@ -14,7 +14,7 @@ a_{ij} = P(q_{t+1} = S_j | q_t = s_i) \\\\
 B = \\{ b_j(O)\\}: 若输入向量O是属于S_j的， 则它的概率分布用b_j(O)来表示, 传统的方法是用高斯混合模型(GMM)来估计b_j(O).
 $$
 
-## 识别问题
+## 问题一： 识别
 给出$O = O_1, O_2, \cdots, O_T$, 给出一个HMM模型 $\lambda = \\{ A, B, \Pi \\}$, 求$P(O | \lambda)$
 $$
 P(O | \lambda) = \sum_{q_1=S_0}^{S_{P-1}}\Pi(q_1)b_{q_1}(O_1)\sum_{q_2=S_0}^{S_P-1}a_{q_1q_2}b_{q_2}(O_2)\sum_{q_3=S_0}^{S_P-1}a_{q_2q_3}b_{q_3}(O_3) \cdots \sum_{q_T=S_0}^{S_P-1}a_{q_{T-1}q_T}b_{q_T}(O_T)
@@ -32,6 +32,8 @@ $$
 P(O | \lambda) &= \sum_{i=1}^P\alpha_t(i) \\\\
 \end{align}
 $$
+
+## 问题二
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
