@@ -26,7 +26,7 @@ $$
 \alpha_1(i) &= P(O_1, q_t = S_i | \lambda) \\\\
 &= \Pi(S_i)P(O_1 | \lambda) \\\\
 &= \Pi(S_i)b_i(O_1) \\\\
-\alpha_{t+1} &= \\\\
+\alpha_{t+1}(j) &= P(O_1, O_2, \cdots, O_{t+1}, q_{t+1} = S_j | \lambda)\\\\
 \end{align}
 $$
 
