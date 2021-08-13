@@ -22,7 +22,11 @@ $$
 ### 识别问题的简便算法
 定义： $\alpha_t(i) = P(O_1, O_2, O_3, \cdots, O_t, q_t = S_i | \lambda)$. 
 $$
-\alpha_1(i) = P(O_1, q_t = S_i | \lambda) \\\\
+\begin{align}
+\alpha_1(i) &= P(O_1, q_t = S_i | \lambda) \\\\
+&= \Pi(S_i)P(O_1 | \lambda) \\\\
+&= \Pi(S_i)b_i(O_1)
+\end{align}
 $$
 
 ## Reference
