@@ -29,6 +29,7 @@ $$
 \alpha_{t+1}(j) &= P(O_1, O_2, \cdots, O_{t+1}, q_{t+1} = S_j | \lambda)\\\\
 &= \sum_{i=1}^PP(O_1, O_2, \cdots, O_t, q_t = S_i | \lambda) a_{ij} b_j(O_{t+1}) \\\\
 &= \sum_{i=1}^P \alpha_t(i) a_{ij} b_j(O_{t+1}) \\\\
+p(O | \lambda) &= \sum_{i=1}^P\alpha_t(\i) \\\\
 \end{align}
 $$
 
