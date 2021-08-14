@@ -67,7 +67,8 @@ $$
 $$
 * 估计:
 $$
-\Pi(S_i)^{new} = \gamma_1(i) = p(q_1 = S_i)
+\Pi(S_i)^{new} = \gamma_1(i) = p(q_1 = S_i) \\\\
+a_{ij}^{new} = \frac{\sum_{t=1}^{T-1} \xi(i,j)}{\sum_{t=1}^{T-1}\gamma_t(i)}
 $$
 
 ## Reference
