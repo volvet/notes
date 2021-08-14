@@ -48,6 +48,8 @@ $$
 \phi_T(j) &= \mathop{argmax} \limits_{i} (\delta_{T-1}(i) a_{ij}) \\\\
 \end{align}
 $$
+* $E(Q) = \mathop{max} \limits_{i} (\delta_T(i))$.  
+ $q_T = \mathop{argmax}(\delta_T(i)), q_T = \phi_{T+1}(q_{T+1})$
 
 ## 问题三
 
