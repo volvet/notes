@@ -38,7 +38,7 @@ $$
 使得: $E(Q) = \Pi(S_{q_1})b_{q_1}(O_1)a_{q_1q_2}b_{q_2}(O_2)\cdots a_{q_{T-1}q_T}b_{q_T}(O_T)$ 最大.
 
 ### 维特比算法(Viterbi ALgorithm)
- 定义 $\delta_t(i) = max(P(q_1,q_2, \cdots, q_T=S_i, O_1, O_2, \cdots, O_T))$
+ 定义 $\delta_t(i) = max(P(q_1,q_2, \cdots, q_{T-1}, q_T=S_i, O_1, O_2, \cdots, O_T))$
 
 ## 问题三
 
