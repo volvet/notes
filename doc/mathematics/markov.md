@@ -62,7 +62,8 @@ $$
 * 随机化 $\lambda = \\{ \Pi, A, b\\}$
 * 计算 $\xi(i,j) = P(q_t = S_i, q_{t+1} = S_j | O, \lambda)$
 $$
-\xi(i,j) = \frac{\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j)}{\sum_{i=1}^P\sum_{j=1}^P\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j) }
+\xi(i,j) = \frac{\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j)}{\sum_{i=1}^P\sum_{j=1}^P\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j) } \\\\
+\gamma_t(i) = P(q_t = S_i) = \sum_{j=1}^P \xi_t(i,j)
 $$
 
 ## Reference
