@@ -56,6 +56,8 @@ $$
 $$
 定义: \alpha_t(i) = P(O_1, O_2, O_3, \cdots, O_t, q_t = S_i | \lambda) \\\\
 定义: \beta_t(i) = P(O_{t+1}, O_{t+2}, \cdots, O_T, q_t = S_i | \lambda) \\\\
+\beta_T(i) = 1,  i = 1, 2, \cdots, P \\\\
+\beta_t(i) = \sum_{j=1}^P a_{ij} \beta_{t+1}(j) b_j(O_{t+1})
 $$
 
 ## Reference
