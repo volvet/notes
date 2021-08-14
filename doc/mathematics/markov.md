@@ -70,6 +70,7 @@ $$
 \Pi(S_i)^{new} = \gamma_1(i) = p(q_1 = S_i) \\\\
 a_{ij}^{new} = \frac{\sum_{t=1}^{T-1} \xi(i,j)}{\sum_{t=1}^{T-1}\gamma_t(i)}
 $$
+接下来估计$B$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
