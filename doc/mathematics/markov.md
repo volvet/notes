@@ -53,6 +53,10 @@ $$
 
 ## 问题三: 训练
 给定$O=O_1, O_2, \cdots, O_T$, 选择$\lambda = \\{ \Pi, A, b\\}$, 使得$P(O | \lambda)最大$
+$$
+定义: \alpha_t(i) = P(O_1, O_2, O_3, \cdots, O_t, q_t = S_i | \lambda) \\\\
+定义: \beta_t(i) = P(O_{t+1}, O_{t+2}, \cdots, O_T, q_t = S_i | \lambda) \\\\
+$$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
