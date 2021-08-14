@@ -44,7 +44,7 @@ $$
 \begin{align}
 \delta_1(i) &= \Pi(S_i)b_i(O_1) \\\\
 \phi(i) &= 0 \\\\
-\delta_t(i) &= \mathop{max} \limits_{i} (\delta_{T-1}(i) a_{ij})b_j(O_T)
+\delta_T(i) &= \mathop{max} \limits_{i} (\delta_{T-1}(i) a_{ij})b_j(O_T)
 \end{align}
 $$
 
