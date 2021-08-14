@@ -59,6 +59,11 @@ $$
 \beta_T(i) = 1,  i = 1, 2, \cdots, P \\\\
 \beta_t(i) = \sum_{j=1}^P a_{ij} \beta_{t+1}(j) b_j(O_{t+1})
 $$
+* 随机化 $\lambda = \\{ \Pi, A, b\\}$
+* 计算 $\xi(i,j) = P(q_t = S_i, q_{t+1} = S_j | O, \lambda)$
+$$
+\xi(i,j) = \alpha_t(i)a_{ij)b_j(O_{t+1}\beta_{t+1}(j)
+$$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
