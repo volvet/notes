@@ -65,6 +65,10 @@ $$
 \xi(i,j) = \frac{\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j)}{\sum_{i=1}^P\sum_{j=1}^P\alpha_t(i)a_{ij}b_j(O_{t+1})\beta_{t+1}(j) } \\\\
 \gamma_t(i) = P(q_t = S_i) = \sum_{j=1}^P \xi_t(i,j)
 $$
+* 估计:
+$$
+\Pi(S_i)^{new} = \gamma_1(i) = p(q_1 = S_i)
+$$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
