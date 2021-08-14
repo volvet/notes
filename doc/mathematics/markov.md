@@ -37,6 +37,8 @@ $$
 给定$\lambda = \\{ \Pi, A, B\\}$, 给定输入$O = O_1, O_2, \cdots, O_T$, 求一串状态序列$Q = q_1, q_2, \cdots, q_T$, 
 使得: $E(Q) = \Pi(S_{q_1})b_{q_1}(O_1)a_{q_1q_2}b_{q_2}(O_2)\cdots a_{q_{T-1}q_T}b_{q_T}(O_T)$ 最大.
 
+### 维特比算法(Viterbi ALgorithm)
+
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
 * MFCC (Mel-Frequency Cepstral Coefficients)
