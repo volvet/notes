@@ -51,7 +51,8 @@ $$
 * $E(Q) = \mathop{max} \limits_{i} (\delta_T(i))$.  
  $q_T = \mathop{argmax}(\delta_T(i)), q_T = \phi_{T+1}(q_{T+1})$
 
-## 问题三
+## 问题三: 训练
+给定$O=O_1, O_2, \cdots, O_T$, 选择$\lambda = \\{ \Pi, A, b\\}$, 使得$P(O | \lambda)最大$
 
 ## Reference
 * 胡浩基 - 浙江大学机器学习课程 50
