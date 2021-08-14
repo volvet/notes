@@ -45,7 +45,7 @@ $$
 \delta_1(i) &= \Pi(S_i)b_i(O_1) \\\\
 \phi_1(i) &= 0 \\\\
 \delta_T(j) &= \mathop{max} \limits_{i} (\delta_{T-1}(i) a_{ij})b_j(O_T) \\\\
-\phi_T(j) &= \mathop{argmax} \limits{i} (\delta_{T-1}(i) a_{ij}) \\\\
+\phi_T(j) &= \mathop{argmax} \limits_{i} (\delta_{T-1}(i) a_{ij}) \\\\
 \end{align}
 $$
 
