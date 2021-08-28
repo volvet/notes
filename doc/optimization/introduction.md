@@ -3,4 +3,5 @@
 
 
 ## Reference
-* 凌青 中科大最优化理论
+* 凌青 - 中科大最优化理论
+* Stephen Boyd - Connvex Optimization
