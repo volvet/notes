@@ -1,7 +1,7 @@
 # 优化/数学规划 (Optimization/Methematical Programming）
 从一个可行解的集合， 寻找最优的元素.
 $$
-\methop{minimize} \  f_0(x) \\\\
+\mathop{minimize} \  f_0(x) \\\\
 s.t. \  f_i(x) \leq b_i, i = 1, \cdots, m
 $$
 
