@@ -16,7 +16,7 @@ s.t. \  a_i^Tx \leq b_i \  i = 1, \cdots, m
 $$
 反之， 则为非线性规划.
 
-* 凸规划/非凸规划. 
+* 凸规划/非凸规划.  
 凸函数的性质： $f_i(\alpha x + \beta y) \leq \alpha f_i(x) + \beta f_i(y)$
 
 
