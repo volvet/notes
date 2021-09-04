@@ -8,3 +8,5 @@ $$
 
 
 ## Refrences
+* 凌青 - 中科大公开课 最优化理论
+* Stephen Boyd - Connvex Optimization
