@@ -14,6 +14,9 @@ $$
 \mathop{minimize} \  c^Tx \\\\
 s.t. \  a_i^Tx \leq b_i \  i = 1, \cdots, m 
 $$
+反之， 则为非线性规划.
+
+凸规划/非凸规划. 
 
 
 ## Reference
