@@ -17,7 +17,7 @@ $$
 反之， 则为非线性规划.
 
 * 凸规划/非凸规划. 
-凸函数的性质： $f_i(\alpha x + \beta y) \leq \alpha f(x) + \beta f(y)$
+凸函数的性质： $f_i(\alpha x + \beta y) \leq \alpha f_i(x) + \beta f_i(y)$
 
 
 ## Reference
