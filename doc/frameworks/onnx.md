@@ -8,7 +8,7 @@ AlphaGo击败围棋世界冠军李世石以来， 关于人工智能和深度学
 ## 描述计算模型
 ONNX有两个分类， 基础的ONNX主要用于描述神经网络， ONNX-ML是对基础ONNX的扩展， 增加了神经网络之外的其他机器学习算法的支持.  本文不会涉及ONNX-ML, 接下来的文字以一个简单的onnx文件为例， 介绍一下ONNX是如何来描述一个计算网络的. 例子文件可以在ONNX的Github上下载(https://github.com/onnx/models/blob/master/vision/classification/mobilenet/model/mobilenetv2-7.onnx).
 
-## 各家对ONNX的支持
+## ONNX的支持情况
 
 ## 后记
 本文的撰写引用了文末参考文献中所列出资料， 因文体所限， 无法一一列出， 特此致歉.  文中或有错误， 系作者才疏学浅， 盼读者不吝赐教为幸.
