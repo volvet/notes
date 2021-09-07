@@ -73,9 +73,9 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 dilations: 扩展卷积， 默认为1， 即普通卷积. 其数学定义如下
 $$
 普通卷积:  F * K(p) = \sum_{s+t=p}F(s)K(t) \\\\
-dilated convolution: F * _ l K(p) = \sum_{s+lt=p}F(s)K(t) \\\\
+扩展卷积: F * _ l K(p) = \sum_{s+lt=p}F(s)K(t) \\\\
 $$
-group: 分组卷积, 其定义参考文献 14. 默认为1， 即不分组.   
+group: 分组卷积, 其定义见文献14. 默认为1， 即不分组.   
 kernel_shape: 定义了卷积核的大小.  
 pads: 定义了上下左右填充的像素数.  
 strides:  定义了卷积运算的步长.  
