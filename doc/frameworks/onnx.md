@@ -29,6 +29,7 @@ message ModelProto {
 | ----------| ------------|
 | COREML    |             |
 | TensorFlow |            |
+｜ PyTorch | |
 | TNN |         |
 | MNN |         |
 ## 后记
