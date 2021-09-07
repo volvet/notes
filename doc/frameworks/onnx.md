@@ -29,7 +29,7 @@ opset_import:  当前的模型文件所依赖的算子domain和版本.
 graph:  这个模型执行的运算图， 这个是最重要的字段.   
 
 GraphProto的定义如下：  
-···
+```
 message GraphProto {
 repeated NodeProto node = 1;
 string name = 2;   // namespace Graph
@@ -41,7 +41,7 @@ repeated ValueInfoProto output = 12;
 repeated ValueInfoProto value_info = 13;
 repeated TensorAnnotation quantization_annotation = 14;
 }
-···
+```
 
 
 ## ONNX的支持情况
