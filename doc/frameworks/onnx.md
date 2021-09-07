@@ -78,8 +78,9 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 | COREML    |  apple 官方的 coremltools支持从ONNX 转换        |
 | TensorFlow |  ONNX官方提供了tf2onnx工具          |
 | PyTorch |  PyTorch官方支持将模型导出为ONNX      |
-| TNN |         |
-| MNN |         |
+| TNN |   TNN官方提供了onnx2tnn工具      |
+| MNN | MNN官方提供了MNNConvert工具， 支持输入格式为ONNX   |
+| OpenVINO | OpenVINO支持直接导入ONNX模型  |
 ## 后记
 本文的撰写引用了文末参考文献中所列出资料， 因文体所限， 无法一一标明， 特此致歉.  文中或有错误， 系笔者才疏学浅， 盼读者不吝赐教为幸.
 
