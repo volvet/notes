@@ -73,7 +73,7 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 dilations: 扩展卷积， 其数学定义如下
 $$
 普通卷积:  F * K(p) = \sum_{s+t=p}F(s)K(t) \\\\
-dilated convolution: F * l K(p) = \sum_{s+lt=p}F(s)K(t) \\\\
+dilated convolution: F * _ l K(p) = \sum_{s+lt=p}F(s)K(t) \\\\
 $$
 group: 
 kernel_shape:
