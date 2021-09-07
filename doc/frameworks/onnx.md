@@ -43,6 +43,11 @@ repeated TensorAnnotation quantization_annotation = 14;
 }
 ```
 比较重要的字段有:  
+initializer :  模型的每一层运算模块的参数.  
+input : 模型的输入格式
+output : 模型的输出格式
+nodes :  定义了模型的所有运算模块， 依照推理的次序排布.  
+
 
 
 ## ONNX的支持情况
