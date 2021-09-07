@@ -69,7 +69,15 @@ attributes : 算子的属性， 其解析取决于算子的类型.
 ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解， 构成神经网络的主体就是这些算子.  attributes 就是算子的一组带名字的属性.  
 本文中， 我们介绍一个在mobilenetv2-7.onnx使用最多的算子: conv.  
 
-卷积神经网络
+卷积神经网络在语音，图像，视频等处理上获得了巨大成功.  ONNX关于卷积网络层的属性定义主要有:  
+dilations: 
+$$
+普通卷积:  F*K(p) = \sum_{s+t=p}F(s)K(t)
+$$
+group: 
+kernel_shape:
+pads:
+strides:
 
 ## ONNX的支持情况
 各家的训练和推理框架还在继续发展， ONNX想成为行业标准显然还为时尚早， 但是目前尚没有看到其他更好的通用模型描述格式， 我们简单归纳一下现在的ONNX的支持情况(不完整)：
@@ -97,3 +105,4 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 10. NCNN: https://github.com/Tencent/ncnn
 11. NNAPI: https://developer.android.com/ndk/guides/neuralnetworks
 12. Protocol Buffers: https://developers.google.com/protocol-buffers
+13. Dilated Convolutions https://arxiv.org/abs/1511.07122
