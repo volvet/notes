@@ -26,6 +26,23 @@ message ModelProto {
 几个重要的字段   
 lr_version : 当前的ONNX模型文件的版本， 目前发布的最新版本为IR_VERSION_2019_3_18 = 6. 发布于2019年，版本7还在制定中.
 opset_import:  当前的模型文件所依赖的算子domain和版本.
+graph:  这个模型执行的运算图， 这个是最重要的字段.   
+
+GraphProto的定义如下：  
+···
+message GraphProto {
+repeated NodeProto node = 1;
+string name = 2;   // namespace Graph
+repeated TensorProto initializer = 5;
+repeated SparseTensorProto sparse_initializer = 15;
+string doc_string = 10;
+repeated ValueInfoProto input = 11;
+repeated ValueInfoProto output = 12;
+repeated ValueInfoProto value_info = 13;
+repeated TensorAnnotation quantization_annotation = 14;
+}
+···
+
 
 ## ONNX的支持情况
 | Framework | Description |
