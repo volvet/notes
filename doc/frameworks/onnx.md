@@ -6,7 +6,7 @@ AlphaGo击败围棋世界冠军李世石以来， 关于人工智能和深度学
 用ONNX自己的话来说， ONNX是一个对计算网络(Computation Graph)的一个通用描述(Intermediate Representation). 它希望被设计成为开放的网络描述格式， 减少开发者在各个训练和推理框架间切换的代价， 可以让开发者专注于算法和优化.  虽然ONNX还处于比较早期的阶段， 不过已经有约来越多的人开始关注到它，未来会有机会得到更广泛的应用.  
 
 ## 描述计算模型
-ONNX有两个分类， 基础的ONNX主要用于描述神经网络， ONNX-ML是对基础ONNX的扩展， 增加了神经网络之外的其他机器学习算法的支持.  本文不会涉及ONNX-ML, 接下来的文字以一个简单的onnx文件为例， 介绍一下ONNX是如何来描述一个计算网络的. 例子文件可以在ONNX的Github上下载(https://github.com/onnx/models/blob/master/vision/classification/mobilenet/model/mobilenetv2-7.onnx).
+ONNX有两个分类， 基础的ONNX主要用于描述神经网络， ONNX-ML是对基础ONNX的扩展， 增加了神经网络之外的其他机器学习算法的支持.  本文不会涉及ONNX-ML, 接下来的文字以一个简单的onnx模型为例， 介绍一下ONNX是如何来描述一个计算网络的. 该模型可以在ONNX的Github上下载(https://github.com/onnx/models/blob/master/vision/classification/mobilenet/model/mobilenetv2-7.onnx).
 
 ## ONNX的支持情况
 
