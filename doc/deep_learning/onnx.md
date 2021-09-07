@@ -5,13 +5,14 @@ AlphaGo击败围棋世界冠军李世石以来， 关于人工智能和深度学
 
 
 ## Reference
-1. https://github.com/onnx/onnx
-2. https://www.tensorflow.org/
-3. https://github.com/Microsoft/CNTK
-4. https://pytorch.org/
-5. https://github.com/Tencent/TNN
-6. https://github.com/alibaba/MNN
-7. https://developer.nvidia.com/zh-cn/cudnn
-8. https://developer.nvidia.com/zh-cn/tensorrt
-9. https://developer.apple.com/documentation/coreml
-10. https://github.com/Tencent/ncnn
+1. ONNX: https://github.com/onnx/onnx
+2. TENSORFLOW: https://www.tensorflow.org/
+3. CNTK: https://github.com/Microsoft/CNTK
+4. PYTORCH: https://pytorch.org/
+5. TNN: https://github.com/Tencent/TNN
+6. MNN: https://github.com/alibaba/MNN
+7. CUDNN: https://developer.nvidia.com/zh-cn/cudnn
+8. TENSORRT: https://developer.nvidia.com/zh-cn/tensorrt
+9. COREML: https://developer.apple.com/documentation/coreml
+10. NCNN: https://github.com/Tencent/ncnn
+11. NNAPI: https://developer.android.com/ndk/guides/neuralnetworks
