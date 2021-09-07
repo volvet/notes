@@ -43,7 +43,7 @@ message GraphProto {
 }
 ```
 比较重要的字段有:  
-initializer :  模型的每一层运算模块的参数.  
+initializer :  模型的每一网络层的参数, 模型训练完成之后参数就被固定下来.  
 input : 模型的输入格式.  
 output : 模型的输出格式.  
 nodes :  定义了模型的所有运算模块， 依照推理的次序排布.  
@@ -60,6 +60,11 @@ message NodeProto {
   string doc_string = 6;
 }
 ```
+比较重要的字段有:   
+input : 输入参数的名字.  
+output : 输出参数的名字， 这里需要留意的是， 每一个网络层之间的连接使用输入和输出的名字来确立的.
+op_type : 算子的类型.  
+attributes : 算子的参数， 其解析取决于算子的类型.  
 
 
 ## ONNX的支持情况
