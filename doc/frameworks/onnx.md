@@ -23,7 +23,7 @@ message ModelProto {
   repeated FunctionProto functions = 25;
 }
 ```
-几个重要的字段   
+比较重要的字段有:  
 lr_version : 当前的ONNX模型文件的版本， 目前发布的最新版本为IR_VERSION_2019_3_18 = 6. 发布于2019年，版本7还在制定中.
 opset_import:  当前的模型文件所依赖的算子domain和版本.
 graph:  这个模型执行的运算图， 这个是最重要的字段.   
@@ -42,6 +42,7 @@ repeated ValueInfoProto value_info = 13;
 repeated TensorAnnotation quantization_annotation = 14;
 }
 ```
+比较重要的字段有:  
 
 
 ## ONNX的支持情况
