@@ -75,7 +75,7 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 各家的训练和推理框架还在继续发展， ONNX想成为行业标准显然还为时尚早， 但是目前尚没有看到其他更好的通用模型描述格式， 我们简单归纳一下现在的ONNX的支持情况(不完整)：
 | Framework | Description |
 | ----------| ------------|
-| COREML    |             |
+| COREML    |     apple 官方的 coremltools支持从ONNX 转换        |
 | TensorFlow |            |
 | PyTorch |          |
 | TNN |         |
