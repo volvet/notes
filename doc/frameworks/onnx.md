@@ -72,8 +72,8 @@ ONNX中最复杂的部分就是关于各种算子的描述， 这也可以理解
 卷积神经网络在语音，图像，视频等处理上获得了巨大成功.  ONNX关于卷积网络层的属性定义主要有:  
 dilations: 
 $$
-普通卷积:  F*K(p) = \sum_{s+t=p}F(s)K(t) \\\\
-dilated convolution: F*_lK(p) = \sum_{s+lt=p}F(s)K(t)
+普通卷积:  F\*K(p) = \sum_{s+t=p}F(s)K(t) \\\\
+dilated convolution: F\*_lK(p) = \sum_{s+lt=p}F(s)K(t) \\\\
 $$
 group: 
 kernel_shape:
