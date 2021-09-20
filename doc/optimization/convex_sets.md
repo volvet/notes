@@ -10,7 +10,7 @@ $$
 那么仿射组合 $\theta_1 x_1 + \dots + \theta_k x_k \in C$   
 如果$C$是一个仿射集， 并且$x_0 \in C$, 则集合
 $$
-V = C - x_0 = 
+V = C - x_0 = \\{x - x_0 | x \in C \\}
 $$
 
 ## Refrences
