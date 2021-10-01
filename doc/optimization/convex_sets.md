@@ -14,7 +14,7 @@ V = C - x_0 = \\{x - x_0 | x \in C \\}
 $$
 是一个子空间.
 
-## 线性空间
+## 线性空间与线性子空间
 设$V$是一个非空集合， $F$为一数域， 如果存在一种规则叫做$V$的加法运算， 对于$V$中任意两个元素$\alpha, \beta$, 总有一个确定的元素$\gamma$与之对应， $\gamma$称为$\alpha, \beta$的和, 计为$\gamma = \alpha + \beta$, 另有一种规则， 叫做$V$对于$F$的数乘运算， 对于$F$中的任意数$k$以及$V$中任意元素$\alpha$， $V$中总有一个确定的元素$\sigma$与之对应，叫做$k$与$\alpha$的数乘， 计为$\sigma = k\alpha$, 而且以上两种运算还有如下性质:  
 $$
 \begin{align}
@@ -28,7 +28,18 @@ $ 1 \alpha = \alpha \\\\
 & k( \alpha + \beta) = k \alpha + k \beta \\\\
 \end{align}
 $$
-则称$V$为数域$F$上的一个线性空间， 也称为向量空间.
+则称$V$为数域$F$上的一个线性空间， 也称为向量空间. 
+
+设$V_1$是数域$F$上的线性空间$V$的一个非空子集， 如果它对$V$中的线性运算满足以下条件:
+$$
+\begin{aligh}
+& \alpha, \beta \in V_1, 则: \alhpa + \beta \in V_1 \\\\
+& \alpha \in V_1, k \in F, 则: k \alpha \in V_1 \\\\
+\end{align}
+$$
+则称$V_1$为$V$的线性子空间， 也称为子空间.
+
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
