@@ -19,7 +19,7 @@ $$
 $$
 \begin{align}
 \alpha + \beta = \beta + \alpha \\\\
-(\alpha + \beta) + \gamma = \alhpa + (\beta + \gamma) \\\\
+(\alpha + \beta) + \gamma = \alpha + (\beta + \gamma) \\\\
 V中存在零元素， 对于任意 \alpha \in V, 恒有 \alpha + 0 = \alpha \\\\
 \end{align}
 $$
