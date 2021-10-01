@@ -17,6 +17,11 @@ $$
 ## 线性空间
 设$V$是一个非空集合， $F$为一数域， 如果存在一种规则叫做$V$的加法运算， 对于$V$中任意两个元素$\alpha, \beta$, 总有一个确定的元素$\gamma$与之对应， $\gamma$称为$\alpha, \beta$的和, 计为$\gamma = \alpha + \beta$, 另有一种规则， 叫做$V$对于$F$的数乘运算， 对于$F$中的任意数$k$以及$V$中任意元素$\alpha$， $V$中总有一个确定的元素$\sigma$与之对应，叫做$k$与$\alpha$的数乘， 计为$\sigma = k\alpha$, 而且以上两种运算还有如下性质:  
 $$
+\begin{aign}
+\alpha + \beta = \beta + \alpha \\\\
+(\alpha + \beta) + \gamma = \alhpa + (\beta + \gamma) \\\\
+V中存在零元素， 对于任意 \alpha \in V, 恒有 \alpha + 0 = \alpha \\\\
+\end{align}
 $$
 则称$V$为数域$F$上的一个线性空间， 也称为向量空间.
 ## Refrences
