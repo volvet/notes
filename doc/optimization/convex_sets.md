@@ -32,7 +32,7 @@ $$
 
 设$V_1$是数域$F$上的线性空间$V$的一个非空子集， 如果它对$V$中的线性运算满足以下条件:
 $$
-\begin{aligh}
+\begin{align}
 & \alpha, \beta \in V_1, 则: \alhpa + \beta \in V_1 \\\\
 & \alpha \in V_1, k \in F, 则: k \alpha \in V_1 \\\\
 \end{align}
