@@ -22,7 +22,7 @@ $$
 & (\alpha + \beta) + \gamma = \alpha + (\beta + \gamma) \\\\
 & V中存在零元素， 对于任意 \alpha \in V, 恒有 \alpha + 0 = \alpha \\\\
 & 对于任意 \alpha \in V, 都存在负元素 \beta, 使得 \alpha + \beta = 0 \\\\
-$ 1 \alpha = \alpha \\\\
+& 1 \alpha = \alpha \\\\
 & k(l \alpha) = (kl) \alpha;  k, l \in F \\\\
 & (k + l) \alpha = k \alpha + l \alpha \\\\
 & k( \alpha + \beta) = k \alpha + k \beta \\\\
