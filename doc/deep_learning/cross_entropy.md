@@ -1,7 +1,7 @@
 ## 交叉熵
 ### 熵
 $$
-H(p) = - \sum_(x)p(x) \log p(x)
+H(p) = - \sum_xp(x) \log p(x)
 $$
 
 
