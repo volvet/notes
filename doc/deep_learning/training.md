@@ -71,6 +71,8 @@ $$
 * Xavier 初始化
 * MSRA 初始化
 
+### 批归一化(Batch Normalization)
+
 ## Reference
 * 浙江大学机器学习课程 25 - 胡浩基
 * 北邮 机器视觉课程 - 鲁鹏
