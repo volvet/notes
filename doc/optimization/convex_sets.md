@@ -1,4 +1,4 @@
-# Convex Sets
+# 凸集(Convex Sets)
 ## 仿射集(Affine Sets)
 $x_1$, $x_2$为$R^n$空间中两个不同的点， 则
 $$
