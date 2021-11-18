@@ -20,6 +20,9 @@ $$
 镜像填充  
 
 ### 高斯卷积核
+$$
+G_{\omega} = \frac{1}{2\pi \omega^2} e^{-frac{x^2 + y^2}{2\omega^2}}
+$$
 
 ## Reference
 * 北京邮电大学 鲁鹏 机器视觉
