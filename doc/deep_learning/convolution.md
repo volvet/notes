@@ -21,7 +21,7 @@ $$
 
 ### 高斯卷积核
 $$
-G_{\omega} = \frac{1}{2\pi \sigma^2} e^{-\frac{x^2 + y^2}{2\sigma^2}}
+G_{\sigma} = \frac{1}{2\pi \sigma^2} e^{-\frac{x^2 + y^2}{2\sigma^2}}
 $$
 
 ## Reference
