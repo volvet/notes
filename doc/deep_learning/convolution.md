@@ -5,3 +5,11 @@
 $$
 R_{ij} = \sum_{u, v} H_{i-u, j-v}F_{u,v}
 $$
+
+### 卷积的性质
+$$
+叠加性： filter(f_1 + f_2) = filter(f_1) + filter(f_2)
+$$
+
+## Reference
+* 北京邮电大学 鲁鹏 机器视觉
