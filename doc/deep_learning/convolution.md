@@ -8,7 +8,7 @@ $$
 
 ### 卷积的性质
 $$
-叠加性： filter(f_1 + f_2) = filter(f_1) + filter(f_2)
+叠加性： filter(f_1 + f_2) = filter(f_1) + filter(f_2) \\\\
 平移不变性： filter(shift(f)) = shift(filter(f))
 $$
 
