@@ -24,5 +24,7 @@ $$
 G_{\sigma} = \frac{1}{2\pi \sigma^2} e^{-\frac{x^2 + y^2}{2\sigma^2}}
 $$
 
+如何设计卷积核： 方差和卷积核的尺寸
+
 ## Reference
 * 北京邮电大学 鲁鹏 机器视觉
