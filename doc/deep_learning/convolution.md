@@ -44,5 +44,13 @@ $$
 
 ### 边缘检测
 
+### 图像梯度
+$$
+\nabla f = 
+\begin{bmatrix}
+\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}
+\end{bmatrix}
+$$
+
 ## Reference
 * 北京邮电大学 鲁鹏 机器视觉
