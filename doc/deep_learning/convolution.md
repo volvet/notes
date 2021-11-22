@@ -52,7 +52,7 @@ $$
 \end{bmatrix}
 $$
 
-梯度方向: $\theta = tan^{-1}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$
+梯度方向: $\theta = \mathop{arctan}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$
 
 ## Reference
 * 北京邮电大学 鲁鹏 机器视觉
