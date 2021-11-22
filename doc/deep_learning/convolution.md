@@ -54,5 +54,8 @@ $$
 
 梯度方向: $\theta = \mathop{arctan}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$
 
+### 高斯一阶偏导核
+
+
 ## Reference
 * 北京邮电大学 鲁鹏 机器视觉
