@@ -55,6 +55,10 @@ $$
 梯度方向: $\theta = \mathop{arctan}(\frac{\frac{\partial f}{\partial y}}{\frac{\partial f}{\partial x}})$
 
 ### 高斯一阶偏导核
+$$
+\frac{\partial G_{\sigma}(x,y}{\partial x} = \\\\
+\frac{\partial G_{\sigma}(x,y}{\partial y} = \\\\
+$$
 
 ### 非极大值抑制
 
