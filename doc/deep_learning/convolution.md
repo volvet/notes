@@ -56,8 +56,8 @@ $$
 
 ### 高斯一阶偏导核
 $$
-\frac{\partial G_{\sigma}(x,y}{\partial x} = \\\\
-\frac{\partial G_{\sigma}(x,y}{\partial y} = \\\\
+\frac{\partial G_{\sigma}(x,y)}{\partial x} = \frac{1}{4\pi \sigma^4}xe^{-\frac{x^2 + y^2}{2\sigma^2}}\\\\
+\frac{\partial G_{\sigma}(x,y)}{\partial y} = \frac{1}{4\pi \sigma^4}ye^{-\frac{x^2 + y^2}{2\sigma^2}}\\\\
 $$
 
 ### 非极大值抑制
