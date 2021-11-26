@@ -82,7 +82,7 @@ $$
 类型: 
 * 边缘 - 高斯一阶偏导核
 * 条形 - 高斯二阶偏导核
-* 点状 - 高斯-拉普拉斯核 (Laplacian of Guassian)
+* 点状 - 高斯-拉普拉斯核 (Laplacian of Guassian)  
 尺度: 三~六个尺度  
 方向: 六个方向  
  
