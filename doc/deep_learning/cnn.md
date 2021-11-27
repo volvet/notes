@@ -7,6 +7,7 @@
 ## 池化层
 
 ### LeNet (LeCun 于上世纪90年代提出)
+池化层的超参数：  池化窗口尺寸， 池化步长
 
 ### AlexNet (Alex Krizhevsky 等人于2013年提出)
 * 以ReLU函数来代替Sigmoid或Tanh函数: 这样可以使网络以更快速度收敛.
