@@ -1,4 +1,10 @@
-## 卷积神经网络（Convolutional Neural Network）
+# 卷积神经网络（Convolutional Neural Network）
+
+## 卷积神经网络中的卷积核
+* 除了宽度和高度， 还具有深度
+* 卷积核参数还包括一个偏置值
+
+
 ### LeNet (LeCun 于上世纪90年代提出)
 
 ### AlexNet (Alex Krizhevsky 等人于2013年提出)
