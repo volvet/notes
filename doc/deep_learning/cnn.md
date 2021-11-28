@@ -30,3 +30,4 @@
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
 * 北邮 机器视觉 - 鲁鹏
+* AlexNet https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
