@@ -26,6 +26,7 @@
 
 ## 经典网络解析
 ### AlexNet
+ CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC7 FC8： 8层神经网络
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
