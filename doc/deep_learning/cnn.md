@@ -17,7 +17,7 @@
 ### LeNet (LeCun 于上世纪90年代提出)
 
 
-### AlexNet (Alex Krizhevsky 等人于2013年提出)
+### AlexNet (Alex Krizhevsky 等人于2012年提出)
 * 以ReLU函数来代替Sigmoid或Tanh函数: 这样可以使网络以更快速度收敛.
 * 池化(Pooling)
 * 随机丢弃(Dropout): 避免过拟合
