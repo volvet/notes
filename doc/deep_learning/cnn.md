@@ -29,8 +29,11 @@
  CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC7 FC8： 8层神经网络.   
  局部响应归一化层(NORM): 后来的研究表明： 更深的网络中该层对性能的提升效果不明显， 而且会增加计算量和存储空间.
  
+### ZFNet
+
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
 * 北邮 机器视觉 - 鲁鹏
 * AlexNet https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+* ZFNet https://paperswithcode.com/method/zfnet
