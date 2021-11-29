@@ -28,11 +28,14 @@
 ### AlexNet
  CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC7 FC8： 8层神经网络.   
  局部响应归一化层(NORM): 后来的研究表明： 更深的网络中该层对性能的提升效果不明显， 而且会增加计算量和存储空间.
+ CONV1 11x11, 96个， 步长为4， 无填充
  
 ### ZFNet
  ZFNet的网络结构跟AlexNet基本上一致.   
- CONV MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC 7 FC8: 8层神经网络.   
-
+ CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC 7 FC8: 8层神经网络.   
+主要改进:
+* CONV1的卷积核大小改为7x7
+* CONV2和CONV3的步长为2
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
 * 北邮 机器视觉 - 鲁鹏
