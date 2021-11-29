@@ -26,7 +26,9 @@
 
 ## 经典网络解析
 ### AlexNet
- CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC7 FC8： 8层神经网络
+ CONV1 MAX_POOL1 NORM1 CONV2 MAX_POOL2 NORM2 CONV3 CONV4 CONV5 MAX_POOL3 FC6 FC7 FC8： 8层神经网络.   
+ 局部响应归一化层(NORM): 后来的研究表明： 更深的网络中该层对性能的提升效果不明显， 而且会增加计算量和存储空间.
+ 
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
