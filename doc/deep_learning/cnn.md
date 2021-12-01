@@ -51,3 +51,4 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * 北邮 机器视觉 - 鲁鹏
 * AlexNet https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
 * ZFNet https://paperswithcode.com/method/zfnet
+* VGG-16/VGG-19 https://arxiv.org/abs/1409.1556
