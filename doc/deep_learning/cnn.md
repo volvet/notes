@@ -48,6 +48,7 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * 移除了局部响应归一化层
 
 ### GoogleNet
+* 提出了Inception结构， 它能保留输入信号中的更多特征信息
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
