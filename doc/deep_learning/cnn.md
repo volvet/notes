@@ -46,9 +46,12 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * 所有的池化层都是最大池化， 窗口大小为2x2， 步长为2
 * 每段卷积层的卷积核个数均相同， 经过一次池化操作， 卷积核的个数增加一倍， 直至到达512
 
+### GoogleNet
+
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
 * 北邮 机器视觉 - 鲁鹏
 * AlexNet https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
 * ZFNet https://paperswithcode.com/method/zfnet
 * VGG-16/VGG-19 https://arxiv.org/abs/1409.1556
+* GoogleNet https://arxiv.org/abs/1409.4842
