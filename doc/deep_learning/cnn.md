@@ -52,6 +52,8 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * 去掉了AlexNet的前两个全连接层， 并采用了平均池化， 使得GoogleNet的网络比AlexNet小了12倍.
 * 网络中部引入了辅助分类器
 
+### ResNet
+
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
 * 北邮 机器视觉 - 鲁鹏
@@ -59,3 +61,4 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * ZFNet https://paperswithcode.com/method/zfnet
 * VGG-16/VGG-19 https://arxiv.org/abs/1409.1556
 * GoogleNet https://arxiv.org/abs/1409.4842
+* ResNet https://paperswithcode.com/method/resnet
