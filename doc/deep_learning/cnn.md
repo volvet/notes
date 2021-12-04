@@ -16,7 +16,6 @@
 
 ### LeNet (LeCun 于上世纪90年代提出)
 
-
 ### AlexNet (Alex Krizhevsky 等人于2012年提出)
 * 以ReLU函数来代替Sigmoid或Tanh函数: 这样可以使网络以更快速度收敛.
 * 池化(Pooling)
@@ -53,6 +52,7 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 * 网络中部引入了辅助分类器
 
 ### ResNet
+* 提出残差模块， 通过堆叠残差模块可以构建任意深度的神经网络， 不会出现退化现象.
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
