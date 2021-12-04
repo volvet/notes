@@ -54,6 +54,7 @@ CONV1-1 CONV1-2 MAX_POOL1 CONV2-1 CONV2-2 MAX_POOL2 CONV3-1 CONV3-2 CONV3-3 MAX_
 ### ResNet
 * 提出残差模块， 通过堆叠残差模块可以构建任意深度的神经网络， 不会出现退化现象.
 * 批归一化方法来对抗梯度消失， 该方法降低了网络训练过程中对于权重初始化的依赖.
+* 针对RELU激活函数的初始化方法.(HE/MSRA)
 
 ## Reference
 * 浙江大学机器学习课程 24 - 胡浩基
