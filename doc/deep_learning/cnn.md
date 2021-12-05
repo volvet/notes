@@ -64,7 +64,7 @@ $$
 残差结构能够应对梯度反向传递过程中的梯度消失问题， 保证反向梯度流的通畅.  
 
 ### 其他网络(TODO)
-DenseNet, SquezeNet, MobileNet, ShuffleNet
+DenseNet(对ResNet改进), SquezeNet(有限存储资源), MobileNet(有限运算资源), ShuffleNet(有限运算资源)
 
 
 ## Reference
