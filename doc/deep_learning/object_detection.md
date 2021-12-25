@@ -13,6 +13,10 @@
 
 ## YOLO
 
+## SSD
+
+## RetinaNet
+
 ## Reference
 * 浙江大学机器学习课程 40 - 胡浩基
 * RCNN: https://paperswithcode.com/method/r-cnn
