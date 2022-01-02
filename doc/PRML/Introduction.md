@@ -7,6 +7,7 @@ $$
 $$
 where
 $$
-A_{ij} = \sum_{n=0}^{N}x_n^{i+j},  T_i = \sum_{n=1}^Nx_n^it_n
+A_{ij} = \sum_{n=0}^{N}x_n^{i+j} \\\\
+T_i = \sum_{n=1}^Nx_n^it_n
 $$
 Here a suffix $i$ or $j$ denotes the index of a component, whereas $(x)^i$ denotes x raised to the power of $i$
