@@ -11,3 +11,7 @@ A_{ij} = \sum_{n=0}^{N}x_n^{i+j} \\\\
 T_i = \sum_{n=1}^Nx_n^it_n
 $$
 Here a suffix $i$ or $j$ denotes the index of a component, whereas $(x)^i$ denotes x raised to the power of $i$
+
+
+### Exercise 1.2
+Write down the set of coupled linear equations, analogous to $ \sum_{j=0}^{M}A_{ij}\omega_{j} = T_i $, satisfied by the coefficients $\omega_i$ which minimize the regularized sum-of-squares error function given by (1.4)
