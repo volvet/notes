@@ -10,6 +10,11 @@ $$
 D(P || Q) = \sum_{x \in X} P(x) \mathop{log} \frac{P(x)}{Q(x)}
 $$
 
+正态分布:
+$$
+f(x) = \frac{1}{\sqrt{2\pi \oemga^2}}
+$$
+
 
 ## GAN
 
