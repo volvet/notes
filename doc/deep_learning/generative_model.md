@@ -12,7 +12,7 @@ $$
 
 正态分布:
 $$
-f(x) = \frac{1}{\sqrt{2\pi \oemga^2}}
+f(x) = \frac{1}{\sqrt{2\pi \omega^2}}
 $$
 
 
