@@ -7,7 +7,7 @@
 ### KL距离(Kullback-Leibler Divergence)
 KL距离的定义:
 $$
-KL(P || Q) = \sum_{x \in X} P(x) \mathop{log} \frac{P(x)}{Q(x)}
+KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
 $$
 
 正态分布:
