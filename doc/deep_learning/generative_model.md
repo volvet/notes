@@ -7,7 +7,7 @@
 ### KL距离(Kullback-Leibler Divergence)
 KL距离的定义:
 $$
-D(P || Q) = \sum_{x \in X} P(x) \mathop{log} \frac{P(x)}{Q(x)}
+KL(P || Q) = \sum_{x \in X} P(x) \mathop{log} \frac{P(x)}{Q(x)}
 $$
 
 正态分布:
@@ -20,9 +20,11 @@ D(X) = \sigma^2 \\\\
 E(X^2) = E(X) + D(X) = \mu + \sigma^2
 $$
 
-正态分布的KL距离:
+正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL距离为:
 $$
-正态分布 N(\mu, \sigma)与标准正态分布N(0, 1）的KL距离为:
+\begin{align}
+KL(N(\mu, \sigma) || N(0, 1)) &= \\\\
+\end{align}
 $$
 
 
