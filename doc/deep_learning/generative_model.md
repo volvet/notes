@@ -17,7 +17,7 @@ $$
 $$
 E(X) = \mu \\\\
 D(X) = \sigma^2 \\\\
-E(X^2) = E(X) + D(X) = \mu^2 + \sigma^2
+E(X^2) = E(X)^2 + D(X) = \mu^2 + \sigma^2
 $$
 
 正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL距离为:
