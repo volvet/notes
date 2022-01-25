@@ -17,7 +17,7 @@ $$
 $$
 E(X) = \mu \\\\
 D(X) = \sigma^2 \\\\
-E(X^2) = E(X) + D(X) = \mu + \sigma^2
+E(X^2) = E(X) + D(X) = \mu^2 + \sigma^2
 $$
 
 正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL距离为:
@@ -25,7 +25,7 @@ $$
 \begin{align}
 KL(N(\mu, \sigma) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \ln \frac{1 / \sqrt{2\pi \sigma^2} e^{-\frac{(x-\mu)^2}{2\sigma^2}} }{ 1 / \sqrt{2\pi} e^{ -\frac{x^2}{2} } } \\\\
 &=  \frac{1}{2}\sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} (-\ln \sigma^2 + x^2 - (x-\mu)^2 / \sigma^2) \\\\
-&= \frac{1}{2} (-\ln \sigma^2 + \mu + \sigma^2 - 1)
+&= \frac{1}{2} (-\ln \sigma^2 + \mu^2 + \sigma^2 - 1)
 \end{align}
 $$
 
