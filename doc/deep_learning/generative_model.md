@@ -39,6 +39,7 @@ $$
 $$
 \mu + e^{\frac{1}{2}(\ln \sigma^2)} \epsilon
 $$
+$\epsilon$为标准正态分布采样
 
 
 ## GAN
