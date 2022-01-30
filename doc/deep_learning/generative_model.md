@@ -29,7 +29,7 @@ KL(N(\mu, \sigma) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e
 \end{align}
 $$
 
-对正态分布的采样:  
+### 采样:  
 $$
 标准正态分布x： N(0, 1) \\\\
 令 z = \mu + \sigma x, 则 z： N(\mu, \sigma^2)
