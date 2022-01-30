@@ -29,6 +29,13 @@ KL(N(\mu, \sigma) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e
 \end{align}
 $$
 
+对正太分布的采样:  
+$$
+标准正太分布： x ~ N(0, 1) \\\\
+令 z = \mu + \sigma x, 则 z ~ N(\mu, \sigma^2)
+$$
+所以正太分布的采样可以根据标准正太分布采样的平移和拉升来实现. 
+
 
 ## GAN
 
