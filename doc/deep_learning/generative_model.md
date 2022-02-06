@@ -43,6 +43,7 @@ $\epsilon$为标准正态分布采样
 
 
 ## GAN
+### JS散度(Jensen Shannon Divergence)
 
 ## Reference
 * 北邮 机器视觉 - 鲁鹏
