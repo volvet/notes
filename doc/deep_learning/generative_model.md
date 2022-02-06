@@ -4,8 +4,8 @@
 
 ## VAE
 
-### KL距离(Kullback-Leibler Divergence)
-KL距离的定义:
+### KL散度(Kullback-Leibler Divergence)
+KL散度的定义:
 $$
 KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
 $$
@@ -20,7 +20,7 @@ D(X) = \sigma^2 \\\\
 E(X^2) = E(X)^2 + D(X) = \mu^2 + \sigma^2
 $$
 
-正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL距离为:
+正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL散度为:
 $$
 \begin{align}
 KL(N(\mu, \sigma^2) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \ln \frac{1 / \sqrt{2\pi \sigma^2} e^{-\frac{(x-\mu)^2}{2\sigma^2}} }{ 1 / \sqrt{2\pi} e^{ -\frac{x^2}{2} } } \\\\
