@@ -7,7 +7,7 @@
 ### KL散度(Kullback-Leibler Divergence)
 KL散度的定义:
 $$
-KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
+KLD(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
 $$
 
 正态分布:
@@ -45,7 +45,7 @@ $\epsilon$为标准正态分布采样
 ## GAN
 ### JS散度(Jensen Shannon Divergence)
 $$
-JSD(P || Q) = \frac{1}{2}KL(P||Q) + \frac{1}{2}KL(Q||P)
+JSD(P || Q) = \frac{1}{2}KLD(P||Q) + \frac{1}{2}KLD(Q||P)
 $$
 
 ## Reference
