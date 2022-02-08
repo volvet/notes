@@ -48,5 +48,10 @@ $$
 JSD(P || Q) = \frac{1}{2}KLD(P||Q) + \frac{1}{2}KLD(Q||P)
 $$
 
+### DCGAN
+### LSGAN and WGAN
+### OptionGAN
+
+
 ## Reference
 * 北邮 机器视觉 - 鲁鹏
