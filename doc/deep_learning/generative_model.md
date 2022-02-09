@@ -7,7 +7,7 @@
 ### KL散度(Kullback-Leibler Divergence)
 KL散度的定义:
 $$
-KLD(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
+KLD(P || Q) = \sum_{x \in X} P(x) \ln \frac{Q(x)}{P(x)}
 $$
 
 正态分布:
