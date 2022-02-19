@@ -49,6 +49,10 @@ JSD(P || Q) = \frac{1}{2}KLD(P||Q) + \frac{1}{2}KLD(Q||P)
 $$
 
 ### DCGAN
+* 使用卷积层代替池化层
+* 去除全连接层
+* 使用批归一化
+* 使用恰当的激活函数： 生成网络使用ReLU, 输出使用Tanh, 判别使用LeaklyReLU
 ### LSGAN and WGAN
 ### OptionGAN
 
