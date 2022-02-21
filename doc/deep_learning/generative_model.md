@@ -50,7 +50,9 @@ JSD(P || Q) = \frac{1}{2}KLD(P||M) + \frac{1}{2}KLD(Q||M)
 $$
 JS散度的缺点  
 $$
-
+\begin{align}
+JSD(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x)})
+\end{align}
 $$
 
 ### DCGAN
