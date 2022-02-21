@@ -53,7 +53,7 @@ $$
 \begin{align}
 JSD(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} + \sum Q(x) \ln \frac{Q(x)}{\frac{1}{2}(P(x) + Q(x))}) \\\\
 &= \frac{1}{2}(\sum P(x) \ln \frac{2P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{2Q(x)}{P(x) + Q(x)}) \\\\
-&= \frac{1}{2}(\sum P(x) (\ln \frac{P(x)}{P(x) + Q(x)} + \ln 2)
+&= \frac{1}{2}(\sum P(x) (\ln \frac{P(x)}{P(x) + Q(x)} + \ln 2) + \sum Q(x) (\ln \frac{Q(x)}{P(x) + Q(x)} + ln 2) \\\\
 \end{align}
 $$
 
