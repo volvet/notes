@@ -57,6 +57,7 @@ JSD(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} +
 &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{Q(x)}{P(x) + Q(x)}) + \ln2 \\\\
 \end{align}
 $$
+可见： 若$P(x)$与$Q(x)$无重叠区， $JSD(P || Q) = \ln2$
 
 ### DCGAN
 * 使用卷积层代替池化层
