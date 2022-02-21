@@ -45,7 +45,8 @@ $\epsilon$为标准正态分布采样
 ## GAN
 ### JS散度(Jensen Shannon Divergence)
 $$
-JSD(P || Q) = \frac{1}{2}KLD(P||Q) + \frac{1}{2}KLD(Q||P)
+M = \frac{1}{2}(P + Q) \\\\
+JSD(P || Q) = \frac{1}{2}KLD(P||M) + \frac{1}{2}KLD(Q||M)
 $$
 
 ### DCGAN
