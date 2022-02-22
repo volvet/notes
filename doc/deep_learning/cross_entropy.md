@@ -17,7 +17,7 @@ $$
 $$
 \begin{align}
 H(p, q) &=  -\sum_xp(x) \log q(x) \\\\
-&= - \sum_xp(x) \log p(x) - \sum_xp(x) \log \frac{p(x)}{q(x)} \\\\
+&= - \sum_xp(x) \log p(x) + \sum_xp(x) \log \frac{p(x)}{q(x)} \\\\
 &= H(p) + KL(p || q)
 \end{align}
 $$
