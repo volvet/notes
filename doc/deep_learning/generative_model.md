@@ -12,7 +12,11 @@ $$
 
 KL散度的非负性
 $$
-KL(P || Q)
+\begin{align}
+KL(P || Q) &= \sum P(x) \ln \frac{P(x)}{Q(x)} \\\\
+&= - \sum P(x) \ln \frac{Q(x)}{P(x)} \\\\
+& \geq - \ln \sum P(x) frac{Q(x)}{P(x)} = 0 
+\end{align}
 $$
 
 正态分布:
