@@ -7,7 +7,12 @@
 ### KL散度(Kullback-Leibler Divergence)
 KL散度的定义:
 $$
-KLD(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
+KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
+$$
+
+KL散度的非负性
+$$
+KL(P || Q)
 $$
 
 正态分布:
@@ -23,7 +28,7 @@ $$
 正态分布 $N(\mu, \sigma)$与标准正态分布$N(0, 1)$的KL散度为:
 $$
 \begin{align}
-KLD(N(\mu, \sigma^2) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \ln \frac{1 / \sqrt{2\pi \sigma^2} e^{-\frac{(x-\mu)^2}{2\sigma^2}} }{ 1 / \sqrt{2\pi} e^{ -\frac{x^2}{2} } } \\\\
+KL(N(\mu, \sigma^2) || N(0, 1)) &= \sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \ln \frac{1 / \sqrt{2\pi \sigma^2} e^{-\frac{(x-\mu)^2}{2\sigma^2}} }{ 1 / \sqrt{2\pi} e^{ -\frac{x^2}{2} } } \\\\
 &=  \frac{1}{2}\sum_{x \in X} \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} (-\ln \sigma^2 + x^2 - (x-\mu)^2 / \sigma^2) \\\\
 &= \frac{1}{2} (-\ln \sigma^2 + \mu^2 + \sigma^2 - 1)
 \end{align}
@@ -46,12 +51,12 @@ $\epsilon$为标准正态分布采样
 ### JS散度(Jensen Shannon Divergence)
 $$
 M = \frac{1}{2}(P + Q) \\\\
-JSD(P || Q) = \frac{1}{2}KLD(P||M) + \frac{1}{2}KLD(Q||M)
+JS(P || Q) = \frac{1}{2}KL(P||M) + \frac{1}{2}KL(Q||M)
 $$
 JS散度的缺点  
 $$
 \begin{align}
-JSD(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} + \sum Q(x) \ln \frac{Q(x)}{\frac{1}{2}(P(x) + Q(x))}) \\\\
+JS(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} + \sum Q(x) \ln \frac{Q(x)}{\frac{1}{2}(P(x) + Q(x))}) \\\\
 &= \frac{1}{2}(\sum P(x) \ln \frac{2P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{2Q(x)}{P(x) + Q(x)}) \\\\
 &= \frac{1}{2}(\sum P(x) (\ln \frac{P(x)}{P(x) + Q(x)} + \ln 2) + \sum Q(x) (\ln \frac{Q(x)}{P(x) + Q(x)} + ln 2)) \\\\
 &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{Q(x)}{P(x) + Q(x)}) + \ln2 \\\\
