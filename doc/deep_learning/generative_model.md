@@ -15,7 +15,7 @@ $$
 \begin{align}
 KL(P || Q) &= \sum P(x) \ln \frac{P(x)}{Q(x)} \\\\
 &= - \sum P(x) \ln \frac{Q(x)}{P(x)} \\\\
-& \geq - \ln \sum P(x) frac{Q(x)}{P(x)} = 0 
+& \geq - \ln \sum P(x) \frac{Q(x)}{P(x)} = 0 
 \end{align}
 $$
 
