@@ -10,7 +10,7 @@ $$
 KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
 $$
 
-KL散度的非负性
+KL散度的非负性(凸函数的性质)
 $$
 \begin{align}
 KL(P || Q) &= \sum P(x) \ln \frac{P(x)}{Q(x)} \\\\
