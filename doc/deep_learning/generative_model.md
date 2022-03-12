@@ -73,7 +73,8 @@ $$
 * 去除全连接层
 * 使用批归一化
 * 使用恰当的激活函数： 生成网络使用ReLU, 输出使用Tanh, 判别使用LeaklyReLU
-### LSGAN and WGAN
+### LSGAN
+### WGAN
 ### OptionGAN
 
 * CGAN/SGAN/ACGAN
