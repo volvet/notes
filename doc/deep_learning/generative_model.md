@@ -76,6 +76,7 @@ $$
 ### LSGAN and WGAN
 ### OptionGAN
 
+* CGAN/SGAN/ACGAN
 
 ## Reference
 * 北邮 机器视觉 - 鲁鹏
