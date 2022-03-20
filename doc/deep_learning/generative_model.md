@@ -7,15 +7,15 @@
 ### KL散度(Kullback-Leibler Divergence)
 KL散度的定义:
 $$
-KL(P || Q) = \sum_{x \in X} P(x) \ln \frac{P(x)}{Q(x)}
+KL(P || Q) = \sum_{x \in X} P(x) log \frac{P(x)}{Q(x)}
 $$
 
 KL散度的非负性(凸函数的性质)
 $$
 \begin{align}
-KL(P || Q) &= \sum P(x) \ln \frac{P(x)}{Q(x)} \\\\
-&= - \sum P(x) \ln \frac{Q(x)}{P(x)} \\\\
-& \geq - \ln \sum P(x) \frac{Q(x)}{P(x)} = 0 
+KL(P || Q) &= \sum P(x) log \frac{P(x)}{Q(x)} \\\\
+&= - \sum P(x) log \frac{Q(x)}{P(x)} \\\\
+& \geq - log \sum P(x) \frac{Q(x)}{P(x)} = 0 
 \end{align}
 $$
 
