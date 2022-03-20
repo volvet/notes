@@ -60,13 +60,13 @@ $$
 JS散度的缺点  
 $$
 \begin{align}
-JS(P || Q) &= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} + \sum Q(x) \ln \frac{Q(x)}{\frac{1}{2}(P(x) + Q(x))}) \\\\
-&= \frac{1}{2}(\sum P(x) \ln \frac{2P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{2Q(x)}{P(x) + Q(x)}) \\\\
-&= \frac{1}{2}(\sum P(x) (\ln \frac{P(x)}{P(x) + Q(x)} + \ln 2) + \sum Q(x) (\ln \frac{Q(x)}{P(x) + Q(x)} + ln 2)) \\\\
-&= \frac{1}{2}(\sum P(x) \ln \frac{P(x)}{P(x) + Q(x)} + \sum Q(x) \ln \frac{Q(x)}{P(x) + Q(x)}) + \ln2 \\\\
+JS(P || Q) &= \frac{1}{2}(\sum P(x) \log \frac{P(x)}{\frac{1}{2}(P(x) + Q(x))} + \sum Q(x) \log \frac{Q(x)}{\frac{1}{2}(P(x) + Q(x))}) \\\\
+&= \frac{1}{2}(\sum P(x) \log \frac{2P(x)}{P(x) + Q(x)} + \sum Q(x) \log \frac{2Q(x)}{P(x) + Q(x)}) \\\\
+&= \frac{1}{2}(\sum P(x) (\log \frac{P(x)}{P(x) + Q(x)} + \log 2) + \sum Q(x) (\ln \frac{Q(x)}{P(x) + Q(x)} + \log2)) \\\\
+&= \frac{1}{2}(\sum P(x) \log \frac{P(x)}{P(x) + Q(x)} + \sum Q(x) \log \frac{Q(x)}{P(x) + Q(x)}) + \log2 \\\\
 \end{align}
 $$
-可见： 若$P(x)$与$Q(x)$无重叠区， $JSD(P || Q) = \ln2$
+可见： 若$P(x)$与$Q(x)$无重叠区， $JSD(P || Q) = \log2$
 
 ### DCGAN
 * 使用卷积层代替池化层
