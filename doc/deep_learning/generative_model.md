@@ -70,7 +70,7 @@ $$
 
 ### GAN推导
 $$
-\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～pdata}[\log D(x)]
+\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～pdata}[\log D(x)] + E_{z~p(z)}[\log(1 - D(G(z)))]
 $$
 
 ### DCGAN
