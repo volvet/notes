@@ -75,7 +75,11 @@ $$
 对于生成网络:
 $$
 \mathop{min} \limits_{G} E_{z～p(z)} [\log (1 - D(G(z)))] \\\\
-\mathop{min} \limits_{G} E_{z～p(z)} [-\log (D(G(z)))]
+\mathop{min} \limits_{G} E_{z～p(z)} [-\log D(G(z))]
+$$
+对于判别网络:
+$$
+\mathop{max} \limits_{D} E_{x～pdata}[\logD(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
 $$
 
 ### DCGAN
