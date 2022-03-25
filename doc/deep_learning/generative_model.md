@@ -84,7 +84,7 @@ $$
 $$
 可以写为:
 $$
-\mathop{min} \limits_{D} - \int_x p(x) \log D(x) - \int_z p(z) \log[1 - D(G(z))] \\\\
+\mathop{min} \limits_{D} (- \int_x p(x) \log D(x) - \int_z p(z) \log[1 - D(G(z))]) \\\\
 $$
 
 ### DCGAN
