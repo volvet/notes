@@ -79,7 +79,7 @@ $$
 $$
 对于判别网络:
 $$
-\mathop{max} \limits_{D} E_{x～pdata}[\logD(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
+\mathop{max} \limits_{D} E_{x～pdata}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
 $$
 
 ### DCGAN
