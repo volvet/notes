@@ -70,7 +70,7 @@ $$
 
 ### GAN推导
 $$
-
+\mathop{min} \limits{G}
 $$
 
 ### DCGAN
