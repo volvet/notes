@@ -89,6 +89,7 @@ $$
 对$D$求导， 可得:
 $$
 \frac{p(x)}{D} + \frac{p(z)}{1 - D} = 0 \\\\
+D = \frac{p(x)}{p(z) + p(x)}
 $$
 
 ### DCGAN
