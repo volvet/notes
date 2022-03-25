@@ -86,7 +86,10 @@ $$
 $$
 \mathop{min} \limits_{D} (- \int_x p(x) \log D(x) - \int_z p(z) \log[1 - D(G(z))]) \\\\
 $$
-为了简化书写， 将$G(z)$写为$x^{'}$ , 是为生成样本.
+对$D$求导， 可得:
+$$
+\frac{p(x)}{D} + \frac{p(z}}{1 - D} = 0 \\\\
+$$
 
 ### DCGAN
 * 使用卷积层代替池化层
