@@ -70,7 +70,7 @@ $$
 
 ### GAN推导
 $$
-\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～}
+\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～pdata}[]
 $$
 
 ### DCGAN
