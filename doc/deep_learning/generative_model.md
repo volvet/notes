@@ -72,6 +72,10 @@ $$
 $$
 \mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～pdata}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
 $$
+对于生成网络:
+$$
+\mathop{min} \limits_{G} E_{z～p(z)} [\log (1 - D(G(z)))]
+$$
 
 ### DCGAN
 * 使用卷积层代替池化层
