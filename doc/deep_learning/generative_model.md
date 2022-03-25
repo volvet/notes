@@ -70,7 +70,7 @@ $$
 
 ### GAN推导
 $$
-\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～pdata}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
+\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～p(x)}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))]
 $$
 对于生成网络:
 $$
@@ -79,8 +79,8 @@ $$
 $$
 对于判别网络:
 $$
-\mathop{max} \limits_{D} E_{x～pdata}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))] \\\\
-\mathop{min} \limits_{D} (- E_{x～pdata}[\log D(x)] - E_{z～p(z)}[\log(1 - D(G(z)))]) \\\\
+\mathop{max} \limits_{D} E_{x～p(x)}[\log D(x)] + E_{z～p(z)}[\log(1 - D(G(z)))] \\\\
+\mathop{min} \limits_{D} (- E_{x～p(x)}[\log D(x)] - E_{z～p(z)}[\log(1 - D(G(z)))]) \\\\
 $$
 可以写为:
 $$
@@ -93,7 +93,8 @@ D = \frac{p(x)}{p(z) + p(x)}
 $$
 将上式代入GAN的$V(D， G)$，可得:
 $$
-\mathop{min} \limits_{G} \mathop{max} \limits_{D} E_{x～pdata}[\log D(x)] + E_{z～p(z)} log[1 - D(G(z))]
+\mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～p(x)}[\log D(x)] + E_{z～p(z)} log[1 - D(G(z))] \\\\
+ = E_{x～p(x)}
 $$
 
 ### DCGAN
