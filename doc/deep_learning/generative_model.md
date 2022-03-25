@@ -96,6 +96,10 @@ $$
 \mathop{min} \limits_{G} \mathop{max} \limits_{D} V(D, G) = E_{x～p(x)}[\log D(x)] + E_{z～p(z)} log[1 - D(G(z))] \\\\
  = E_{x～p(x)}[\log \frac{p(x)}{p(z) + p(x)}] + E_{z～p(z)}[\log \frac{p(z)}{p(z) + p(x)}]
 $$
+跟JS散度比较， 显然上式可以写为:
+$$
+2JS(p(x) || p(z)) + 2log2
+$$
 
 ### DCGAN
 * 使用卷积层代替池化层
