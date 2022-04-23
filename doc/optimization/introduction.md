@@ -17,7 +17,7 @@ $$
 反之， 则为非线性规划.
 
 * 凸规划/非凸规划.  
-凸函数的性质： $f_i(\alpha x + \beta y) \leq \alpha f_i(x) + \beta f_i(y)$.  
+凸函数的性质： $f_i(\alpha x + \beta y) \leq \alpha f_i(x) + \beta f_i(y)$.  任意$\alpha, \beta \in R, 且 \alpha + \beta = 1$
 若目标函数和约束函数均为凸函数， 则此问题为凸规划问题.  
 反之， 则为非凸规划问题.  
 
