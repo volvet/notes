@@ -28,6 +28,13 @@ $$
 $$
 
 * 单目标/多目标
+$$
+\mathop{minimize} \begin{cases}
+f_0(x) \\\\
+... \\\\
+f_n(x) \\\\
+\end{cases}
+$$
 
 
 ## Reference
