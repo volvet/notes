@@ -27,6 +27,7 @@ $$
 \mathop{minimize} \  f_0(x) = ||Ax - b||^2 = \sum_{i=1}^k(a_i^Tx - b_i)^2
 $$
 
+* 单目标/多目标
 
 
 ## Reference
