@@ -67,6 +67,10 @@ C为凸集，
 x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 1, 且 0 \leq \theta_i \leq 1， 则 \\\\
 凸组合 \sum_{i=1}^k \theta_i x_i \in C
 $$
+凸包
+$$
+集合C内所有点的凸组合的集合称为其凸包， 记为: \mathop{conv}C
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
