@@ -61,9 +61,9 @@ $$
 对于任意x_1, x_2 \in C, 且满足 0 \leq \theta \leq 1, 都有: \\\\
 \theta x_1 + (1 - \theta)x_2 \in C
 $$
-
+凸组合
 $$
-C为凸集 \\\\
+C为凸集，
 x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 1, 且 0 \leq \theta_i \leq 1， 则 \\\\
 凸组合 \sum_i=1^k \theta_i x_i \in C
 $$
