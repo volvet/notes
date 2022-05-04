@@ -49,6 +49,11 @@ C = \\{  x | Ax = b \\}, A \in R^{m \times n}, b \in R^m 是一个仿射集 \\\\
 与C相关的子空间就是A的零空间
 $$
 
+### 任意集合$C$构造最小的仿射集
+$$
+\mathop{aff} C = \\{ \theat_1 x_1 + ... + \theta_k x_k | x_1, ..., x_k \in C, \theta_1 + ... + \theta_k = 1\\} 
+$$
+
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
