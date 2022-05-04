@@ -57,6 +57,10 @@ $\mathop{aff}C$称为仿射包.
 
 ## 凸集
 一个集合$C$是凸集， 当任意两点间的线段仍然在$C$内.
+$$
+对于任意x_1, x_2 \in C, 且满足 0 \leq \theta \leq 1, 都有: \\\\
+\theta x_1 + (1 - \theta)x_2 \in C
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
