@@ -51,7 +51,7 @@ $$
 
 ### 任意集合$C$构造最小的仿射集
 $$
-\mathop{aff} C = \\{ \theat_1 x_1 + ... + \theta_k x_k | x_1, ..., x_k \in C, \theta_1 + ... + \theta_k = 1\\} 
+\mathop{aff} C = \\{ \theta_1 x_1 + ... + \theta_k x_k | x_1, ..., x_k \in C, \theta_1 + ... + \theta_k = 1\\} 
 $$
 
 
