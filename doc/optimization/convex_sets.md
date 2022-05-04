@@ -69,6 +69,7 @@ x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 
 $$
 凸包: $集合C内所有点的凸组合的集合称为其凸包， 记为: \mathop{conv}C$
 
+## 锥(Cone)
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
