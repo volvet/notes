@@ -69,7 +69,7 @@ x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 
 $$
 凸包: $集合C内所有点的凸组合的集合称为其凸包， 记为: \mathop{conv}C$
 
-## 锥(Cone)
+## 锥(Cone), 凸锥
 对于任意$x \in C$和$\theta \geq 0$, 都有$\theta x \in C$, 则我们称集合$C$是锥或者非负齐次.  
 
 ## Refrences
