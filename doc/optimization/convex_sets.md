@@ -65,7 +65,7 @@ $$
 $$
 C为凸集，
 x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 1, 且 0 \leq \theta_i \leq 1， 则 \\\\
-凸组合 \sum_i=1^k \theta_i x_i \in C
+凸组合 \sum_{i=1}^k \theta_i x_i \in C
 $$
 
 ## Refrences
