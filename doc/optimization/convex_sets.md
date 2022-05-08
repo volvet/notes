@@ -61,7 +61,7 @@ $$
 对于任意x_1, x_2 \in C, 且满足 0 \leq \theta \leq 1, 都有: \\\\
 \theta x_1 + (1 - \theta)x_2 \in C
 $$
-凸组合
+凸组合:
 $$
 C为凸集，
 x_1, ..., x_k \in C, \theta_1, ..., \theta_k \in R, 且 \sum_{i=1}^k \theta_i = 1, 且 0 \leq \theta_i \leq 1， 则 \\\\
@@ -72,6 +72,10 @@ $$
 ## 锥(Cone), 凸锥
 对于任意$x \in C$和$\theta \geq 0$, 都有$\theta x \in C$, 则我们称集合$C$是锥或者非负齐次.  
 对于任意$x_1, x_2 \in C$和$\theta_1, \theta_2 \geq 0$, 都有$\theta_1 x_1 + \theta_2 x_2 \in C$, 则我们称锥$C$为凸锥.  
+凸锥组合:
+$$
+\theta_1x_1 + ... + \theta_kx_k
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
