@@ -72,9 +72,11 @@ $$
 ## 锥(Cone), 凸锥
 对于任意$x \in C$和$\theta \geq 0$, 都有$\theta x \in C$, 则我们称集合$C$是锥或者非负齐次.  
 对于任意$x_1, x_2 \in C$和$\theta_1, \theta_2 \geq 0$, 都有$\theta_1 x_1 + \theta_2 x_2 \in C$, 则我们称锥$C$为凸锥.  
-凸锥组合:
+凸锥组合:$\theta_1x_1 + ... + \theta_kx_k$
+凸锥包:  
+集合$C$的凸锥包是$C$中包含元素的所有锥组合, 即:
 $$
-\theta_1x_1 + ... + \theta_kx_k
+\\{ \theta_1x_1 + ... + \theta_kx_k | x_i \in C, \theta_i \geq 0  \\}
 $$
 
 ## Refrences
