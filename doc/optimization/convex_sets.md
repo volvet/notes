@@ -102,6 +102,7 @@ $$
 \epsilon(x_c, P) = \\{ x | (x - x_c)^T p^{-1} (x - x_c) \leq 1 \\\} \\\\
 x_c \in R^n, P \in S^n_{++}
 $$
+$S^n_{++}$表示 $n \times n$对称正定矩阵
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
