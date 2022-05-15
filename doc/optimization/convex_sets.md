@@ -90,6 +90,7 @@ $$
 $$
 \\{ x | a^Tx = b \\},  x, a \in R^n,  b \in R, a \neq 0
 $$
+$x$的集合称为超平面
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
