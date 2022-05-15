@@ -94,7 +94,7 @@ $x$的集合称为超平面, 超平面将$R^n$分为两个半空间, 半空间�
 
 ### Euclid球和椭球
 $$
-B(x_c, r) = \\{ x | \lVert x - x_c \rVert \leq r \\}
+B(x_c, r) = \\{ x | \lVert x - x_c \rVert_2 \leq r \\} = \\{ x | (x-x_c)^T(x-x_c) \leq r^2 \\}
 $$
 
 ## Refrences
