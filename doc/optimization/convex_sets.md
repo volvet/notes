@@ -92,9 +92,14 @@ $$
 $$
 $x$的集合称为超平面, 超平面将$R^n$分为两个半空间, 半空间是具有下列形式的点的集合: $\\{ x | a^Tx \leq b\\}, a \neq 0$
 
-### Euclid球和椭球
+### Euclid球
 $$
 B(x_c, r) = \\{ x | \lVert x - x_c \rVert_2 \leq r \\} = \\{ x | (x-x_c)^T(x-x_c) \leq r^2 \\}
+$$
+
+### 椭球
+$$
+\epsilon(x_c, P) = \\{ x | (x - x_c)^T p^{-1} (x - x_c) \leq 1 \\\}
 $$
 
 ## Refrences
