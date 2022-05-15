@@ -86,6 +86,8 @@ $$
 * 任意线段
 * $\\{ x_0 + \theta v |  \theta \geq 0 \\},  x_0 \in R^n, \theta \in R, v \in R^n$
 
+### 超平面与半空间
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
