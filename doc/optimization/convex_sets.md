@@ -87,6 +87,9 @@ $$
 * $\\{ x_0 + \theta v |  \theta \geq 0 \\},  x_0 \in R^n, \theta \in R, v \in R^n$
 
 ### 超平面与半空间
+$$
+\\{ x | a^Tx = b \\},  x, a \in R^n,  b \in R, a \neq 0
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
