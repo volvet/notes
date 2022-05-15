@@ -92,6 +92,8 @@ $$
 $$
 $x$的集合称为超平面, 超平面将$R^n$分为两个半空间, 半空间是具有下列形式的点的集合: $\\{ x | a^Tx \leq b\\}, a \neq 0$
 
+### Euclid球和椭球
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
