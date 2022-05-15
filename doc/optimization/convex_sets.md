@@ -79,6 +79,9 @@ $$
 \\{ \theta_1x_1 + ... + \theta_kx_k | x_i \in C, \theta_i \geq 0  \\}
 $$
 
+## 几种重要的凸集
+* $R^n$空间
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
