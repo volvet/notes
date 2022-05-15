@@ -99,7 +99,8 @@ $$
 
 ### 椭球
 $$
-\epsilon(x_c, P) = \\{ x | (x - x_c)^T p^{-1} (x - x_c) \leq 1 \\\}
+\epsilon(x_c, P) = \\{ x | (x - x_c)^T p^{-1} (x - x_c) \leq 1 \\\} \\\\
+x_c \in R^n, P \in S^n_{++}
 $$
 
 ## Refrences
