@@ -113,7 +113,7 @@ $$
 $$
 R^n空间中选k+1个点, v_0, v_1, ... , v_k, v_1 - v_0, ... , v_k - v_{k-1}线性无关 \\\\
 则与上述点相关的单纯形为: \\\\
-C = \mathop{conv} \\{v_0, ..., v_k  \\} = {\theta_0v_0 + ... + \theta_kv_k | \theta \geq 0, 1^T\theta = 1\\|
+C = \mathop{conv} \\{v_0, ..., v_k  \\} = {\theta_0v_0 + ... + \theta_kv_k | \theta \geq 0, 1^T\theta = 1\\}
 $$
 
 ## Refrences
