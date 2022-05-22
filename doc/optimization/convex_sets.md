@@ -109,6 +109,8 @@ $$
 P = \\{ x | a_j^Tx \leq b_j, j=1,...,m, \  b_j^Tx=d_j, j=1,...,p\\}
 $$
 
+### 单纯形
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
