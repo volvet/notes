@@ -116,6 +116,8 @@ R^n空间中选k+1个点, v_0, v_1, ... , v_k, v_1 - v_0, ... , v_k - v_0线性�
 C = \mathop{conv} \\{v_0, ..., v_k  \\} = \\{\theta_0v_0 + ... + \theta_kv_k | \theta \geq 0, 1^T\theta = 1\\}
 $$
 
+单纯形一定是多面体的证明:  
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
