@@ -117,7 +117,7 @@ C = \mathop{conv} \\{v_0, ..., v_k  \\} = \\{\theta_0v_0 + ... + \theta_kv_k | \
 $$
 
 单纯形一定是多面体的证明:(TODO)
-对称矩阵$S^{n \tinmes n}$, 对称半正定矩阵$S^{n \times n}_+$, 对称正定矩阵$S^{n \times n}_{++}$
+对称矩阵$S^{n \times n}$, 对称半正定矩阵$S^{n \times n}_+$, 对称正定矩阵$S^{n \times n}_{++}$
 
 
 ## Refrences
