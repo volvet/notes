@@ -104,6 +104,9 @@ x_c \in R^n, P \in S^n_{++}
 $$
 $S^n_{++}$表示 $n \times n$对称正定矩阵
 
+### 多面体
+
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
