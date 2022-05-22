@@ -106,7 +106,7 @@ $S^n_{++}$表示 $n \times n$对称正定矩阵
 
 ### 多面体
 $$
-P = \\{ x | a_j^Tx \leq b_j, j=1,...,m, \  b_jx^Tx=d_j, j=1,...,p\\}
+P = \\{ x | a_j^Tx \leq b_j, j=1,...,m, \  b_j^Tx=d_j, j=1,...,p\\}
 $$
 
 ## Refrences
