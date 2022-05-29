@@ -1,7 +1,7 @@
 **2.1**   设$C \subseteq R^n$为一个凸集， 且$x_1, ..., x_k \in C$, 令$\theta_1, ..., \theta_k \in R$, 且满足$\theta_i \geq 0, \theta_1 + ... + \theta_k = 1$。  证明: $\theta_1 x_1 + ... + \theta_k x_k \in C$  
 Answer: 显然$k=2$时成立， 下面我们证明$k=3$的时候.  
 $$
-y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3, 且 \theta_i \geq 0, \sum_{i=1}^3\theta_i = 1
+y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3,   \   \theta_i \geq 0, \sum_{i=1}^3\theta_i = 1
 $$
 
 
