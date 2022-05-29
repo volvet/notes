@@ -121,7 +121,7 @@ $$
 
 ## 保凸运算
 交集: 若$S_1, S_2$为凸， 则 $S_1 \cap S_2$为凸.  
-仿射函数: $f: R^n -> R^m$是仿射的， 当$f(x) = Ax + b$, $A \in R^{m \times n}$, $b \in R^m$. 
+仿射函数: $f: R^n$ -> $R^m$是仿射的， 当$f(x) = Ax + b$, $A \in R^{m \times n}$, $b \in R^m$. 
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
