@@ -134,7 +134,7 @@ $$
 两个凸集的和也是凸集: $S_1 + S_2 = \\{ x + y | x \in S_1, y \in S_2 \\}$  
 两个凸集的直积也是凸集: $S_1 \times S_2 = \\{ (x, y) | x \in S_1, y \in S_2\\}$. 
 
-透视函数: $P: R^{n+1}$ -> $R^n$, $dom P = R^n \times R_{++}$
+透视函数: $P: R^{n+1}$ -> $R^n$, $dom P = R^n \times R_{++}, P(z, t) = \frac{z}{t}$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
