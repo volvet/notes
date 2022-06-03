@@ -135,7 +135,7 @@ $$
 两个凸集的直积也是凸集: $S_1 \times S_2 = \\{ (x, y) | x \in S_1, y \in S_2\\}$. 
 
 透视函数: $P: R^{n+1}$ -> $R^n$, $dom P = R^n \times R_{++}, P(z, t) = \frac{z}{t}$.  
-如果 $C \subseteq domP$是凸集， 那么它的象$P(C)=\\{P(x) | x \in C \\}$也是凸集.  
+如果 $C \subseteq domP$是凸集， 那么它的象$P(C)=\\{P(x) | x \in C \\}$也是凸集.  反之也成立.  
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
