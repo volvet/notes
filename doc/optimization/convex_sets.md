@@ -139,7 +139,7 @@ $$
 
 ### 线性分式函数
 $$
-g: R^n -> R^m
+g: R^n \rightarrow R^m
 $$
 
 
