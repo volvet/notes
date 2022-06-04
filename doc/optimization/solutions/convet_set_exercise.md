@@ -2,7 +2,8 @@
 Answer:  
 显然$k=2$时成立， 下面我们证明$k=3$的时候.  
 $$
-y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3,   \   \theta_i \geq 0, \sum_{i=1}^3\theta_i = 1
+y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3,   \   \theta_i \geq 0, \sum_{i=1}^3\theta_i = 1 \\\\
+y = \theta_1x_1 + (1-\theta_1)(\frac{\theta_2}{1-\theta_1} + \frac{\theta_3}{1-\theta_1}
 $$
 
 
