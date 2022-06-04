@@ -8,6 +8,7 @@ y = \theta_1x_1 + (1-\theta_1)(\frac{\theta_2}{1-\theta_1}x_2 + \frac{\theta_3}{
 于是: (\frac{\theta_2}{1-\theta_1}x_2 + \frac{\theta_3}{1-\theta_1}x_3) \in C \\\\
 然后可以推出: y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 \in C
 $$
+得证.
 
 
 **2.2**   证明一个集合是凸集当且仅当它与任意直线的交是凸的.  证明一个集合是仿射集当且仅当它与任意直线的交是仿射的.  
