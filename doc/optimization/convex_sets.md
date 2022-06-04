@@ -137,6 +137,8 @@ $$
 透视函数: $P: R^{n+1}$ -> $R^n$, $dom P = R^n \times R_{++}, P(z, t) = \frac{z}{t}$.  
 如果 $C \subseteq domP$是凸集， 那么它的象$P(C)=\\{P(x) | x \in C \\}$也是凸集.  反之也成立.  
 
+### 线性分式函数
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
