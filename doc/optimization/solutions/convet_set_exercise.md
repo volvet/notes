@@ -4,7 +4,9 @@ Answer:
 $$
 y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3,   \   \theta_i \geq 0, \sum_{i=1}^3\theta_i = 1 \\\\
 y = \theta_1x_1 + (1-\theta_1)(\frac{\theta_2}{1-\theta_1}x_2 + \frac{\theta_3}{1-\theta_1}x_3) \\\\
-显然: \frac{\theta_2}{1-\theta_1} + \frac{\theta_3}{1-\theta_1} = \frac{1-\theta_1}{1-\theta_1} = 1
+显然: \frac{\theta_2}{1-\theta_1} + \frac{\theta_3}{1-\theta_1} = \frac{1-\theta_1}{1-\theta_1} = 1 \\\\
+于是: (\frac{\theta_2}{1-\theta_1}x_2 + \frac{\theta_3}{1-\theta_1}x_3) \in C \\\\
+然后可以推出: y = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 \in C
 $$
 
 
