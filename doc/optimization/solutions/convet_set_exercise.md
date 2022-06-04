@@ -22,7 +22,7 @@ Solution:
 $$
 令 \theta^k = \sum_{i=1}^kc_i2^{-i},  其中c_i \in \\{0, 1\\} \\\\
 中点凸, 即: \theta^ka + (1-\theta^k)b \in C \\\\
-\lim_{k\rightarrow\infty}(\theta^ka+(1-\theta^k)b = \theta a + (1-\theta)b \in C
+\lim_{k\rightarrow\infty}(\theta^ka+(1-\theta^k)b) = \theta a + (1-\theta)b \in C
 $$
 得证.  
 
