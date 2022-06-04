@@ -148,7 +148,7 @@ b\\
 d
 \end{bmatrix} \\\\
 则： f:R^n \rightarrow R^m \\\\
-f(x) = \frac{Ax + b}{C^Tx+d}, domf =  \\{ x | c^Tx + d \gt 0 \\}
+f(x) = \frac{Ax + b}{c^Tx+d}, domf =  \\{ x | c^Tx + d \gt 0 \\}
 $$
 
 
