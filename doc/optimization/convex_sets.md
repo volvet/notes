@@ -139,7 +139,11 @@ $$
 
 ### 线性分式函数
 $$
-g: R^n \rightarrow R^m
+设 g: R^n \rightarrow R^{m+1} 是仿射的, 即： \\\\
+g(x) = \begin{bmatrix}
+A\\
+c^T
+\end{bmatrix}x
 $$
 
 
