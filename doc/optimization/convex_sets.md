@@ -143,7 +143,10 @@ $$
 g(x) = \begin{bmatrix}
 A\\
 c^T
-\end{bmatrix}x
+\end{bmatrix}x + \begin{bmatrix}
+b\\
+d
+\end{bmatrix} \\\\
 $$
 
 
