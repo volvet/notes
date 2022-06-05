@@ -23,3 +23,9 @@ $$
 \infty, \  x \notin C \\\\
 \end{cases}
 $$
+
+### 一阶条件
+
+## Reference
+* 凌青 - 中科大公开课 最优化理论
+* Stephen Boyd - Connvex Optimization
