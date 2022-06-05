@@ -16,7 +16,7 @@ f(x), x \in domf \\\\
 $$
 
 ### 示性函数
-设$C \subset R^n$是一个凸集， 考虑函数$I(C), 对于所有x \in C, f(x) = 0$, 对$I(C)$扩展：
+设$C \subseteq R^n$是一个凸集， 考虑函数$I(C), 对于所有x \in C, f(x) = 0$, 对$I(C)$扩展：
 $$
 \tilde I_C(x) = \begin{cases}
 0, x \in C \\\\
