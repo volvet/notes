@@ -9,7 +9,7 @@ $$
 ### 凸函数的扩展
 如果$f$是凸函数， 我们定义它的扩展至延伸$\tilde f : R^n \rightarrow R \cup \infty$:  
 $$
-\tilde f(x) = \begin{cases|
+\tilde f(x) = \begin{cases}
 f(x), x \in domf \\\\
 \infty, x \notin domf \\\\
 \end{cases}
