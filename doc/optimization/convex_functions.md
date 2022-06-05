@@ -10,8 +10,8 @@ $$
 如果$f$是凸函数， 我们定义它的扩展至延伸$\tilde f : R^n \rightarrow R \cup \infty$:  
 $$
 \tilde f(x) = \begin{cases}
-f(x), x \in domf \\\\
-\infty, x \notin domf \\\\
+f(x), \  x \in domf \\\\
+\infty, \  x \notin domf \\\\
 \end{cases}
 $$
 
@@ -19,7 +19,7 @@ $$
 设$C \subseteq R^n$是一个凸集， 考虑函数$I(C), 对于所有x \in C, f(x) = 0$, 对$I(C)$扩展：
 $$
 \tilde I_C(x) = \begin{cases}
-0, x \in C \\\\
-\infty, x \notin C \\\\
+0, \  x \in C \\\\
+\infty, \  x \notin C \\\\
 \end{cases}
 $$
