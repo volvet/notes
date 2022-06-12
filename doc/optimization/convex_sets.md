@@ -158,7 +158,12 @@ $$
 * $K$是凸的.  
 * $K$是闭的. 
 * $K$是实的.  
-* $K$是尖的， 即$K$不包含直线($x \in K, -x \in K \Rightarrow x = 0$).
+* $K$是尖的， 即$K$不包含直线($x \in K, -x \in K \Rightarrow x = 0$).  
+
+广义不等式使用正常锥来定义, 即$R^n$上的偏序关系(Partial ordering). 定义如下:
+$$
+x \preceq y \leftrightarrow y - x \in K
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
