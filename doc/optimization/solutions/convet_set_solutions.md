@@ -29,9 +29,11 @@ $$
 **2.4**   证明集合$S$的凸包是所有包含$S$的凸集的交。  
 Solution:  
 $$
-令H = S的凸包， D为包含S的所有凸集的交 \\\\
-显然H是一个凸集， 所以 D \subseteq H \\\\
+令H = S的凸包， D为包含S的所有凸集的交，  显然H是一个凸集， 所以 D \subseteq H \\\\
+对于任意 x \in H, 显然 x 可以写为 x_1, x_2, ..., x_n \in S 的凸组合. 凸集的交是保凸运算， 所以D是凸集. S \subseteq D， 所以 x \ in D. 由此可以推论: H \subseteq D \\\\
+由此： H = D
 $$
+得证.
 
 **2.5**   两个平行的超平面$\\{x \in R^n | a^Tx = b_1 \\}, \\{x \in R^n | a^Tx = b_2 \\}$的距离是多少？  
 **2.6**   什么时候超平面包含另一个？ 给出下式成立的条件： $\\{a^Tx\leq b\\} \subseteq \\{\tilde a^Tx\leq \tilde b\\}$
