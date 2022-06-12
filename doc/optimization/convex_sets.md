@@ -154,7 +154,11 @@ $$
 ## 广义不等式（Generalized inequalities）
 
 ### 正常锥（Proper Cone)与广义不等式
-
+称锥$K \subseteq R^n$为正常锥， 如果它满足以下条件:  
+* $K$是凸的.  
+* $K$是闭的. 
+* $K$是实的.  
+* $K$是尖的， 即$K$不包含直线($x \in K, -x \in K \Rigntarrow x = 0$).
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
