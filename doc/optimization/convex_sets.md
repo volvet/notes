@@ -166,7 +166,7 @@ x \preceq_K y \Leftrightarrow y - x \in K
 $$
 定义严格的偏序关系为:
 $$
-x \prec_K y \Leftrightarrow y - x \in int K
+x \prec_K y \Leftrightarrow y - x \in int K (int 表示集合取内点)
 $$
 
 ## Refrences
