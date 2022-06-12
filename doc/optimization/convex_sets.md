@@ -151,6 +151,10 @@ d
 f(x) = \frac{Ax + b}{c^Tx+d}, domf =  \\{ x | c^Tx + d \gt 0 \\}
 $$
 
+## 广义不等式（Generalized inequalities）
+
+### 正常锥（Proper Cone)与广义不等式
+
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
