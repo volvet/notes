@@ -36,6 +36,16 @@ $$
 得证.
 
 **2.5**   两个平行的超平面$\\{x \in R^n | a^Tx = b_1 \\}, \\{x \in R^n | a^Tx = b_2 \\}$的距离是多少？  
+Solution:  
+$$
+a^T为这两个超平面的法向量， a^T与这两个超平面的交点分吧为x_1, x_2, \\\\
+a^Tx_1 = b_1, a^Tx_2 = b_2, 
+x_1 = \frac{ab_1}{\Vert a \Vert^2} \\\\
+x_2 = \frac{ab_2}{\Vert a \Vert^2} \\\\
+x_1 - x_2 = \frac{a(b_1 - b_2)}{\Vert a \Vert^2} \\\\
+\Vert x_1 - x_2 \Vert = frac{\Vert b_1 - b_2 \Vert}{\Vert a \Vert}
+$$
+
 **2.6**   什么时候超平面包含另一个？ 给出下式成立的条件： $\\{a^Tx\leq b\\} \subseteq \\{\tilde a^Tx\leq \tilde b\\}$.   
 **2.7**   半空间的Voronol描述.  令$a, b$为$R^n$上互异的两点， 证明所有距离$a$比距离$b$更近的点的集合， 即$\\{x | \Vert x - a \Vert_2 \leq \vert x - b \Vert_2 \\}$, 是一个超平面. 用形如$c^Tx \leq d$的不等式表示并绘出图像.  
 **2.8**.  下面的集合中那些是多面体， 如果可能，将$S$表示为$\\{x|Ax \preceq b, Fx=g \\}$的形式.  
