@@ -171,7 +171,7 @@ $$
 当$K = R_+$时， 偏序关系$\preceq$就是$R$上的序$\leq$， 相应的， 严格偏序$\prec$就是$R$上的严格序$\lt$.
 
 **广义多项式的性质**
-* 对于加法时保序的: 如果$x \prec_K y, 并且u \prec_K v, 那么: x + u \prec_K y + v$
+* 对于加法时保序的: 如果$x \preceq_K y, 并且u \prec_K v, 那么: x + u \preceq_K y + v$
 
 
 ## Refrences
