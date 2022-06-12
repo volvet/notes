@@ -162,7 +162,7 @@ $$
 
 广义不等式使用正常锥来定义, 即$R^n$上的偏序关系(Partial ordering). 定义如下:
 $$
-x \preceq y \leftrightarrow y - x \in K
+x \preceq_K y \Leftrightarrow y - x \in K
 $$
 
 ## Refrences
