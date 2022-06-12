@@ -170,6 +170,7 @@ x \prec_K y \Leftrightarrow y - x \in int K (int 表示集合取内点)
 $$
 当$K = R_+$时， 偏序关系$\preceq$就是$R$上的序$\leq$， 相应的， 严格偏序$\prec$就是$R$上的严格序$\lt$.
 
+** 广义多项式的性质
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
