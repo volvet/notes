@@ -158,7 +158,7 @@ $$
 * $K$是凸的.  
 * $K$是闭的. 
 * $K$是实的.  
-* $K$是尖的， 即$K$不包含直线($x \in K, -x \in K \Rigntarrow x = 0$).
+* $K$是尖的， 即$K$不包含直线($x \in K, -x \in K \Rightarrow x = 0$).
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
