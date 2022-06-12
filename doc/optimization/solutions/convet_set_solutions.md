@@ -43,7 +43,7 @@ a^Tx_1 = b_1, a^Tx_2 = b_2,
 x_1 = \frac{ab_1}{\Vert a \Vert^2} \\\\
 x_2 = \frac{ab_2}{\Vert a \Vert^2} \\\\
 x_1 - x_2 = \frac{a(b_1 - b_2)}{\Vert a \Vert^2} \\\\
-\Vert x_1 - x_2 \Vert = \frac{\Vert b_1 - b_2 \Vert}{\Vert a \Vert}
+\Vert x_1 - x_2 \Vert = \frac{\vert b_1 - b_2 \vert}{\Vert a \Vert}
 $$
 
 **2.6**   什么时候超平面包含另一个？ 给出下式成立的条件： $\\{a^Tx\leq b\\} \subseteq \\{\tilde a^Tx\leq \tilde b\\}$.   
