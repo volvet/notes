@@ -164,6 +164,10 @@ $$
 $$
 x \preceq_K y \Leftrightarrow y - x \in K
 $$
+定义严格的偏序关系为:
+$$
+x \prec_K y \Leftrightarrow y - x \in int K
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
