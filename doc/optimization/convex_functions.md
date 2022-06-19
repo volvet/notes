@@ -47,7 +47,7 @@ $$
 $$
 设f为凸函数， x, y \in domf \\\\
 g(t) = f(ty + (1-t)x) = f(x + t(y-x)) \\\\
-g^\prime(t) = \nabla f^T(ty + (1-t)x)
+g^\prime(t) = \nabla f^T(ty + (1-t)x)(y-x)
 $$
 
 
