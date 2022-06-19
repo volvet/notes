@@ -39,7 +39,7 @@ $$
 再来证明充分性:
 $$
 domf 内任意x, y, x \neq y, 0 \leq \theta \leq 1, z = \theta x + (1 - \theta)y \\\\
-f(x) \geq f(z) + f^\prime(z)(x-z),  f(y) \geq f(z) + f^\prime(y-z) \\\\
+f(x) \geq f(z) + f^\prime(z)(x-z),  f(y) \geq f(z) + f^\prime(z)(y-z) \\\\
 $$
 
 
