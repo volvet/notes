@@ -56,6 +56,7 @@ $$
 存在x,y \in domf \\\\
 ty + (1-t)x \in domf, \tilde ty + (1-\tilde t)x \in domf \\\\
 则: f(ty + (1-t)x) \geq f(\tilde ty + (1-\tilde t)x) + \nabla f(\tilde ty + (1-\tilde t)x)^T(ty+(1-t)x-\tilde ty -(1-\tilde t)x)
+可以简化为: f(ty + (1-t)x) \geq f(\tilde ty + (1-\tilde t)x) + \nabla f(\tilde ty + (1-\tilde t)x)^T(y-x)(t-\tilde t)
 $$
 
 
