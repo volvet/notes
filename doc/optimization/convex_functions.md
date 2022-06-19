@@ -36,6 +36,11 @@ x+t(y-x) \in domf, 由于函数的凸性， 可得: f(x+t(y-x)) \leq (1-t)f(x) +
 f(y) \geq f(x) + \frac{f(x+t(y-x)-f(x)}{t} \\\\
 令 t \rightarrow 0, 则 f(y) \leq f(x) + f^\prime(x)(y-x)
 $$
+再来证明充分性:
+$$
+domf 内任意x, y, x \neq y, 0 \leq \theta \leq 1, z = \theta x + (1 - \theta)y \\\\
+f(x) \geq f(z) + f^\prime(z)(x-z),  f(y) \geq f(z) + f^\prime(y-z) \\\\
+$$
 
 
 
