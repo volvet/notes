@@ -30,8 +30,9 @@ $$
 f(y) \geq f(x) + \nabla f(x)^T(y-x)
 $$
 **证明**:  
+先考虑n=1的情况:
 $$
-先考虑n=1的情况: 假设f是凸函数， 且x, y \in domf, domf是凸集, 对于任意0 \lt t \leq 1, 我们有 \\\\
+假设f是凸函数， 且x, y \in domf, domf是凸集, 对于任意0 \lt t \leq 1, 我们有 \\\\
 x+t(y-x) \in domf, 由于函数的凸性， 可得: f(x+t(y-x)) \leq (1-t)f(x) + tf(y) \\\\
 f(y) \geq f(x) + \frac{f(x+t(y-x)-f(x)}{t} \\\\
 令 t \rightarrow 0, 则 f(y) \leq f(x) + f^\prime(x)(y-x)
@@ -41,6 +42,11 @@ $$
 domf 内任意x, y, x \neq y, 0 \leq \theta \leq 1, z = \theta x + (1 - \theta)y \\\\
 f(x) \geq f(z) + f^\prime(z)(x-z),  f(y) \geq f(z) + f^\prime(z)(y-z) \\\\
 \theta f(x) + (1-\theta)f(y) \geq f(z), 说明函数f是凸函数
+$$
+现在来证明一般情况:
+$$
+设f为凸函数， x, y \in domf \\\\
+g(t) = f(ty + (1-t)x)
 $$
 
 
