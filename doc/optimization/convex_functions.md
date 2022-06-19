@@ -32,7 +32,8 @@ $$
 **证明**:  
 $$
 先考虑n=1的情况: 假设f是凸函数， 且x, y \in domf, domf是凸集, 对于任意0 \lt t \leq 1, 我们有 \\\\
-x+t(y-x) \in domf
+x+t(y-x) \in domf, 由于函数的凸性， 可得: f(x+t(y-x)) \leq (1-t)f(x) + tf(y) \\\\
+f(y) \leq f(x) + \frac{f(x+t(y-x)-f(x)}{t}
 $$
 
 
