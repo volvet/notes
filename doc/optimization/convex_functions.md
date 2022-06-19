@@ -47,13 +47,15 @@ $$
 $$
 设f为凸函数， x, y \in domf \\\\
 g(t) = f(ty + (1-t)x) = f(x + t(y-x)) \\\\
-g^\prime(t) = \nabla f^T(ty + (1-t)x)(y-x) \\\\
+g^\prime(t) = \nabla f(ty + (1-t)x)^T(y-x) \\\\
 g(t)也是凸函数， 所以: g(t_1) \geq g(t_2) + g^\prime(t_2)(t_1 - t_2) \\\\
-令t_1=1, t_2=0, 则: f(y) \geq f(x) + \nabla f^T(x)(y-x)
+令t_1=1, t_2=0, 则: f(y) \geq f(x) + \nabla f(x)^T(y-x)
 $$
 证明充分性:
 $$
-存在x,y \in domf
+存在x,y \in domf \\\\
+ty + (1-t)x \in domf, \tilde ty + (1-\tilde t)x \in domf \\\\
+则: f(ty + (1-t)x) \geq f(\tilde ty) + \nabla f(\tilde ty + (1-\tilde t)x)^T(y-x)(t-\tilde t)
 $$
 
 
