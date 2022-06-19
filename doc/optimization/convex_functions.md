@@ -40,6 +40,7 @@ $$
 $$
 domf 内任意x, y, x \neq y, 0 \leq \theta \leq 1, z = \theta x + (1 - \theta)y \\\\
 f(x) \geq f(z) + f^\prime(z)(x-z),  f(y) \geq f(z) + f^\prime(z)(y-z) \\\\
+\theta f(x) + (1-\theta)f(y) \geq f(z), 说明函数f是凸函数
 $$
 
 
