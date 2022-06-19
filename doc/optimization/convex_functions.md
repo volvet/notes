@@ -6,6 +6,12 @@ $$
 f(\theta x + (1-\theta)y) \leq \theta f(x) + (1 - \theta)f(y)
 $$
 
+另一个定义:
+$$
+任意 x \in domf, 任意一个方向 v \\\\
+g(t) = f(x+tv) 为凸， x+tv \in domf
+$$
+
 ### 凸函数的扩展
 如果$f$是凸函数， 我们定义它的扩展至延伸$\tilde f : R^n \rightarrow R \cup \infty$:  
 $$
