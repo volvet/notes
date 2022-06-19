@@ -48,7 +48,8 @@ $$
 设f为凸函数， x, y \in domf \\\\
 g(t) = f(ty + (1-t)x) = f(x + t(y-x)) \\\\
 g^\prime(t) = \nabla f^T(ty + (1-t)x)(y-x) \\\\
-g(t)也是凸函数， 所以: g(t_1) \geq g(t_2) + g^\prime(t_2)(t_1 - t_2)
+g(t)也是凸函数， 所以: g(t_1) \geq g(t_2) + g^\prime(t_2)(t_1 - t_2) \\\\
+令t_1=1, t_2=0, 则: f(y) \geq f(x) + \nabla f^T(x)(y-x)
 $$
 
 
