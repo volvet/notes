@@ -67,6 +67,8 @@ ty + (1-t)x \in domf, \tilde ty + (1-\tilde t)x \in domf \\\\
 g 是凸函数， 则f是凸函数.
 $$
 
+### 二阶条件
+
 
 
 
