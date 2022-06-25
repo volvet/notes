@@ -70,7 +70,7 @@ $$
 ### 二阶条件
 若$f$二阶可微， 则$f$为凸函数的充要条件是:
 $$
-domf 为凸集， \nabla^2
+domf 为凸集， \nabla^2f(x) \geq 0, x \in domf
 $$
 
 
