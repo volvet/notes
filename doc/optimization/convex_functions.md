@@ -74,7 +74,8 @@ domf 为凸集， \nabla^2f(x) \geq 0, x \in domf
 $$
 例子: 二次函数 $f:R^n \rightarrow R, domf = R^n$:
 $$
-f(x) = \frac{1}{2}x^TPx + q^Tx = r
+f(x) = \frac{1}{2}x^TPx + q^Tx = r \\\\
+P \in S^n,  q \in R^n, r \in R
 $$
 
 
