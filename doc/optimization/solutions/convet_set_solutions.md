@@ -50,5 +50,6 @@ $$
 **2.7**   半空间的Voronol描述.  令$a, b$为$R^n$上互异的两点， 证明所有距离$a$比距离$b$更近的点的集合， 即$\\{x | \Vert x - a \Vert_2 \leq \vert x - b \Vert_2 \\}$, 是一个超平面. 用形如$c^Tx \leq d$的不等式表示并绘出图像.  
 **2.8**.  下面的集合中那些是多面体， 如果可能，将$S$表示为$\\{x|Ax \preceq b, Fx=g \\}$的形式.  
 (a) $S=\\{y_1a_1 + y_2a_2 | -1 \leq y_1 \leq 1, -1 \leq y_2 \leq 1 \\}, a_1, a_2 \in R^n$.  
+(b) $S=\\{x \in R^n | x\succeq 0, 1^Tx=1, \sum_{i=1}^nx_ia_i = b_1, \sum_{x=1}^nx_ia_i^2=b_2, 其中a_1， a_2, ..., a_n \in R, b_1, b_2 \in R $
 
 
