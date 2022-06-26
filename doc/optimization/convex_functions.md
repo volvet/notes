@@ -72,7 +72,7 @@ $$
 $$
 domf 为凸集， \nabla^2f(x) \succeq 0, x \in domf
 $$
-$ \nabla^2f(x) $
+$ \nabla^2f(x) $ 是Hessian矩阵.  
 例子: 二次函数 $f:R^n \rightarrow R, domf = R^n$:
 $$
 f(x) = \frac{1}{2}x^TPx + q^Tx = r \\\\
