@@ -79,6 +79,8 @@ f(x) = \frac{1}{2}x^TPx + q^Tx = r \\\\
 P \in S^n,  q \in R^n, r \in R
 $$
 
+**例子**  
+* 仿射函数: $f(x) = Ax + b, \nabla^2f(x) = 0$  
 
 
 ## Reference
