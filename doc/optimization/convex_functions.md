@@ -81,6 +81,7 @@ $$
 
 **例子**  
 * 仿射函数: $f(x) = Ax + b, \nabla^2f(x) = 0$  
+* 指数函数: $f(x) = e^{ax}$
 
 
 ## Reference
