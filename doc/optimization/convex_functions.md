@@ -84,7 +84,7 @@ $$
 * 指数函数: $f(x) = e^{ax}, \nabla^2f(x) = a^2e^{ax} \geq 0$  
 * 幂函数: $f(x) = x^a, x \in R_{++}, a \geq 1 或者 a \leq 0时， f(x)是凸函数， 0 \leq x \leq 1时， f(x)是凹函数$  
 * 绝对值的幂函数: $f(x) = \vert x \vert^p, x \in R, p \geq 1时， f(x)是凸函数$  
-* 对数函数: $f(x) = \log(x)$, $x \in R_{++}$
+* 对数函数: $f(x) = \log(x)$
 
 
 ## Reference
