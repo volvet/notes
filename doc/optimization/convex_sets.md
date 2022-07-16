@@ -177,6 +177,7 @@ $$
 * 自反性
 * 反对称
 * 对于极限运算时保序的
+* 如果$x \prec_K y$, 那么$x \preceq_K y$  
 
 
 ## Refrences
