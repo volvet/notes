@@ -180,6 +180,9 @@ $$
 * 如果$x \prec_K y$, 那么$x \preceq_K y$  
 
 ### 最小与极小元
+$$
+对于每个y \in S, 均有x \preceq_K y, 我们称x \in S是S(关于广义不等式 \preceq_K)的最小元.
+$$
 
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
