@@ -181,7 +181,8 @@ $$
 
 ### 最小与极小元
 $$
-对于每个y \in S, 均有x \preceq_K y, 我们称x \in S是S(关于广义不等式 \preceq_K)的最小元.
+对于每个y \in S, 均有x \preceq_K y, 我们称x \in S是S(关于广义不等式 \preceq_K)的最小元. \\\\
+如果y \in S, y \preceq_K x 可以推得 y = x, 那么称x \in y 是S上(关于广义不等式 \preceq_K)得极小元
 $$
 
 ## Refrences
