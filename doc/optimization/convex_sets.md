@@ -185,6 +185,8 @@ $$
 如果y \in S, y \preceq_K x 可以推得 y = x, 那么称x \in y 是S上(关于广义不等式 \preceq_K)得极小元
 $$
 
+## 分离与支撑超平面
+
 ## Refrences
 * 凌青 - 中科大公开课 最优化理论
 * Stephen Boyd - Connvex Optimization
