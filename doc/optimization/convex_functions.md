@@ -87,7 +87,8 @@ $$
 * 对数函数: $f(x) = \log(x)$, 是凹函数. $x \in R_{++}$  
 * 负墒：$f(x) = x\log(x), x \in R_{++}$ 是严格凸函数.  
 * 范数: $R^n$空间的任意范数均为凸函数.  
-* 最大值函数: $f(x) = max \\{x_1, x_2, \dots, x_n \\}$
+* 最大值函数: $f(x) = max \\{x_1, x_2, \cdots, x_n \\}$是凸函数.
+* Log-sum-up: $f(x) = \log (e^x_1 + \cdots, + e^x_n, x \in R^n$
 
 ## Reference
 * 凌青 - 中科大公开课 最优化理论
