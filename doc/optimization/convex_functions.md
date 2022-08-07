@@ -89,7 +89,7 @@ $$
 * 范数: $R^n$空间的任意范数均为凸函数.  
 * 最大值函数: $f(x) = max \\{x_1, x_2, \cdots, x_n \\}$是凸函数.
 * Log-sum-up: $f(x) = \log (e^{x_1} + \cdots + e^{x_n}), x \in R^n$ 是凸函数.
-* 几何平均: $f(x)=(x_1 \times \cdots \times x_n)^{\frac{1}{n}}, x \in R_{++}^n$
+* 几何平均: $f(x)=(x_1 \cdots x_n)^{\frac{1}{n}}, x \in R_{++}^n$
 
 ## Reference
 * 凌青 - 中科大公开课 最优化理论
