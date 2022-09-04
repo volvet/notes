@@ -33,7 +33,7 @@ $$
 * 状态价值函数
 $$
 \begin{align}
-V_\pi(s_t) &= \mathbb{E} _ {A_t ~ \pi(\dot | s_t)}
+V_\pi(s_t) &= \mathbb{E} _ {A_t \~ \pi(\cdot | s_t)}
 \end{align}
 $$
 
