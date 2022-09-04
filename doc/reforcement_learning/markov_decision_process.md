@@ -30,5 +30,12 @@ Q_\pi(s_t,a_t) &= \mathbb{E} _ {S_{t+1}, A_{t+1}, \cdots, S_n, A_n}[U_t | S_t=s_
 $$
 最优动作价值函数: $Q_{\*}(s_t, a_t) = \mathop{max} \limits_{\pi} Q_{\pi}(s_t, a_t)$
 
+* 状态价值函数
+$$
+\begin{align}
+V_\pi(s_t) &= \mathbb{E} _ {A_t ~ \pi(\dot | s_t)}
+\end{align}
+$$
+
 ## Reference
 * 王树森 张志华 深度强化学习
