@@ -11,6 +11,10 @@
 * 状态转移(State Transition)
 * 状态转移函数(State Transition Function)
 状态转移函数记作：$p(s^{'}|s, a)$, 是一个条件概率密度函数.
+* 回报(Return): 回报是当前时刻开始到一回合结束的所有奖励的综合. 定义如下:
+$$
+U_t = R_t + R_{t+1} + R_{t+2} + \cdots
+$$
 
 
 
