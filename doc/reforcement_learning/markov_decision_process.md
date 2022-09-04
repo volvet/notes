@@ -7,7 +7,7 @@
 * 奖励(Reward)
 * 状态转移(State Transition)
 * 状态转移函数(State Transition Function)
-状态转移函数记作：$p(s^' | s, a)$
+状态转移函数记作：$p(s^{'} |s, a)$
 
 
 
