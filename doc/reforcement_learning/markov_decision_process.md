@@ -6,7 +6,7 @@
 * 动作(Action): 指作出的决策
 * 动作空间(Action Space)
 * 智能体(Agent)
-* 策略函数(Policy Function): $\Pi (a|s)$
+* 策略函数(Policy Function): $\pi (a|s)$
 * 奖励(Reward)
 * 状态转移(State Transition)
 * 状态转移函数(State Transition Function)
