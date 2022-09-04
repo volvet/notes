@@ -23,7 +23,7 @@ $$
 ## 价值函数
 * 动作价值函数
 $$
-Q_\pi(s_t,a_t) = \mathbb{E} _ {S_{t+1}}
+Q_\pi(s_t,a_t) = \mathbb{E} _ {S_{t+1}, A_{t+1}, \cdots, S_n, A_n}[U_t | S_t=s_t, A_t=a_t]
 $$
 
 ## Reference
