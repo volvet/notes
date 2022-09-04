@@ -20,7 +20,8 @@ $$
 U_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots,  0 \leq \gamma \leq 1
 $$
 
-
+## 价值函数
+* 动作驾驶函数
 
 ## Reference
 * 王树森 张志华 深度强化学习
