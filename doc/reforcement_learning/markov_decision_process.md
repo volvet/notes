@@ -25,7 +25,7 @@ $$
 $$
 \begin{align}
 Q_\pi(s_t,a_t) &= \mathbb{E} _ {S_{t+1}, A_{t+1}, \cdots, S_n, A_n}[U_t | S_t=s_t, A_t=a_t] \\\\
-&=\int_Sd_{S_{t+1}}
+&=\int_Sd_{s_{t+1}}\int_Ad_{a_{t+1}} \cdots \int_Sd_{s_n}\int_Ad_{a_n}[\prod p(s_k|s_{k-1},a_{k-1})\pi(a_k|s_k)]U_t
 \end{align}
 $$
 
