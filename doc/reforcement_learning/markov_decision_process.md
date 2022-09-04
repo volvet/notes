@@ -6,11 +6,11 @@
 * 动作(Action): 指作出的决策
 * 动作空间(Action Space)
 * 智能体(Agent)
-* 策略函数(Policy Function): \PI
+* 策略函数(Policy Function): \Pi(a|s)
 * 奖励(Reward)
 * 状态转移(State Transition)
 * 状态转移函数(State Transition Function)
-状态转移函数记作：$p(s^{'} |s, a)$, 是一个条件概率密度函数.
+状态转移函数记作：$p(s^{'}|s, a)$, 是一个条件概率密度函数.
 
 
 
