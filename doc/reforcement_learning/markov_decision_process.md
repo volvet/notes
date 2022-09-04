@@ -33,7 +33,8 @@ $$
 * 状态价值函数
 $$
 \begin{align}
-V_\pi(s_t) &= \mathbb{E} _ {A_t \sim \pi(\cdot | s_t)}
+V_\pi(s_t) &= \mathbb{E} _ {A_t \sim \pi(\cdot | s_t)}[Q_\pi(s_t, A_t] \\\\
+&=\sum_{a \in A}\pi(a|s_t)Q_\pi(s_t,a)
 \end{align}
 $$
 
