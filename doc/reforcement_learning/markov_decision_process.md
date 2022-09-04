@@ -38,5 +38,7 @@ V_\pi(s_t) &= \mathbb{E} _ {A_t \sim \pi(\cdot | s_t)}[Q_\pi(s_t, A_t] \\\\
 \end{align}
 $$
 
+* 策略学习和价值学习
+
 ## Reference
 * 王树森 张志华 深度强化学习
