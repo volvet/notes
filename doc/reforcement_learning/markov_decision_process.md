@@ -39,6 +39,10 @@ V_\pi(s_t) &= \mathbb{E} _ {A_t \sim \pi(\cdot | s_t)}[Q_\pi(s_t, A_t] \\\\
 $$
 
 * 策略学习和价值学习
+价值学习通常是指学习最优价值函数$Q_{\*}(s,a)$, 智能体(Agent)的决策可以用这个公式表示:
+$$
+a_t = \mathop{argmax} \limits_{a \in A} Q_{\*}(s_t, a)
+$$
 
 ## Reference
 * 王树森 张志华 深度强化学习 https://www.math.pku.edu.cn/teachers/zhzhang/
