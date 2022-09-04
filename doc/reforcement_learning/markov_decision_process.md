@@ -15,6 +15,10 @@
 $$
 U_t = R_t + R_{t+1} + R_{t+2} + \cdots
 $$
+折扣回报(Discount Return)给未来的奖励做折扣,
+$$
+U_t = R_t + \gamma R_{t+1} + \gamma^2 R_{t+2} + \cdots,  0 \leq \gamma \leq 1
+$$
 
 
 
