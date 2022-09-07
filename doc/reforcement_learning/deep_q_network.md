@@ -10,6 +10,9 @@ $$
 ## 时间差分算法(TD)
 
 ### 贝尔曼方程
+$$
+U_t = \sum_{k=t}^n\gamma^{k-t}R_k
+$$
 
 
 ## Reference
