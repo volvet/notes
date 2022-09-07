@@ -11,7 +11,9 @@ $$
 
 ### 贝尔曼方程
 $$
-U_t = \sum_{k=t}^n\gamma^{k-t}R_k = R_t + \gamma U_{t+1}
+U_t = \sum_{k=t}^n\gamma^{k-t}R_k = R_t + \gamma U_{t+1} \\\\
+用符号 S_{t+1:} = \{S_{t+1}, S_{t+2}, \cdots \}, A_{t+1:} = \{A_{t+1}, A_{t+2}, \cdots \} \\\\
+Q_{\pi}(s_t, a_t) = \mathbb{E} _ {S_{t+1:}, A_{t+1:}}[U_t｜S_t=s_t, A_t=a_t]
 $$
 
 
