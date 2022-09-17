@@ -33,7 +33,7 @@ $$
 $$
 于是:
 $$
-\frac{\partial \pi_t(x)}{\partial H_t(x)} = \pi_t(x)(\mathbb{I} - \pi_t(a))
+\frac{\partial \pi_t(x)}{\partial H_t(a)} = \pi_t(x)(\mathbb{I} - \pi_t(a))
 $$
 
 ## Reference
