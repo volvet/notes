@@ -25,5 +25,9 @@ H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)} \\\\
 = \mathbb{E} [(R_t - \overline R_t) \frac{\partial \pi_t(A_t)}{\partial H_t(a)} / \pi_t(A_t)] \\\\
 $$
 
+$$
+\mathbb{1} = 1, if a = A_t,  0, else
+$$
+
 ## Reference
 * Reforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
