@@ -14,6 +14,10 @@ $$
 其中， $\overline R_t$是包括$t$在那的所有$R$的平均.
 
 ### 算法的数学推导
+$$
+\mathbb{E} = \sum_x \pi(x)q_{\*}(x) \\\\
+H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)}
+$$
 
 ## Reference
 * Reforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
