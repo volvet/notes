@@ -31,6 +31,10 @@ $$
 0,\ a \neq A_t
 \end{cases}
 $$
+于是:
+$$
+\frac{\partial \pi_t(x)}{\partial H_t(x)} = \pi_t(x)(\mathbb{I} - \pi_t(a))
+$$
 
 ## Reference
 * Reforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
