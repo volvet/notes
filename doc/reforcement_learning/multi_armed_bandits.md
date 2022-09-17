@@ -28,7 +28,7 @@ $$
 $$
 令 \mathbb{I} _ {a=A_t} = \begin{cases} 
 1, if\ a = A_t \\\\
-0,\ else \\\\
+0,\ a \neq A_t
 \end{cases}
 $$
 
