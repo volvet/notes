@@ -26,7 +26,10 @@ H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)} \\\\
 $$
 
 $$
-令 \mathbb{I} _ {a=A_t} = 1, if\ a = A_t, \ 0,\ else
+令 \mathbb{I} _ {a=A_t} = \begin{cases} 
+1, if\ a = A_t \\\\
+0,\ else \\\\
+\end{cases}
 $$
 
 ## Reference
