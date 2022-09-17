@@ -15,10 +15,10 @@ $$
 
 ### 算法的数学推导
 $$
-\mathbb{E}(R_t) = \sum_x \pi(x)q_{\*}(x) \\\\
+\mathbb{E}(R_t) = \sum_x \pi_t(x)q_{\*}(x) \\\\
 H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)} \\\\
 \begin{align}
-\frac{\partial \mathbb{E}(R_t}{\partial H_t(a)} &= \frac{\partial \sum_x\pi(x)q_{\*}(x)}{\partial H_t(a)}
+\frac{\partial \mathbb{E}(R_t}{\partial H_t(a)} &= \frac{\partial \sum_x\pi_t(x)q_{\*}(x)}{\partial H_t(a)}
 \end{align}
 $$
 
