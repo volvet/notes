@@ -13,5 +13,7 @@ H_{t+1}(a_t) = h_t(a) - \alpha (R_t - \overline R_t)\pi_t(a_t),  for\ all\ a \ne
 $$
 其中， $\overline R_t$是包括$t$在那的所有$R$的平均.
 
+### 算法的数学推导
+
 ## Reference
 * Reforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
