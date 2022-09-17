@@ -35,6 +35,10 @@ $$
 $$
 \frac{\partial \pi_t(x)}{\partial H_t(a)} = \pi_t(x)(\mathbb{I} - \pi_t(a))
 $$
+然后:
+$$
+\frac{\partial \mathbb{E}(R_t)}{\partial H_t(a)} = \mathbb{E}[(R_t - \overline R_t)\pi_t(x)(\mathbb{I} - \pi_t(a))/\pi_t(A_t)]
+$$
 
 ## Reference
 * Reforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
