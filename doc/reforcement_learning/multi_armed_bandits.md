@@ -8,7 +8,7 @@ $$
 $H_t(a)$的计算:  
 $$
 H_1(a) = 0 \\\\
-H_{t+1}(A_t) = H_t(A_t) + \alpha (R_t - \overline R_t)(1 - \pi_t(A_t)) \\\
+H_{t+1}(A_t) = H_t(A_t) + \alpha (R_t - \overline R_t)(1 - \pi_t(A_t)) \\\\
 H_{t+1}(a_t) = h_t(a) - \alpha (R_t - \overline R_t)\pi_t(a_t),  for all a \neq A_t
 $$
 
