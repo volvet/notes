@@ -26,7 +26,7 @@ H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)} \\\\
 $$
 
 $$
-\mathbb{1} = 1, if a = A_t,  0, else
+\mathbb{I} = 1, if a = A_t,  0, else
 $$
 
 ## Reference
