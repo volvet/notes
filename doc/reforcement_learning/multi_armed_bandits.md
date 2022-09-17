@@ -20,7 +20,7 @@ H_{t+1}(a) = H_t(a) + \frac{\partial \mathbb{E}}{\partial H_t(a)} \\\\
 \begin{align}
 \frac{\partial \mathbb{E}(R_t)}{\partial H_t(a)} &= \frac{\partial \sum_x\pi_t(x)q_{\*}(x)}{\partial H_t(a)} \\\\
 &= \sum_x q_{\*}(x)\frac{\partial \pi_t(x)}{\partial H_t(a)} \\\\
-&= \sum_x (q_{\*}(x) - B_t)
+&= \sum_x (q_{\*}(x) - B_t) \frac{\partial \pi_t(x)}{\partial H_t(a)}
 \end{align}
 $$
 
