@@ -6,7 +6,6 @@
 
 ```mermaid
 graph LR;
-Agent to Environment;
 ```
 
 
