@@ -4,7 +4,10 @@
 * Agent: The learner and decision maker.
 * Environment: The things agent interacts with, comprising everything outside.
 
-The agent and environment interact at each of a sequence of discrete time steps, $t = 0, 1, 2, \cdots$. At each step $t$, the agent receives some representation of the environment's state, $S_t \in \cal{S}$, and on the basis select an action, $A_t \in \cal{A}(s)$. One time step later, in part as a consequence of its action, the agent receives a numerical reward, $R_{t+1} \in \cal{R} \subset \mathbb{R}$, and find itself in a new state, $S_{t+1}$.
+The agent and environment interact at each of a sequence of discrete time steps, $t = 0, 1, 2, \cdots$. At each step $t$, the agent receives some representation of the environment's state, $S_t \in \cal{S}$, and on the basis select an action, $A_t \in \cal{A}(s)$. One time step later, in part as a consequence of its action, the agent receives a numerical reward, $R_{t+1} \in \cal{R} \subset \mathbb{R}$, and find itself in a new state, $S_{t+1}$. The MDP and agent together thereby give rise to a sequence or trajectory that begin like this:
+$$
+S_0, A_0, R_1, S_1, A_1, R_2, S_2, A_2, R_3, \cdots
+$$
 
 
 
