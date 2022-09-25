@@ -1,7 +1,8 @@
 # 马尔可夫决策过程(Finite Markov Decision Processes)
 
 ## The Agent-Environment Interface
-
+* Agent: The learner and decision maker.
+* Environment: The things agent interacts with, comprising everything outside.
 
 
 ## 基本概念
