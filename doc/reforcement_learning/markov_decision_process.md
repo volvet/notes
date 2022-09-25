@@ -4,6 +4,7 @@
 * Agent: The learner and decision maker.
 * Environment: The things agent interacts with, comprising everything outside.
 
+The agent and environment interact at each of a sequence of discrete time steps, $t = 0, 1, 2, \cdots$. At each step $t$, the agent receives some representation of the environment's state, $S_t \in \mathtt{S}$
 
 
 
