@@ -5,8 +5,8 @@
 * Environment: The things agent interacts with, comprising everything outside.
 
 ```mermaid
-graph LR;
-Agent --> Environment;
+graph TB;
+Agent --> Environment & Environment --> Agent;
 ```
 
 
