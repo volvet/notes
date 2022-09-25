@@ -19,7 +19,9 @@ $$
 p(s^{'}|s, a) = Pr\\{S_t = s^{'} | S_{t-1}=s, A_{t-1}=a\\} = \sum_{r\in\cal{R}}p(s^{'}, r|s, a)
 $$
 The expected rewards for the state-action pares as a two-argument function: $r:\cal{S}\times\cal{A}\rightarrow\mathbb{E}$
-
+$$
+r(s,a) = \mathbb{E}[R_t|S_{t-1}=s, A_{t-1}=a] = \sum_{r\in\cat{R}}r\sum_{s^{'}\in\cat{S}}p(s^{'},r|s,a)
+$$
 
 
 ## 基本概念
