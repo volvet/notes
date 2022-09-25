@@ -11,6 +11,9 @@ $$
 $$
 p(s^{'}, r | s, a) =  Pr\\{S_t=s^{'}, R_t = r | S_{t-1}=s, A_{t-1}=a\\}
 $$
+$$
+\sum_{s^{'}\in\cal{S}}\sum_{r\in\cal{R}}p(s^{'},r|s,a) = 1
+$$
 
 
 
