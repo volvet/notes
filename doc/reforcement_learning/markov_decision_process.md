@@ -4,6 +4,11 @@
 * Agent: The learner and decision maker.
 * Environment: The things agent interacts with, comprising everything outside.
 
+```mermaid
+graph LR
+Agent to Environment
+```
+
 
 ## 基本概念
 
