@@ -4,7 +4,7 @@
 * Agent: The learner and decision maker.
 * Environment: The things agent interacts with, comprising everything outside.
 
-The agent and environment interact at each of a sequence of discrete time steps, $t = 0, 1, 2, \cdots$. At each step $t$, the agent receives some representation of the environment's state, $S_t \in \mathtt{S}$, and on the basis select an action, $A_t \in \mathtt{A}(s)$. One time step later, in part as a consequence of its action, the agent receives a numerical reward, $R_{t+1} \in mathtt{R} \subset \mathbb{R}$
+The agent and environment interact at each of a sequence of discrete time steps, $t = 0, 1, 2, \cdots$. At each step $t$, the agent receives some representation of the environment's state, $S_t \in \mathtt{S}$, and on the basis select an action, $A_t \in \mathtt{A}(s)$. One time step later, in part as a consequence of its action, the agent receives a numerical reward, $R_{t+1} \in \mathtt{R} \subset \mathbb{R}$
 
 
 
