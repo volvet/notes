@@ -54,4 +54,5 @@ $$
 策略学习值的是学习策略函数$\pi(a|s)$, 有了策略函数， 我们就可以使用它来计算所有动作的概率， 然后随机抽样并执行.
 
 ## Reference
+* Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
 * 王树森 张志华 深度强化学习 https://www.math.pku.edu.cn/teachers/zhzhang/
