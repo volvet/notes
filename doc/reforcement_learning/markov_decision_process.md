@@ -8,6 +8,9 @@ The agent and environment interact at each of a sequence of discrete time steps,
 $$
 S_0, A_0, R_1, S_1, A_1, R_2, S_2, A_2, R_3, \cdots
 $$
+$$
+p(s^', r | s, a) = Pr\\{S_t=s^', R_t = r | S_{t-1} = s, A_{t-1}=a\\}
+$$
 
 
 
