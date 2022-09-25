@@ -14,10 +14,11 @@ $$
 $$
 \sum_{s^{'}\in\cal{S}}\sum_{r\in\cal{R}}p(s^{'},r|s,a) = 1
 $$
-State-transition probabilities $p:\cal{S}\times\cal{S}\times\cal{A}\rightarrow[0,1]$:
+State-transition probabilities is the three-argument function: $p:\cal{S}\times\cal{S}\times\cal{A}\rightarrow[0,1]$
 $$
 p(s^{'}|s, a) = Pr\\{S_t = s^{'} | S_{t-1}=s, A_{t-1}=a\\} = \sum_{r\in\cal{R}}p(s^{'}, r|s, a)
 $$
+The expected rewards for the state-action pares as a two-argument function: $r:\cal{S}\times\cal{A}\rightarrow\mathbb{E}$
 
 
 
