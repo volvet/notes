@@ -16,7 +16,7 @@ $$
 $$
 State-transition probabilities
 $$
-p(s^{'}|s, a) = Pr\\{S_t = s^{'} | S_{t-1}=s, A_{t-1}=a\\} = \sum_{r\in\cat{R}}p(s^{'}, r|s, a)
+p(s^{'}|s, a) = Pr\\{S_t = s^{'} | S_{t-1}=s, A_{t-1}=a\\} = \sum_{r\in\cal{R}}p(s^{'}, r|s, a)
 $$
 
 
