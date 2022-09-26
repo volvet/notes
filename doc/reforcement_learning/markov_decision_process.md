@@ -27,6 +27,9 @@ $$
 r(s,a,s^{'}) = \mathbb{E}[R_t|S_{t-1}=s, A_{t-1}=a, S_t=s^{'}] = \sum_{r\in\cal{R}}r\frac{p(s^{'},r|s,a)}{p(s^{'}|s,a)}
 $$
 
+## Goal and Rewards
+
+
 ## 基本概念
 
 * 状态空间(State Space): 所有可能存在的状态的集合， 记作$S$
