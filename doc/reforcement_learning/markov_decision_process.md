@@ -18,11 +18,14 @@ State-transition probabilities is the three-argument function: $p:\cal{S}\times\
 $$
 p(s^{'}|s, a) = Pr\\{S_t = s^{'} | S_{t-1}=s, A_{t-1}=a\\} = \sum_{r\in\cal{R}}p(s^{'}, r|s, a)
 $$
-The expected rewards for the state-action pares as a two-argument function: $r:\cal{S}\times\cal{A}\rightarrow\mathbb{E}$
+The expected rewards for the state-action pairs as a two-argument function: $r:\cal{S}\times\cal{A}\rightarrow\mathbb{R}$
 $$
 r(s,a) = \mathbb{E}[R_t|S_{t-1}=s, A_{t-1}=a] = \sum_{r\in\cal{R}}r\sum_{s^{'}\in\cal{S}}p(s^{'},r|s,a)
 $$
-
+The expected reward for the state-action-next-state triples as a three-argument function: $r:\cal(S)\times\cal(A)\times\cal(S)\rightarrow\mathbb{R}$:
+$$
+r(s,a,s^{'}) = \mathbb{E}
+$$
 
 ## 基本概念
 
