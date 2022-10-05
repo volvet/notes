@@ -43,6 +43,9 @@ $$
 q_{\pi}(s, a) = \mathbb{E} _ {\pi}[G_t | S_t=s, A_t=a]
 $$
 
+
+
+···
 ## 基本概念
 
 * 状态空间(State Space): 所有可能存在的状态的集合， 记作$S$
@@ -87,6 +90,7 @@ $$
 a_t = \mathop{argmax} \limits_{a \in A} Q_{\*}(s_t, a)
 $$
 策略学习值的是学习策略函数$\pi(a|s)$, 有了策略函数， 我们就可以使用它来计算所有动作的概率， 然后随机抽样并执行.
+···
 
 ## Reference
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
