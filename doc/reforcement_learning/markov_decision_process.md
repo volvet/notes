@@ -35,7 +35,8 @@ $$
 A policy $\pi$ is a mapping from state to probabilities of selecting each possible action.
 State-value function for policy $\pi$:
 $$
-v_{\pi}(s) = \mathbb{E} _ \{\pi}[G_t | S_t = s]
+v_{\pi}(s) = \mathbb{E} _ \{\pi}[G_t | S_t = s] \\\\
+= \mathbb{E} _ {\pi}[\sum_{k=0}^{\infinity}\gamma^kR_{t+k+1} | S_t=s],  for \ all \ s \ \in \mathbb{S}
 $$
 
 ## 基本概念
