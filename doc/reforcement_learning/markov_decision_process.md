@@ -32,7 +32,7 @@ $$
 ## Return and Episodes
 
 ## Policies and Value Functions
-
+A policy $\pi$ is a mapping from state to probabilities of selecting each possible action.
 
 ## 基本概念
 
