@@ -88,7 +88,8 @@ $$
 Bellman Optimality Equation:
 $$
 \begin{align}
-v_{\*}(s) = \mathop{max}_ \limits{a}q_{\pi\*}(s,a) \\\\
+v_{\*}(s) &= \mathop{max}_ \limits{a}q_{\pi\*}(s,a) \\\\
+&= \mathop{max}_ \limits{a} \mathbb{E}[G_t|S_t=s, A_t=a] \\\\
 \end{align}
 $$
 
