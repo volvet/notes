@@ -71,6 +71,7 @@ $$
 \begin{align}
 q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t|S_t=s, A_t=a] \\\\
 &= \mathbb{E} _ {\pi}[R_{t+1} + \gamma G_{t+1} |S_t=s, A_t=a] \\\\
+&= \sum_{s^{'}} p(s^{'}, r|s, a)
 \end{align}
 $$
 
