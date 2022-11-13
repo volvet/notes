@@ -77,6 +77,10 @@ q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t|S_t=s, A_t=a] \\\\
 $$
 
 ## Optimal Policies and Optimal Value Functions
+Optimal state-value function, denoted $v_{\*}$, defined as
+$$
+v_{\*} = \methop{max}_ \limits{\pi}v_{\pi}(s)
+$$
 
 
 ## Reference
