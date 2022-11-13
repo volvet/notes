@@ -61,6 +61,7 @@ $$
 \begin{align}
 v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
 &= \mathbb{E} _ {\pi}[R_t + \gamma G_{t+1}|S_t=s] \\\\
+&= \sum_a\pi(a|s)\sum_{s^{'}}\sum_rp(s^{'}, r|s, a)[r + \gamma G_{t+1}|S_{t+1}=s^{'}]
 \end{align}
 $$
 
