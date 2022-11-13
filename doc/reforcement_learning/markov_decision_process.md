@@ -59,7 +59,8 @@ $$
 A foundational property of value function used thoughout reinforcement learning and dynamic programming is:
 $$
 \begin{align}
-v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] 
+v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
+&= \mathbb{E} _ {\pi}[R_t + \gamma G_{t+1}|S_t=s] \\\\
 \end{align}
 $$
 
