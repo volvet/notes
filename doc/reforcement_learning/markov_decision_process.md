@@ -56,7 +56,7 @@ Exercise 3.13
 $$
 q_{\pi}(s, a) = \sum_{s^{'}, r}p(s^{'}, r | s, a)(r + \gamma v_{\pi}(s^{'}))
 $$
-A foundational property of value function used thoughout reinforcement learning and dynamic programming is:
+A foundational property of value function used thoughout reinforcement learning and dynamic programming is((Bellman Equation for $v_{\pi}$)):
 $$
 \begin{align}
 v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
@@ -66,7 +66,7 @@ v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
 \end{align}
 $$
 
-Exercise 3.17
+Exercise 3.17 (Bellman Equation for $q_{\pi}$)
 $$
 \begin{align}
 q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t|S_t=s, A_t=a] \\\\
