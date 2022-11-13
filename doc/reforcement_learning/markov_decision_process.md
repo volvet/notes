@@ -56,6 +56,12 @@ Exericise 3.13
 $$
 q_{\pi}(s, a) = \sum_{s^{'}, r}p(s^{'}, r | s, a)(r + \gamma v_{\pi}(s^{'}))
 $$
+A foundational property of value function used thoughout reinforcement learning and dynamic programming is:
+$$
+\begin{align}
+v_{\pi}(s) &= \mathbb(E)[G_t|S_t=s] 
+\end{align}
+$$
 
 
 
