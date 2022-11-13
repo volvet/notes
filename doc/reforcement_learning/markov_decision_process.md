@@ -48,11 +48,11 @@ q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t | S_t=s, A_t=a] \\\\
 \end{align}
 $$
 
-Exericise 3.12
+Exercise 3.12
 $$
 v_{\pi} = \sum_{a}\pi(a|s)q_{\pi}(s, a)
 $$
-Exericise 3.13
+Exercise 3.13
 $$
 q_{\pi}(s, a) = \sum_{s^{'}, r}p(s^{'}, r | s, a)(r + \gamma v_{\pi}(s^{'}))
 $$
@@ -66,8 +66,11 @@ v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
 \end{align}
 $$
 
-Exericise 3.17
+Exercise 3.17
 $$
+\begin{align}
+q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t|S_t=s, A_t=a] \\\\
+\end{align}
 $$
 
 ## Optimal Policies and Optimal Value Functions
