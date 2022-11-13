@@ -66,6 +66,12 @@ v_{\pi}(s) &= \mathbb{E} _ {\pi} [G_t|S_t=s] \\\\
 \end{align}
 $$
 
+Exericise 3.17
+$$
+$$
+
+## Optimal Policies and Optimal Value Functions
+
 
 ## Reference
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
