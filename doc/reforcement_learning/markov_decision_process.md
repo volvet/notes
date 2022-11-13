@@ -92,7 +92,7 @@ v_{\*}(s) &= \mathop{max}_ \limits{a}q_{\pi\*}(s,a) \\\\
 &= \mathop{max}_ \limits{a} \mathbb{E}[G_t|S_t=s, A_t=a] \\\\
 &= \mathop{max}_ \limits{a} \mathbb{E}[R_{t+1} + \gamma G_{t+1}|S_t=s, A_t=a] \\\\
 &= \mathop{max}_ \limits{a} \mathbb{E}[R_{t+1} + \gamma v_{\*}(S_{t+1})|S_t=s, A_t=a] \\\\
-&= \mathop{max}_ \limits{a} \sum_{s^{'},r}p(s^{'}, r|s, a)[r+\gamma v_{\*}(s^{'}]
+&= \mathop{max}_ \limits{a} \sum_{s^{'},r}p(s^{'}, r|s, a)[r+\gamma v_{\*}(s^{'})]
 \end{align}
 $$
 
