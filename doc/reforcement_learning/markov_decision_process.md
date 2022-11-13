@@ -98,7 +98,8 @@ $$
 
 $$
 \begin{align}
-q_{\*}(s, a) = \mathbb{E}[R_{t=1} + \gamma \mathop{max}_ \limits{a^{'}}q_{\*}(S_{t+1}, a^{'})|S_t=s,A_t=a]
+q_{\*}(s, a) &= \mathbb{E}[R_{t+1} + \gamma \mathop{max}_ \limits{a^{'}}q_{\*}(S_{t+1}, a^{'})|S_t=s,A_t=a] \\\\
+&= \sum_{s^{'}, r}p(s^{'}, a|S_t=s, A_t=a)[r+\gamma \mathop{max}_ \limits{a^{'}}q_{\*}(s^{'},a^{'})]
 \end{align}
 $$
 
