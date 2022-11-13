@@ -31,7 +31,7 @@ $$
 
 ## Return and Episodes
 $$
-G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2R_{t+3) + \cdots
+G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2R_{t+3} + \cdots
 $$
 ## Policies and Value Functions
 A policy $\pi$ is a mapping from state to probabilities of selecting each possible action.  
