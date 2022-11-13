@@ -87,7 +87,9 @@ q_{\*}(s, a) = \mathop{max}_ \limits{\pi}q_{\pi}(s, a)
 $$
 Bellman Optimality Equation:
 $$
-v_{\*}(s) = \mathop{max}_ \limits{a \in \cal{A}(s)}
+\begin{align}
+v_{\*}(s) = \mathop{max}_ \limits{a \in \cal{A}(s)}q_{\pi\*}(s,a) \\\\
+\end{align}
 $$
 
 
