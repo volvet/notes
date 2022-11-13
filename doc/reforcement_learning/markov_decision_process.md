@@ -85,6 +85,10 @@ Optimal action-value function, denotes $q_{\*}$, defined as
 $$
 q_{\*}(s, a) = \mathop{max}_ \limits{\pi}q_{\pi}(s, a)
 $$
+Bellman Optimality Equation:
+$$
+v_{\*}(s) = \mathop{max}_ \limits{a \in \mathbb{A}(s)}
+$$
 
 
 ## Reference
