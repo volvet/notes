@@ -96,6 +96,12 @@ v_{\*}(s) &= \mathop{max}_ \limits{a}q_{\pi\*}(s,a) \\\\
 \end{align}
 $$
 
+$$
+\begin{align}
+q_{\*}(s, a) = \mathbb{E}[R_{t=1} + \gamma \mathop{max}_ \limits{a^{'}}q_{\*}(S_{t+1}, a^{'})|S_t=s,A_t=a]
+\end{align}
+$$
+
 
 ## Reference
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
