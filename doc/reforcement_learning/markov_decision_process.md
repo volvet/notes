@@ -42,7 +42,10 @@ v_{\pi}(s) = \mathbb{E} _ \{\pi}[G_t | S_t = s] \\\\
 $$
 Action-value function for policy $\pi$:
 $$
-q_{\pi}(s, a) = \mathbb{E} _ {\pi}[G_t | S_t=s, A_t=a]
+\begin{align}
+q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t | S_t=s, A_t=a] \\\\
+&= \mathbb{E} _ {\pi}[\sum_{k=0}^\infty\gamma^kR_{t+k+1} | S_t= s, A_t = a]
+\end{align}
 $$
 
 
