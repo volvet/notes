@@ -70,6 +70,7 @@ Exercise 3.17
 $$
 \begin{align}
 q_{\pi}(s, a) &= \mathbb{E} _ {\pi}[G_t|S_t=s, A_t=a] \\\\
+&= \mathbb{E} _ {\pi}(R_{t+1} + \gamma G_{t+1} |S_t=s, A_t=a] \\\\
 \end{align}
 $$
 
