@@ -11,8 +11,9 @@ v_{\pi}(s) &= \mathbb{E}[G_t | S_t = s] \\\\
 $$
 
 ### Iterative Policy Evaluation, for estimating $V \approx v_{\pi} $
-Loop: 
+Loop:   
      $\Delta \leftarrow 0$
+     Loop for each $s \in \cal{S}$
 
 
 ## Refernece
