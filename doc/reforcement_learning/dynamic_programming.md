@@ -9,9 +9,8 @@ v_{\pi}(s) &= \mathbb{E}[G_t | S_t = s] \\\\
 &= \sum_{a}\pi(a|s)\sum_{s^{'}, r}p(s^{'}, r|s, a)[r+\gamma v_{\pi}(s^{'}]
 \end{align}
 $$
-```
-Input $\pi$, the policy to be evaluated
-```
+
+### Iterative Policy Evaluation, for estimating $V \approx v_{\pi} $
 
 
 ## Refernece
