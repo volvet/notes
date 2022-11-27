@@ -12,8 +12,8 @@ $$
 
 ### Iterative Policy Evaluation, for estimating $V \approx v_{\pi} $
 Loop:   
-     $\Delta \leftarrow 0$
-     Loop for each $s \in \cal{S}$
+&nbsp;&nbsp;$\Delta \leftarrow 0$    
+&nbsp;&nbsp;Loop for each $s \in \cal{S}$
 
 
 ## Refernece
