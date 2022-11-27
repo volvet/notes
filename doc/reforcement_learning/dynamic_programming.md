@@ -16,7 +16,7 @@ Loop:
 &nbsp;&nbsp;Loop for each $s \in \cal{S}$    
 &nbsp;&nbsp;&nbsp;&nbsp;$v \leftarrow V(s)$    
 &nbsp;&nbsp;&nbsp;&nbsp;$V(s)$    
-&nbsp;&nbsp;&nbsp;&nbsp;$\Delta$    
+&nbsp;&nbsp;&nbsp;&nbsp;$\Delta \leftarrow \vert v - V(s) \vert$    
 until $\Delta \lt \theta$
 
 ## Refernece
