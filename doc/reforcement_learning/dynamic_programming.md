@@ -14,7 +14,6 @@ $$
 $$
 Loop: \\\\
 \ \ \delta \leftarrow 0 \\\\
-
 $$
 
 ## Refernece
