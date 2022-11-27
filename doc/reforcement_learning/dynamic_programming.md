@@ -11,10 +11,9 @@ v_{\pi}(s) &= \mathbb{E}[G_t | S_t = s] \\\\
 $$
 
 ### Iterative Policy Evaluation, for estimating $V \approx v_{\pi} $
-$$
-Loop: \\\\
-\ \ \delta \leftarrow 0 \\\\
-$$
+Loop: 
+     $\Delta \leftarrow 0$
+
 
 ## Refernece
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
