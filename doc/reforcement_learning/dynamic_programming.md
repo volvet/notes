@@ -13,8 +13,10 @@ $$
 ### Iterative Policy Evaluation, for estimating $V \approx v_{\pi} $
 Loop:   
 &nbsp;&nbsp;$\Delta \leftarrow 0$    
-&nbsp;&nbsp;Loop for each $s \in \cal{S}$
-
+&nbsp;&nbsp;Loop for each $s \in \cal{S}$    
+&nbsp;&nbsp;&nbsp;&nbsp;$v \leftarrow V(s)$    
+&nbsp;&nbsp;&nbsp;&nbsp;$$
+until $\Delta \lt \theta$
 
 ## Refernece
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
