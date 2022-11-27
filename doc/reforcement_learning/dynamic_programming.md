@@ -15,7 +15,7 @@ Loop:
 &nbsp;&nbsp;$\Delta \leftarrow 0$    
 &nbsp;&nbsp;Loop for each $s \in \cal{S}$    
 &nbsp;&nbsp;&nbsp;&nbsp;$v \leftarrow V(s)$    
-&nbsp;&nbsp;&nbsp;&nbsp;$V(s)$    
+&nbsp;&nbsp;&nbsp;&nbsp;$V(s) = \sum_a \pi(a|s)\sum_{s^{'}, r} p(s^{'}, r|s, a) [r+\gamma V(s^{'}]$    
 &nbsp;&nbsp;&nbsp;&nbsp;$\Delta \leftarrow \mathop{max}(\Delta, \vert v - V(s) \vert)$    
 until $\Delta \lt \theta$
 
