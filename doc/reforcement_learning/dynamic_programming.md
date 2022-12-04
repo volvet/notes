@@ -23,5 +23,7 @@ until $\Delta \lt \theta$
 
 ## Value Iteration
 
+## Asynchronous Dynamic Programming
+
 ## Refernece
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
