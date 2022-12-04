@@ -19,5 +19,9 @@ Loop:
 &nbsp;&nbsp;&nbsp;&nbsp;$\Delta \leftarrow \mathop{max}(\Delta, \vert v - V(s) \vert)$    
 until $\Delta \lt \theta$
 
+## Policy Iteration
+
+## Value Iteration
+
 ## Refernece
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
