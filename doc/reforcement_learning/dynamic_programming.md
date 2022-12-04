@@ -25,5 +25,9 @@ until $\Delta \lt \theta$
 
 ## Asynchronous Dynamic Programming
 
+## Generalized Policy Iteration
+
+## Efficiency of Dynamic Programming
+
 ## Refernece
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
