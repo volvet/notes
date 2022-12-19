@@ -13,8 +13,8 @@
 &nbsp;&nbsp;Loop for each step of episode, $t=T-1, T-2, \cdots, 0$:  
 &nbsp;&nbsp;&nbsp;&nbsp; $G=\gamma G + R_{t+1}$  
 &nbsp;&nbsp;&nbsp;&nbsp; Unless $S_t$ appears in $S_0, \cdots, S_{t-1}$:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Append $G$ to $Returns(S_t)$  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$V(S_t) = average(Returns(S_t))$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Append $G$ to $Returns(S_t)$  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $V(S_t) = average(Returns(S_t))$
 
 ## Monte Carlo Estimation of Action Values
 
