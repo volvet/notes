@@ -5,7 +5,7 @@
 ### First-visit MC prediction, for estimating $V \approx v_{\pi}$
 * Input: a policy $\pi$ to be evaluated
 * Initialize:  
-&nbsp；&nbsp；$V(s) \in $
+&nbsp;&nbsp;$V(s) \in $
 
 ## Monte Carlo Estimation of Action Values
 
