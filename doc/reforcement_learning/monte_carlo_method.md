@@ -2,9 +2,10 @@
 
 ## Monte Carlo Prediction
 
-* First-visit MC prediction, for estimating $V \approx v_{\pi}$
-
-
+### First-visit MC prediction, for estimating $V \approx v_{\pi}$
+* Input: a policy $\pi$ to be evaluated
+* Initialize:  
+&emsp；&emsp；$V(s) \in $
 
 ## Monte Carlo Estimation of Action Values
 
