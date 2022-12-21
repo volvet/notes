@@ -18,5 +18,7 @@
 
 ## Monte Carlo Estimation of Action Values
 
+## Monte Carlo Control
+
 ## Reference
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
