@@ -20,5 +20,7 @@
 
 ## Monte Carlo Control
 
+## Monte Carlo Control without Exploring Start
+
 ## Reference
 * Reinforcement Learning An Introduction by Richard S. Sutton and Andrew G. Barto
