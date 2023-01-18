@@ -1,6 +1,8 @@
 numpy
 scipy
 gymnasium
+torch
+tqdm
 pytest
 pytest-cov
 codecov

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan 15 21:01:28 2023
+Created on Wed Jan 18 21:05:19 2023
 
 @author: Administrator
 """
@@ -8,10 +8,8 @@ Created on Sun Jan 15 21:01:28 2023
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../reinforcement_learning')
-from dp import dp_main
+from dqn import dqn_main
 
 
-
-def test_dp():
-  dp_main()
-
+def test_dqn():
+  dqn_main()
