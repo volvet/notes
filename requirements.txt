@@ -3,6 +3,7 @@ scipy
 gymnasium
 torch
 tqdm
+matplotlib
 pytest
 pytest-cov
 codecov
