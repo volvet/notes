@@ -1,7 +1,7 @@
 # Deep Q Network
 Q-learning defined by:
 $$
-Q(S_t, A_t) \leftarrow  Q(S_t, A_t) + \alpha [R_{t+1} + \gamma \mathod{max} \limits_{a} Q(S_{t+1, a} - Q(S_t, A_t)]
+Q(S_t, A_t) \leftarrow  Q(S_t, A_t) + \alpha [R_{t+1} + \gamma \mathop{max} \limits_{a} Q(S_{t+1, a} - Q(S_t, A_t)]
 $$
 
 
