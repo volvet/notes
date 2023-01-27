@@ -14,6 +14,7 @@ from tqdm import tqdm
 import torch
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
+from utils import extract_state
 
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
@@ -88,14 +89,6 @@ class DQN():
     self.count += 1
     
 
-def extract_state(observation):
-  if isinstance(observation, tuple):
-    return observation[0]
-  if isinstance(observation, np.ndarray):
-    return observation
-  raise NotImplementedError
-
-
 def dqn_main():
   lr = 2e-3
   num_episodes = 500
@@ -111,6 +104,7 @@ def dqn_main():
   print('Using device: ', device)
   
   env = gym.make(env_name)
+  env.reset(seed=0)
   random.seed(0)
   np.random.seed(0)
   torch.manual_seed(0)
