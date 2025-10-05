@@ -5,5 +5,9 @@
 - [ ] 肯.福莱特 - 世纪三部曲： 巨人的陨落，世界的凛冬，永恒的边缘
 - [ ] Thoms Paine - CommonSense
 - [ ] 埃里克.方纳 - 潘恩与革命时期的美国
-- [ ] 罗尔夫.莫里安， 海因茨.温克劳 巴菲特投资精要
+- [x] 罗尔夫.莫里安， 海因茨.温克劳 - 巴菲特投资精要
 - [ ] Jim Collins, Bill Lazier - Beyond Entrepreneurship 2.0
+- [ ] 秦晖 - 共同的底线
+- [ ] 秦晖 - 秦汉史讲义
+- [ ] Serhii Plokhy - 切尔诺贝利
+- [ ] 江南 - 此间的少年
