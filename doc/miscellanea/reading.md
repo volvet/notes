@@ -28,3 +28,6 @@
 - [ ] 钱理群 - 毛泽东时代和后毛泽东时代
 - [ ] 周策纵 - 五四运动史
 - [ ] 罗斌 - 指数基金投资从新手到高手
+- [ ] JD Vance - 乡下人的悲歌
+- [ ] Daniel J. Boorstin - 美国人 从殖民到民主的历程
+- [ ] Plato - Grate Dialogues of Plato
