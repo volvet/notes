@@ -13,9 +13,10 @@
 - [x] 纳西姆·尼古拉斯 - 随机漫步的傻瓜
 - [x] 罗恩·彻诺 - 汉密尔顿传
 - [x] 安德鲁·罗伯兹 - 丘吉尔传
-- [ ] 谭先杰 - 致母亲
+- [x] 谭先杰 - 致母亲
 - [x] 约瑟夫·J·埃利斯 - 缔造共和： 美利坚合众国的诞生
 - [ ] 丘成桐 - 我的几何人生
+- [ ] George R.R. Martin - A Game of Thrones
 - [ ] Thoms Paine - CommonSense
 - [ ] Jim Collins, Bill Lazier - Beyond Entrepreneurship 2.0
 - [ ] 秦晖 - 共同的底线
