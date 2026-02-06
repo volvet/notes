@@ -15,7 +15,13 @@
 - [x] 安德鲁·罗伯兹 - 丘吉尔传
 - [x] 谭先杰 - 致母亲
 - [x] 约瑟夫·J·埃利斯 - 缔造共和： 美利坚合众国的诞生
-- [ ] 丘成桐 - 我的几何人生
+- [x] 丘成桐 - 我的几何人生
+- [x] 罗伯特·L·海尔布罗纳 - 经济学家到底在想什么
+- [ ] 罗翔 - 法律的悖论
+- [ ] 罗翔 - 圆圈正义
+- [ ] 罗翔 - 法制的细节
+- [ ] 杨天石 - 追寻历史的印记
+- [ ] 丽贝卡·弗雷泽 - 英国人的故事
 - [ ] George R.R. Martin - A Game of Thrones
 - [ ] Thoms Paine - CommonSense
 - [ ] Jim Collins, Bill Lazier - Beyond Entrepreneurship 2.0
