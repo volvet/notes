@@ -18,11 +18,11 @@
 - [x] 丘成桐 - 我的几何人生
 - [x] 罗伯特·L·海尔布罗纳 - 经济学家到底在想什么
 - [x] 傅国涌 - 金庸传
-- [ ] 罗翔 - 法律的悖论
+- [x] 罗翔 - 法律的悖论
 - [ ] 罗翔 - 圆圈正义
 - [ ] 罗翔 - 法制的细节
-- [ ] 杨天石 - 追寻历史的印记
-- [ ] 丽贝卡·弗雷泽 - 英国人的故事
+- [ ] 阿加莎·克里斯蒂 - 阿加莎·克里斯蒂自传
+- [ ] Agatha Christie - The Mysterious Affair at Styles
 - [ ] George R.R. Martin - A Game of Thrones
 - [ ] Thoms Paine - CommonSense
 - [ ] Jim Collins, Bill Lazier - Beyond Entrepreneurship 2.0
