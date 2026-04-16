@@ -20,12 +20,15 @@
 - [x] 傅国涌 - 金庸传
 - [x] 罗翔 - 法律的悖论
 - [ ] 罗翔 - 圆圈正义
-- [ ] 罗翔 - 法制的细节
+- [x] 罗翔 - 法制的细节
 - [ ] 阿加莎·克里斯蒂 - 阿加莎·克里斯蒂自传
 - [ ] Agatha Christie - The Mysterious Affair at Styles
 - [ ] George R.R. Martin - A Game of Thrones
 - [ ] Thoms Paine - CommonSense
 - [ ] Jim Collins, Bill Lazier - Beyond Entrepreneurship 2.0
+- [ ] 分析师Boden - 以日为鉴： 衰退时代生存指南
+- [ ] 结城浩 - 数学女孩5： 伽罗瓦理论
+- [ ] 周锡瑞 - 叶：百年动荡中的一个中国家庭
 - [ ] 秦晖 - 共同的底线
 - [ ] 秦晖 - 秦汉史讲义
 - [ ] Serhii Plokhy - 切尔诺贝利
